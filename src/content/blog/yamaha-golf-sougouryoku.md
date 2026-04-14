@@ -2,6 +2,7 @@
 title: "ゴルフは総合力だ"
 description: "4日間大会の3日間観戦で感じたゴルフの総合力と、自分の体力の限界を超えた新しい発見について。"
 pubDate: 2026-04-13
+heroImage: "/images/yamaha1.jpg"
 tags: ["ヤマハ", "ゴルフ挑戦記", "観戦"]
 ---
 
