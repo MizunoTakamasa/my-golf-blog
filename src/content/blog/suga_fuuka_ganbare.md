@@ -4,10 +4,6 @@ description: "東海クラシックで生観戦した菅楓華プロへの応援
 pubDate: 2026-04-14
 ---
 
----
-import RakutenLink from '../components/RakutenLink.astro';
----
-
 # 菅楓華 頑張れ企画
 
 ## 直接現地で見た記憶
