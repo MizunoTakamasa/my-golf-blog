@@ -1,111 +1,216 @@
 ---
-import { Image } from 'astro:assets';
 import { getCollection } from 'astro:content';
 import BaseHead from '../../components/BaseHead.astro';
 import Footer from '../../components/Footer.astro';
 import FormattedDate from '../../components/FormattedDate.astro';
-import Header from '../../components/Header.astro';
 import { SITE_DESCRIPTION, SITE_TITLE } from '../../consts';
+// Header は専用ナビを使うため読み込みません。Footer は共通のものを利用します。
 
 const posts = (await getCollection('blog')).sort(
 	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
 );
+
+// カード背景のバリエーション（5パターンをローテーション）
+const bgVariants = ['b1', 'b2', 'b3', 'b4', 'b5'];
 ---
 
-<!doctype html>
-<html lang="en">
+<html lang="ja">
 	<head>
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-		<style>
-			main {
-				width: 960px;
-			}
-			ul {
-				display: flex;
-				flex-wrap: wrap;
-				gap: 2rem;
-				list-style-type: none;
-				margin: 0;
-				padding: 0;
-			}
-			ul li {
-				width: calc(50% - 1rem);
-			}
-			ul li * {
-				text-decoration: none;
-				transition: 0.2s ease;
-			}
-			ul li:first-child {
-				width: 100%;
-				margin-bottom: 1rem;
-				text-align: center;
-			}
-			ul li:first-child img {
-				width: 100%;
-			}
-			ul li:first-child .title {
-				font-size: 2.369rem;
-			}
-			ul li img {
-				margin-bottom: 0.5rem;
-				border-radius: 12px;
-			}
-			ul li a {
-				display: block;
-			}
-			.title {
-				margin: 0;
-				color: rgb(var(--black));
-				line-height: 1;
-			}
-			.date {
-				margin: 0;
-				color: rgb(var(--gray));
-			}
-			ul li a:hover h4,
-			ul li a:hover .date {
-				color: rgb(var(--accent));
-			}
-			ul a:hover img {
-				box-shadow: var(--box-shadow);
-			}
-			@media (max-width: 720px) {
-				ul {
-					gap: 0.5em;
-				}
-				ul li {
-					width: 100%;
-					text-align: center;
-				}
-				ul li:first-child {
-					margin-bottom: 0;
-				}
-				ul li:first-child .title {
-					font-size: 1.563em;
-				}
-			}
-		</style>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans+JP:wght@400;500;700;900&display=swap"
+			rel="stylesheet"
+		/>
 	</head>
 	<body>
-		<Header />
-		<main>
-			<section>
-				<ul>
+		<!-- ============ NAV ============ -->
+		<nav class="fd-nav">
+			<div class="fd-brand"><span class="fd-dot"></span>FAIRWAY DIARY</div>
+			<ul>
+				<li><a href="/">HOME</a></li>
+				<li><a href="/blog">REPORT</a></li>
+				<li><a href="/about">ABOUT</a></li>
+			</ul>
+			<a href="/" class="fd-cta">SUBSCRIBE</a>
+		</nav>
+
+		<!-- ============ HERO (一覧ページ用、高さ控えめ) ============ -->
+		<header class="fd-hero fd-hero--list">
+			<div class="fd-heroLayer1" aria-hidden="true"></div>
+			<div class="fd-heroLayer2" aria-hidden="true"></div>
+
+			<div class="fd-heroTicker" aria-hidden="true">
+				<div class="fd-heroTickerInner">
+					<span>REPORTS</span><span>·</span><span>JLPGA 2026</span><span>·</span><span>ON-SITE NOTES</span><span>·</span><span>REPORTS</span><span>·</span><span>JLPGA 2026</span><span>·</span><span>ON-SITE NOTES</span><span>·</span>
+				</div>
+			</div>
+			<div class="fd-heroBall" aria-hidden="true"></div>
+			<div class="fd-heroScan" aria-hidden="true"></div>
+
+			<div class="fd-heroInner">
+				<span class="fd-badge"><span class="live"></span>ALL ON-SITE REPORTS</span>
+				<h1 class="fd-heroTitle">
+					<span class="word1">ALL</span>
+					<span class="word2">REPORTS.</span>
+				</h1>
+				<p class="fd-heroSub">
+					これまでの現地観戦レポートをすべて時系列でまとめています。気になる大会・選手から記事をたどってみてください。
+				</p>
+				<div class="fd-heroMeta">
+					<span>{posts.length} POSTS</span>
+					<span>SHIZUOKA · JAPAN</span>
+					<span>VOL. 014</span>
+				</div>
+			</div>
+		</header>
+
+		<!-- ============ MARQUEE ============ -->
+		<div class="fd-marquee" aria-hidden="true">
+			<div class="fd-marqueeInner">
+				<span>ARCHIVE — ALL ON-SITE REPORTS<span class="star"></span>UPDATED WEEKLY<span class="star"></span>FAIRWAY DIARY<span class="star"></span>JLPGA 2026 SEASON<span class="star"></span></span>
+				<span>ARCHIVE — ALL ON-SITE REPORTS<span class="star"></span>UPDATED WEEKLY<span class="star"></span>FAIRWAY DIARY<span class="star"></span>JLPGA 2026 SEASON<span class="star"></span></span>
+			</div>
+		</div>
+
+		<!-- ============ POSTS LIST ============ -->
+		<section class="fd-section">
+			<div class="fd-container">
+				<div class="fd-titleRow">
+					<div>
+						<div class="fd-eyebrow">REPORTS · {posts.length}</div>
+						<h2 class="fd-sectionTitle">記事一覧。</h2>
+						<p class="fd-sectionLead">新しい順に並んでいます。各カードをクリックで本文へ。</p>
+					</div>
+					<a href="/" class="fd-more">← BACK HOME</a>
+				</div>
+
+				<div class="fd-grid">
 					{
-						posts.map((post) => (
-							<li>
-								<a href={`/blog/${post.id}/`}>
-									<h4 class="title">{post.data.title}</h4>
-									<p class="date">
-										<FormattedDate date={post.data.pubDate} />
-									</p>
-								</a>
-							</li>
-						))
+						posts.map((post, i) => {
+							const variant = bgVariants[i % bgVariants.length];
+							const isFeatured = i === 0;
+							const klass = isFeatured ? 'fd-card feat-1' : 'fd-card feat-3';
+							return (
+								<article class={klass}>
+									<div class={`fd-cardBg ${variant}`} aria-hidden="true" />
+									{isFeatured && (
+										<div class="fd-miniBall" aria-hidden="true" style="animation-delay:-2s" />
+									)}
+									<a href={`/blog/${post.id}/`} class="fd-cardLink">
+										<div class="fd-cardBody">
+											<span class="fd-tag">{isFeatured ? 'LATEST' : 'REPORT'}</span>
+											<h3 class="fd-cardTitle">{post.data.title}</h3>
+											<p class="fd-cardMeta">
+												<FormattedDate date={post.data.pubDate} />
+											</p>
+										</div>
+									</a>
+								</article>
+							);
+						})
 					}
-				</ul>
-			</section>
-		</main>
+				</div>
+
+				{posts.length === 0 && (
+					<p class="fd-empty">まだ記事がありません。</p>
+				)}
+			</div>
+		</section>
+
+		<!-- ============ FOOTER (共通部品) ============ -->
 		<Footer />
+
+		<style is:global>
+			:root{
+				--green-900:#0b3d1f; --green-700:#11733a; --green-500:#1fb35a;
+				--green-300:#7ce0a1; --lime:#c8ff3c; --ink:#0d1411;
+				--paper:#f6fbf6; --line:rgba(13,20,17,.08);
+			}
+			html,body{margin:0;padding:0;background:var(--paper);color:var(--ink);font-family:"Noto Sans JP",system-ui,sans-serif;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+			a{color:inherit;text-decoration:none}
+			.fd-container{max-width:1240px;margin:0 auto;padding:0 24px}
+
+			/* NAV */
+			.fd-nav{position:fixed;inset:0 0 auto 0;z-index:50;display:flex;align-items:center;justify-content:space-between;padding:18px 32px;background:linear-gradient(180deg,rgba(0,0,0,.55),rgba(0,0,0,0));color:#fff}
+			.fd-brand{display:flex;align-items:center;gap:10px;font-family:"Bebas Neue",sans-serif;font-size:24px;letter-spacing:.12em}
+			.fd-brand .fd-dot{width:10px;height:10px;border-radius:50%;background:var(--lime);box-shadow:0 0 0 4px rgba(200,255,60,.25);animation:fd-pulse 1.6s infinite}
+			.fd-nav ul{display:flex;gap:28px;list-style:none;font-size:13px;letter-spacing:.18em;margin:0;padding:0}
+			.fd-nav ul a{opacity:.85;transition:opacity .2s}
+			.fd-nav ul a:hover{opacity:1}
+			.fd-cta{background:var(--lime);color:var(--ink);padding:10px 18px;border-radius:999px;font-weight:700;font-size:12px;letter-spacing:.15em}
+			@media (max-width:760px){.fd-nav ul{display:none}}
+
+			/* HERO 共通 */
+			.fd-hero{position:relative;height:100vh;min-height:680px;overflow:hidden;color:#fff;background:#06140b}
+			/* 一覧ページ用の小さいヒーロー */
+			.fd-hero--list{height:60vh;min-height:420px}
+			.fd-heroLayer1{position:absolute;inset:0;z-index:0;background:radial-gradient(900px 600px at 30% 30%, #11733a 0%, transparent 60%),radial-gradient(800px 500px at 75% 70%, #1fb35a 0%, transparent 60%),linear-gradient(160deg,#04120a 0%, #0b3d1f 60%, #11733a 100%);animation:fd-breath 8s ease-in-out infinite alternate}
+			@keyframes fd-breath{0%{filter:brightness(.85) saturate(1)}100%{filter:brightness(1.15) saturate(1.3)}}
+			.fd-heroLayer2{position:absolute;inset:-30%;z-index:1;pointer-events:none;background:repeating-linear-gradient(115deg,transparent 0 80px,rgba(200,255,60,.05) 80px 82px,transparent 82px 200px,rgba(124,224,161,.08) 200px 204px,transparent 204px 380px,rgba(255,255,255,.06) 380px 382px,transparent 382px 520px);animation:fd-slide 9s linear infinite}
+			@keyframes fd-slide{0%{transform:translateX(-15%) translateY(-5%)}100%{transform:translateX(15%) translateY(5%)}}
+			.fd-heroTicker{position:absolute;left:0;right:0;top:30%;z-index:1;pointer-events:none;overflow:hidden;height:120px;display:flex;align-items:center;opacity:.08}
+			.fd-heroTickerInner{display:flex;gap:60px;white-space:nowrap;font-family:"Bebas Neue",sans-serif;font-size:140px;line-height:1;color:#fff;letter-spacing:.04em;animation:fd-ticker 18s linear infinite}
+			@keyframes fd-ticker{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+			.fd-heroBall{position:absolute;width:14px;height:14px;border-radius:50%;background:radial-gradient(circle at 30% 30%, #fff, #cdd 70%, #889 100%);box-shadow:0 0 18px rgba(255,255,255,.7),0 0 6px rgba(200,255,60,.6);z-index:2;left:-30px;bottom:20%;animation:fd-ball 6s cubic-bezier(.4,0,.7,1) infinite}
+			.fd-heroBall::after{content:"";position:absolute;left:-180px;top:50%;width:200px;height:2px;background:linear-gradient(90deg,transparent,rgba(200,255,60,.7) 70%,#fff);transform:translateY(-50%);filter:blur(1px);border-radius:2px}
+			@keyframes fd-ball{0%{left:-30px;bottom:18%;transform:scale(.6)}50%{bottom:78%;transform:scale(1.1)}100%{left:110%;bottom:55%;transform:scale(.4)}}
+			.fd-heroScan{position:absolute;inset:0;z-index:2;pointer-events:none;opacity:.18;background:repeating-linear-gradient(180deg, rgba(255,255,255,.6) 0 1px, transparent 1px 4px);animation:fd-scan 6s linear infinite}
+			@keyframes fd-scan{0%{background-position:0 0}100%{background-position:0 8px}}
+			@keyframes fd-pulse{50%{transform:scale(1.4);opacity:.6}}
+			.fd-heroInner{position:relative;z-index:3;height:100%;display:flex;flex-direction:column;justify-content:flex-end;padding:0 48px 60px}
+			.fd-badge{display:inline-flex;align-items:center;gap:8px;align-self:flex-start;padding:8px 14px;border:1px solid rgba(255,255,255,.4);border-radius:999px;font-size:11px;letter-spacing:.25em;backdrop-filter:blur(6px);background:rgba(0,0,0,.25)}
+			.fd-badge .live{width:8px;height:8px;border-radius:50%;background:#ff3b3b;box-shadow:0 0 0 4px rgba(255,59,59,.25);animation:fd-pulse 1.6s infinite}
+			.fd-heroTitle{font-family:"Bebas Neue",sans-serif;font-size:clamp(48px,8vw,120px);line-height:.95;letter-spacing:.02em;margin:18px 0 8px;text-shadow:0 4px 30px rgba(0,0,0,.5);display:flex;align-items:baseline;gap:.3em;flex-wrap:wrap}
+			.fd-heroTitle .word1{display:inline-block;animation:fd-slideInL 1s ease both}
+			.fd-heroTitle .word2{display:inline-block;color:var(--lime);animation:fd-slideInL 1s .25s ease both;text-shadow:0 0 30px rgba(200,255,60,.4)}
+			@keyframes fd-slideInL{from{opacity:0;transform:translateX(-40px)}to{opacity:1;transform:translateX(0)}}
+			.fd-heroSub{max-width:640px;font-size:15px;line-height:1.8;opacity:.92;animation:fd-fadeUp 1s .6s ease both}
+			@keyframes fd-fadeUp{from{opacity:0;transform:translateY(20px)}to{opacity:.92;transform:translateY(0)}}
+			.fd-heroMeta{display:flex;gap:32px;margin-top:24px;padding-top:18px;border-top:1px solid rgba(255,255,255,.18);font-size:12px;letter-spacing:.18em;text-transform:uppercase;opacity:.85;flex-wrap:wrap}
+
+			/* MARQUEE */
+			.fd-marquee{background:var(--lime);color:var(--ink);overflow:hidden;border-top:2px solid var(--ink);border-bottom:2px solid var(--ink);padding:14px 0}
+			.fd-marqueeInner{display:flex;gap:48px;white-space:nowrap;font-family:"Bebas Neue",sans-serif;font-size:22px;letter-spacing:.18em;animation:fd-marquee 28s linear infinite}
+			.fd-marqueeInner span{display:inline-flex;align-items:center;gap:48px}
+			.fd-marqueeInner .star{display:inline-block;width:8px;height:8px;background:var(--ink);border-radius:50%}
+			@keyframes fd-marquee{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+
+			/* SECTION base */
+			.fd-section{padding:120px 0}
+			.fd-eyebrow{font-family:"Bebas Neue",sans-serif;letter-spacing:.3em;color:var(--green-700);font-size:14px}
+			.fd-sectionTitle{font-size:clamp(28px,4vw,48px);font-weight:900;line-height:1.25;margin:8px 0 12px}
+			.fd-sectionLead{max-width:640px;color:#3a4a40;line-height:1.9;font-size:15px}
+			.fd-titleRow{display:flex;justify-content:space-between;align-items:end;gap:24px;margin-bottom:48px;flex-wrap:wrap}
+			.fd-more{font-family:"Bebas Neue",sans-serif;letter-spacing:.25em;font-size:14px;border-bottom:2px solid var(--ink);padding-bottom:4px}
+
+			/* CARDS */
+			.fd-grid{display:grid;grid-template-columns:repeat(12,1fr);gap:20px}
+			.fd-card{position:relative;border-radius:18px;overflow:hidden;background:#0a1d12;color:#fff;box-shadow:0 20px 40px -24px rgba(11,61,31,.45);isolation:isolate;transition:transform .3s ease}
+			.fd-card:hover{transform:translateY(-4px)}
+			.fd-cardBg{position:absolute;inset:0;z-index:0;background-size:200% 200%;animation:fd-gradMove 14s ease-in-out infinite alternate}
+			@keyframes fd-gradMove{0%{background-position:0% 0%}100%{background-position:100% 100%}}
+			.fd-cardBg.b1{background:radial-gradient(circle at 20% 30%, #1fb35a 0%, transparent 50%),radial-gradient(circle at 80% 70%, #c8ff3c 0%, transparent 45%),linear-gradient(135deg,#0b3d1f,#06140b)}
+			.fd-cardBg.b2{background:radial-gradient(circle at 70% 20%, #11733a 0%, transparent 55%),radial-gradient(circle at 30% 80%, #7ce0a1 0%, transparent 45%),linear-gradient(135deg,#04120a,#0b3d1f)}
+			.fd-cardBg.b3{background:radial-gradient(circle at 50% 50%, #1fb35a 0%, transparent 50%),linear-gradient(160deg,#0b3d1f,#11733a)}
+			.fd-cardBg.b4{background:radial-gradient(circle at 25% 75%, #c8ff3c 0%, transparent 40%),radial-gradient(circle at 75% 25%, #11733a 0%, transparent 50%),linear-gradient(135deg,#06140b,#0b3d1f)}
+			.fd-cardBg.b5{background:radial-gradient(circle at 60% 40%, #7ce0a1 0%, transparent 45%),linear-gradient(135deg,#0b3d1f,#04120a)}
+			.fd-card::before{content:"";position:absolute;inset:-50%;z-index:1;pointer-events:none;background:repeating-linear-gradient(115deg,transparent 0 60px,rgba(255,255,255,.05) 60px 62px,transparent 62px 200px,rgba(200,255,60,.06) 200px 202px,transparent 202px 400px);animation:fd-slide 12s linear infinite}
+			.fd-card::after{content:"";position:absolute;inset:0;z-index:2;pointer-events:none;background:linear-gradient(180deg,rgba(0,0,0,.05) 0%, rgba(0,0,0,.2) 50%, rgba(0,0,0,.85) 100%)}
+			.fd-cardLink{position:relative;z-index:3;display:flex;width:100%;height:100%}
+			.fd-cardBody{padding:22px;display:flex;flex-direction:column;width:100%;height:100%;justify-content:flex-end;gap:10px}
+			.fd-tag{display:inline-flex;align-items:center;align-self:flex-start;background:var(--lime);color:var(--ink);font-weight:700;font-size:11px;letter-spacing:.15em;padding:6px 10px;border-radius:6px}
+			.fd-cardTitle{font-size:20px;font-weight:700;line-height:1.45;color:#fff;margin:0;transition:color .2s}
+			.fd-cardMeta{font-size:12px;opacity:.8;letter-spacing:.1em;color:#fff;margin:0}
+			.fd-card:hover .fd-cardTitle{color:var(--lime)}
+			.feat-1{grid-column:span 12;min-height:480px}
+			.feat-1 .fd-cardTitle{font-size:32px}
+			.feat-3{grid-column:span 4;min-height:300px}
+			@media (max-width:900px){.feat-1{min-height:340px}.feat-3{grid-column:span 12;min-height:240px}}
+			.fd-miniBall{position:absolute;width:10px;height:10px;border-radius:50%;background:radial-gradient(circle at 30% 30%, #fff, #ddd 70%);box-shadow:0 0 12px rgba(255,255,255,.6);z-index:2;left:-20px;bottom:30%;animation:fd-ball 7s cubic-bezier(.4,0,.7,1) infinite}
+
+			.fd-empty{padding:60px 0;text-align:center;color:#3a4a40;font-size:14px}
+		</style>
 	</body>
 </html>
