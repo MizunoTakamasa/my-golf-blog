@@ -1,19 +1,424 @@
 ---
 import BaseHead from '../components/BaseHead.astro';
-import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
+// Header / Footer はこのページではデザインに専用のものを使うため読み込みません。
+// （他ページでは引き続き利用されます。）
 ---
 <html lang="ja">
   <head>
-    <BaseHead title="ゴルフ観戦メモ" description="ゴルフの現地観戦レポートブログ" />
+    <BaseHead
+      title="FAIRWAY DIARY ｜ JLPGA 観戦ブログ"
+      description="JLPGA 日本女子プロゴルフツアーの現地観戦レポートを、動画と写真でお届けする観戦ブログ。"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans+JP:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <Header />
-    <main>
-      <h1>ゴルフ観戦メモ</h1>
-      <p>ゴルフトーナメントの現地観戦で感じたことをまとめています。</p>
-      <a href="/blog">記事一覧を見る</a>
-    </main>
-    <Footer />
+    <!-- ============ NAV ============ -->
+    <nav class="fd-nav">
+      <div class="fd-brand"><span class="fd-dot"></span>FAIRWAY DIARY</div>
+      <ul>
+        <li><a href="/">HOME</a></li>
+        <li><a href="/blog">REPORT</a></li>
+        <li><a href="#players">PLAYERS</a></li>
+        <li><a href="#schedule">SCHEDULE</a></li>
+        <li><a href="/about">ABOUT</a></li>
+      </ul>
+      <a href="#subscribe" class="fd-cta">SUBSCRIBE</a>
+    </nav>
+
+    <!-- ============ HERO ============ -->
+    <header class="fd-hero">
+      <div class="fd-heroLayer1" aria-hidden="true"></div>
+      <div class="fd-heroLayer2" aria-hidden="true"></div>
+
+      <div class="fd-heroTicker" aria-hidden="true">
+        <div class="fd-heroTickerInner">
+          <span>FAIRWAY DIARY</span><span>·</span><span>JLPGA 2026</span><span>·</span><span>ON-SITE REPORT</span><span>·</span><span>FAIRWAY DIARY</span><span>·</span><span>JLPGA 2026</span><span>·</span><span>ON-SITE REPORT</span><span>·</span>
+        </div>
+      </div>
+      <div class="fd-heroTicker2" aria-hidden="true">
+        <div class="fd-heroTickerInner">
+          <span>BIRDIE</span><span>EAGLE</span><span>ALBATROSS</span><span>ACE</span><span>BIRDIE</span><span>EAGLE</span><span>ALBATROSS</span><span>ACE</span><span>BIRDIE</span><span>EAGLE</span><span>ALBATROSS</span><span>ACE</span>
+        </div>
+      </div>
+
+      <div class="fd-heroBall" aria-hidden="true"></div>
+      <div class="fd-heroScan" aria-hidden="true"></div>
+
+      <div class="fd-heroHUD" aria-hidden="true">
+        <div class="row"><span class="live"></span><span>LIVE FROM SHIZUOKA</span></div>
+        <div>WIND 4.2 m/s · NE</div>
+        <div>TEMP 18°C · CLOUDY</div>
+        <div class="bar"></div>
+      </div>
+
+      <div class="fd-heroInner">
+        <span class="fd-badge"><span class="live"></span>JLPGA TOUR 2026 ON-SITE REPORT</span>
+        <h1 class="fd-heroTitle">
+          <span class="word1">FAIRWAY</span><br />
+          <span class="word2">DIARY.</span>
+        </h1>
+        <p class="fd-heroSub">
+          日本女子プロゴルフツアーの現地から。グリーンの息づかい、ギャラリーの歓声、そしてプレーヤーの一打一打を、動画と写真で切り取る観戦ブログ。
+        </p>
+        <div class="fd-heroMeta">
+          <span>EST. 2026</span>
+          <span>SHIZUOKA · JAPAN</span>
+          <span>VOL. 014</span>
+        </div>
+      </div>
+
+      <div class="fd-scrollHint">SCROLL</div>
+    </header>
+
+    <!-- ============ MARQUEE ============ -->
+    <div class="fd-marquee" aria-hidden="true">
+      <div class="fd-marqueeInner">
+        <span>NOW PLAYING — YAMAHA LADIES OPEN KATSURAGI<span class="star"></span>FINAL ROUND<span class="star"></span>FAIRWAY DIARY VOL.014<span class="star"></span>SUBSCRIBE FOR ON-SITE NOTES<span class="star"></span>JLPGA 2026 SEASON<span class="star"></span></span>
+        <span>NOW PLAYING — YAMAHA LADIES OPEN KATSURAGI<span class="star"></span>FINAL ROUND<span class="star"></span>FAIRWAY DIARY VOL.014<span class="star"></span>SUBSCRIBE FOR ON-SITE NOTES<span class="star"></span>JLPGA 2026 SEASON<span class="star"></span></span>
+      </div>
+    </div>
+
+    <!-- ============ FEATURED ============ -->
+    <section class="fd-section">
+      <div class="fd-container">
+        <div class="fd-titleRow">
+          <div>
+            <div class="fd-eyebrow">FEATURED REPORTS</div>
+            <h2 class="fd-sectionTitle">直近の現地レポート。</h2>
+            <p class="fd-sectionLead">2026シーズン序盤の注目大会を、ギャラリー目線でお届け。</p>
+          </div>
+          <a href="/blog" class="fd-more">VIEW ALL →</a>
+        </div>
+
+        <div class="fd-grid">
+          <article class="fd-card feat-1">
+            <div class="fd-cardBg b1" aria-hidden="true"></div>
+            <div class="fd-miniBall" aria-hidden="true" style="animation-delay:-2s"></div>
+            <div class="fd-cardBody">
+              <span class="fd-tag">FEATURED</span>
+              <h3 class="fd-cardTitle">最終日18番、グリーン上の3メートル ─ 優勝を呼んだ一打を間近で。</h3>
+              <p class="fd-cardMeta">2026.04.13 ／ ヤマハレディースオープン葛城</p>
+            </div>
+          </article>
+          <article class="fd-card feat-2">
+            <div class="fd-cardBg b2" aria-hidden="true"></div>
+            <div class="fd-cardBody">
+              <span class="fd-tag">PLAYER</span>
+              <h3 class="fd-cardTitle">ルーキーが見せた、最終18番のティショット。</h3>
+              <p class="fd-cardMeta">2026.04.06 ／ アクサレディース in MIYAZAKI</p>
+            </div>
+          </article>
+          <article class="fd-card feat-3">
+            <div class="fd-cardBg b3" aria-hidden="true"></div>
+            <div class="fd-miniBall" aria-hidden="true" style="animation-delay:-4s"></div>
+            <div class="fd-cardBody">
+              <span class="fd-tag">REPORT</span>
+              <h3 class="fd-cardTitle">ギャラリープラザの空気感。</h3>
+              <p class="fd-cardMeta">2026.03.29</p>
+            </div>
+          </article>
+          <article class="fd-card feat-4">
+            <div class="fd-cardBg b4" aria-hidden="true"></div>
+            <div class="fd-cardBody">
+              <span class="fd-tag">COURSE</span>
+              <h3 class="fd-cardTitle">名物ホール、池越えPar3を解剖。</h3>
+              <p class="fd-cardMeta">2026.03.22</p>
+            </div>
+          </article>
+          <article class="fd-card feat-5">
+            <div class="fd-cardBg b5" aria-hidden="true"></div>
+            <div class="fd-miniBall" aria-hidden="true" style="animation-delay:-1s"></div>
+            <div class="fd-cardBody">
+              <span class="fd-tag">COLUMN</span>
+              <h3 class="fd-cardTitle">観戦初心者のための、JLPGAの歩き方。</h3>
+              <p class="fd-cardMeta">2026.03.15</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ STATS ============ -->
+    <section class="fd-stats">
+      <div class="fd-container">
+        <div class="fd-statsGrid">
+          <div><h3>38</h3><p>TOURNAMENTS / 2026</p></div>
+          <div><h3>14</h3><p>ON-SITE REPORTS</p></div>
+          <div><h3>2.4k</h3><p>PHOTOS ARCHIVED</p></div>
+          <div><h3>96</h3><p>VIDEO CLIPS</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ REEL ============ -->
+    <section class="fd-reelSection">
+      <div class="fd-container">
+        <div class="fd-titleRow">
+          <div>
+            <div class="fd-eyebrow" style="color:var(--lime)">REEL</div>
+            <h2 class="fd-sectionTitle" style="color:#fff">現地のショート動画。</h2>
+            <p class="fd-sectionLead" style="color:rgba(255,255,255,.7)">
+              ギャラリーロープの内側からしか撮れない瞬間を、縦型動画でアーカイブ。
+            </p>
+          </div>
+          <a href="#" class="fd-more" style="color:var(--lime);border-color:var(--lime)">SEE ALL →</a>
+        </div>
+      </div>
+      <div class="fd-reelTrack">
+        <div class="fd-reel"><div class="fd-reelBg" aria-hidden="true" style="background:radial-gradient(circle at 20% 30%, #1fb35a, transparent 50%),radial-gradient(circle at 80% 70%, #c8ff3c, transparent 45%),linear-gradient(135deg,#0b3d1f,#06140b);background-size:200% 200%"></div><div class="fd-timecode">00:14</div><div class="fd-play" aria-hidden="true"></div><div class="fd-reelLabel">最終日 18H ティショット<small>YAMAHA LADIES OPEN</small></div></div>
+        <div class="fd-reel"><div class="fd-reelBg" aria-hidden="true" style="background:radial-gradient(circle at 70% 20%, #11733a, transparent 55%),radial-gradient(circle at 30% 80%, #7ce0a1, transparent 45%),linear-gradient(135deg,#04120a,#0b3d1f);background-size:200% 200%"></div><div class="fd-timecode">00:22</div><div class="fd-play" aria-hidden="true"></div><div class="fd-reelLabel">朝の練習グリーン<small>AXA LADIES IN MIYAZAKI</small></div></div>
+        <div class="fd-reel"><div class="fd-reelBg" aria-hidden="true" style="background:radial-gradient(circle at 50% 50%, #1fb35a, transparent 50%),linear-gradient(160deg,#0b3d1f,#11733a);background-size:200% 200%"></div><div class="fd-timecode">00:08</div><div class="fd-play" aria-hidden="true"></div><div class="fd-reelLabel">名物Par3 ティオフ<small>T-POINT × ENEOS GOLF</small></div></div>
+        <div class="fd-reel"><div class="fd-reelBg" aria-hidden="true" style="background:radial-gradient(circle at 25% 75%, #c8ff3c, transparent 40%),radial-gradient(circle at 75% 25%, #11733a, transparent 50%),linear-gradient(135deg,#06140b,#0b3d1f);background-size:200% 200%"></div><div class="fd-timecode">00:31</div><div class="fd-play" aria-hidden="true"></div><div class="fd-reelLabel">ギャラリープラザ<small>DAIKIN ORCHID</small></div></div>
+        <div class="fd-reel"><div class="fd-reelBg" aria-hidden="true" style="background:radial-gradient(circle at 60% 40%, #7ce0a1, transparent 45%),linear-gradient(135deg,#0b3d1f,#04120a);background-size:200% 200%"></div><div class="fd-timecode">00:18</div><div class="fd-play" aria-hidden="true"></div><div class="fd-reelLabel">優勝シーン スローモーション<small>VANTELIN LADIES</small></div></div>
+        <div class="fd-reel"><div class="fd-reelBg" aria-hidden="true" style="background:radial-gradient(circle at 20% 30%, #1fb35a, transparent 50%),radial-gradient(circle at 80% 70%, #c8ff3c, transparent 45%),linear-gradient(135deg,#0b3d1f,#06140b);background-size:200% 200%"></div><div class="fd-timecode">00:25</div><div class="fd-play" aria-hidden="true"></div><div class="fd-reelLabel">朝もやのフェアウェイ<small>FUJI SANKEI LADIES</small></div></div>
+      </div>
+    </section>
+
+    <!-- ============ PLAYERS ============ -->
+    <section id="players" class="fd-players">
+      <div class="fd-container">
+        <div class="fd-titleRow">
+          <div>
+            <div class="fd-eyebrow">PLAYERS TO WATCH</div>
+            <h2 class="fd-sectionTitle">注目の選手たち。</h2>
+            <p class="fd-sectionLead">2026シーズン序盤、現地で観てほしい4人。</p>
+          </div>
+        </div>
+        <div class="fd-playerGrid">
+          <article class="fd-pCard">
+            <div class="fd-pImg">
+              <div class="fd-pBg" style="background:radial-gradient(circle at 30% 30%, #1fb35a, transparent 55%),linear-gradient(180deg,#0b3d1f,#04120a);background-size:200% 200%"></div>
+              <div class="fd-pNum">01</div>
+              <div class="fd-pName"><strong>選手 A</strong><span>JPN ／ ROOKIE</span></div>
+            </div>
+            <div class="fd-pBody"><b>FEATURED ×4</b><span>追跡中</span></div>
+          </article>
+          <article class="fd-pCard">
+            <div class="fd-pImg">
+              <div class="fd-pBg" style="background:radial-gradient(circle at 70% 30%, #c8ff3c, transparent 50%),linear-gradient(180deg,#11733a,#04120a);background-size:200% 200%"></div>
+              <div class="fd-pNum">02</div>
+              <div class="fd-pName"><strong>選手 B</strong><span>JPN ／ TOUR PRO</span></div>
+            </div>
+            <div class="fd-pBody"><b>FEATURED ×7</b><span>追跡中</span></div>
+          </article>
+          <article class="fd-pCard">
+            <div class="fd-pImg">
+              <div class="fd-pBg" style="background:radial-gradient(circle at 40% 60%, #7ce0a1, transparent 50%),linear-gradient(180deg,#0b3d1f,#04120a);background-size:200% 200%"></div>
+              <div class="fd-pNum">03</div>
+              <div class="fd-pName"><strong>選手 C</strong><span>JPN ／ VETERAN</span></div>
+            </div>
+            <div class="fd-pBody"><b>FEATURED ×3</b><span>追跡中</span></div>
+          </article>
+          <article class="fd-pCard">
+            <div class="fd-pImg">
+              <div class="fd-pBg" style="background:radial-gradient(circle at 60% 40%, #1fb35a, transparent 55%),linear-gradient(180deg,#0b3d1f,#04120a);background-size:200% 200%"></div>
+              <div class="fd-pNum">04</div>
+              <div class="fd-pName"><strong>選手 D</strong><span>JPN ／ TOUR PRO</span></div>
+            </div>
+            <div class="fd-pBody"><b>FEATURED ×5</b><span>追跡中</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CTA ============ -->
+    <section id="subscribe" class="fd-ctaBand">
+      <div class="fd-ctaBg" aria-hidden="true"></div>
+      <div class="fd-ctaScan" aria-hidden="true"></div>
+      <div class="fd-ctaBall" aria-hidden="true"></div>
+      <div class="fd-ctaBall" aria-hidden="true" style="animation-delay:-3s;bottom:50%"></div>
+      <div class="fd-container">
+        <h2>NEXT TEE OFF.</h2>
+        <p>次に追いかけるのは、富士山を望むあのコース。レポートはニュースレターで先行配信中。</p>
+        <a href="/blog" class="fd-btn">SUBSCRIBE NEWSLETTER →</a>
+      </div>
+    </section>
+
+    <!-- ============ FOOTER ============ -->
+    <footer class="fd-footer">
+      <div class="fd-container">
+        <div class="fd-fGrid">
+          <div>
+            <div class="fd-brand" style="font-size:22px"><span class="fd-dot"></span>FAIRWAY DIARY</div>
+            <p style="margin-top:14px;line-height:1.8;font-size:13px;opacity:.7;max-width:360px">
+              JLPGAツアーの現地観戦ブログ。動画と写真で「観に行きたくなる」ゴルフを発信します。
+            </p>
+          </div>
+          <div><h4>CONTENTS</h4><ul><li><a href="/blog">レポート</a></li><li><a href="#players">選手</a></li><li>大会スケジュール</li><li>コラム</li></ul></div>
+          <div><h4>FOLLOW</h4><ul><li>Instagram</li><li>YouTube</li><li>X / Twitter</li></ul></div>
+          <div><h4>ABOUT</h4><ul><li><a href="/about">このブログについて</a></li><li>運営者</li><li>お問い合わせ</li></ul></div>
+        </div>
+        <div class="fd-fBottom">
+          <span>© 2026 FAIRWAY DIARY</span>
+          <span>DESIGN MOCKUP</span>
+        </div>
+      </div>
+    </footer>
+
+    <style is:global>
+      :root{
+        --green-900:#0b3d1f; --green-700:#11733a; --green-500:#1fb35a;
+        --green-300:#7ce0a1; --lime:#c8ff3c; --ink:#0d1411;
+        --paper:#f6fbf6; --line:rgba(13,20,17,.08);
+      }
+      html,body{margin:0;padding:0;background:var(--paper);color:var(--ink);font-family:"Noto Sans JP",system-ui,sans-serif;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+      a{color:inherit;text-decoration:none}
+      .fd-container{max-width:1240px;margin:0 auto;padding:0 24px}
+
+      /* NAV */
+      .fd-nav{position:fixed;inset:0 0 auto 0;z-index:50;display:flex;align-items:center;justify-content:space-between;padding:18px 32px;background:linear-gradient(180deg,rgba(0,0,0,.55),rgba(0,0,0,0));color:#fff}
+      .fd-brand{display:flex;align-items:center;gap:10px;font-family:"Bebas Neue",sans-serif;font-size:24px;letter-spacing:.12em}
+      .fd-brand .fd-dot{width:10px;height:10px;border-radius:50%;background:var(--lime);box-shadow:0 0 0 4px rgba(200,255,60,.25);animation:fd-pulse 1.6s infinite}
+      .fd-nav ul{display:flex;gap:28px;list-style:none;font-size:13px;letter-spacing:.18em;margin:0;padding:0}
+      .fd-nav ul a{opacity:.85;transition:opacity .2s}
+      .fd-nav ul a:hover{opacity:1}
+      .fd-cta{background:var(--lime);color:var(--ink);padding:10px 18px;border-radius:999px;font-weight:700;font-size:12px;letter-spacing:.15em}
+      @media (max-width:760px){.fd-nav ul{display:none}}
+
+      /* HERO */
+      .fd-hero{position:relative;height:100vh;min-height:680px;overflow:hidden;color:#fff;background:#06140b}
+      .fd-heroLayer1{position:absolute;inset:0;z-index:0;background:radial-gradient(900px 600px at 30% 30%, #11733a 0%, transparent 60%),radial-gradient(800px 500px at 75% 70%, #1fb35a 0%, transparent 60%),linear-gradient(160deg,#04120a 0%, #0b3d1f 60%, #11733a 100%);animation:fd-breath 8s ease-in-out infinite alternate}
+      @keyframes fd-breath{0%{filter:brightness(.85) saturate(1)}100%{filter:brightness(1.15) saturate(1.3)}}
+      .fd-heroLayer2{position:absolute;inset:-30%;z-index:1;pointer-events:none;background:repeating-linear-gradient(115deg,transparent 0 80px,rgba(200,255,60,.05) 80px 82px,transparent 82px 200px,rgba(124,224,161,.08) 200px 204px,transparent 204px 380px,rgba(255,255,255,.06) 380px 382px,transparent 382px 520px);animation:fd-slide 9s linear infinite}
+      @keyframes fd-slide{0%{transform:translateX(-15%) translateY(-5%)}100%{transform:translateX(15%) translateY(5%)}}
+      .fd-heroTicker{position:absolute;left:0;right:0;top:38%;z-index:1;pointer-events:none;overflow:hidden;height:140px;display:flex;align-items:center;opacity:.08}
+      .fd-heroTickerInner{display:flex;gap:60px;white-space:nowrap;font-family:"Bebas Neue",sans-serif;font-size:180px;line-height:1;color:#fff;letter-spacing:.04em;animation:fd-ticker 18s linear infinite}
+      .fd-heroTicker2{position:absolute;left:0;right:0;top:62%;z-index:1;pointer-events:none;overflow:hidden;height:80px;display:flex;align-items:center;opacity:.12}
+      .fd-heroTicker2 .fd-heroTickerInner{font-size:80px;color:var(--lime);animation:fd-tickerRev 22s linear infinite}
+      @keyframes fd-ticker{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+      @keyframes fd-tickerRev{0%{transform:translateX(-50%)}100%{transform:translateX(0)}}
+      .fd-heroBall{position:absolute;width:18px;height:18px;border-radius:50%;background:radial-gradient(circle at 30% 30%, #fff, #cdd 70%, #889 100%);box-shadow:0 0 18px rgba(255,255,255,.7),0 0 6px rgba(200,255,60,.6);z-index:2;left:-30px;bottom:20%;animation:fd-ball 6s cubic-bezier(.4,0,.7,1) infinite}
+      .fd-heroBall::after{content:"";position:absolute;left:-220px;top:50%;width:240px;height:2px;background:linear-gradient(90deg,transparent,rgba(200,255,60,.7) 70%,#fff);transform:translateY(-50%);filter:blur(1px);border-radius:2px}
+      @keyframes fd-ball{0%{left:-30px;bottom:18%;transform:scale(.6)}50%{bottom:78%;transform:scale(1.1)}100%{left:110%;bottom:55%;transform:scale(.4)}}
+      .fd-heroScan{position:absolute;inset:0;z-index:2;pointer-events:none;opacity:.18;background:repeating-linear-gradient(180deg, rgba(255,255,255,.6) 0 1px, transparent 1px 4px);animation:fd-scan 6s linear infinite}
+      @keyframes fd-scan{0%{background-position:0 0}100%{background-position:0 8px}}
+      .fd-heroHUD{position:absolute;right:32px;top:90px;z-index:4;color:#fff;font-family:"Bebas Neue",sans-serif;letter-spacing:.18em;font-size:12px;text-align:right;opacity:.9}
+      .fd-heroHUD .row{display:flex;align-items:center;gap:8px;justify-content:flex-end;margin-bottom:6px}
+      .fd-heroHUD .live{width:9px;height:9px;border-radius:50%;background:#ff3b3b;box-shadow:0 0 0 4px rgba(255,59,59,.25);animation:fd-pulse 1.2s infinite}
+      .fd-heroHUD .bar{margin-top:14px;width:200px;height:3px;background:rgba(255,255,255,.2);border-radius:2px;overflow:hidden}
+      .fd-heroHUD .bar::before{content:"";display:block;width:60%;height:100%;background:var(--lime);animation:fd-loadBar 4s ease-in-out infinite}
+      @keyframes fd-loadBar{0%,100%{transform:translateX(-100%)}50%{transform:translateX(60%)}}
+      @keyframes fd-pulse{50%{transform:scale(1.4);opacity:.6}}
+      .fd-heroInner{position:relative;z-index:3;height:100%;display:flex;flex-direction:column;justify-content:flex-end;padding:0 48px 80px}
+      .fd-badge{display:inline-flex;align-items:center;gap:8px;align-self:flex-start;padding:8px 14px;border:1px solid rgba(255,255,255,.4);border-radius:999px;font-size:11px;letter-spacing:.25em;backdrop-filter:blur(6px);background:rgba(0,0,0,.25)}
+      .fd-badge .live{width:8px;height:8px;border-radius:50%;background:#ff3b3b;box-shadow:0 0 0 4px rgba(255,59,59,.25);animation:fd-pulse 1.6s infinite}
+      .fd-heroTitle{font-family:"Bebas Neue",sans-serif;font-size:clamp(56px,11vw,180px);line-height:.92;letter-spacing:.02em;margin:18px 0 8px;text-shadow:0 4px 30px rgba(0,0,0,.5)}
+      .fd-heroTitle .word1{display:inline-block;animation:fd-slideInL 1s ease both}
+      .fd-heroTitle .word2{display:inline-block;color:var(--lime);animation:fd-slideInL 1s .25s ease both;text-shadow:0 0 30px rgba(200,255,60,.4)}
+      @keyframes fd-slideInL{from{opacity:0;transform:translateX(-40px)}to{opacity:1;transform:translateX(0)}}
+      .fd-heroSub{max-width:640px;font-size:16px;line-height:1.8;opacity:.92;animation:fd-fadeUp 1s .6s ease both}
+      @keyframes fd-fadeUp{from{opacity:0;transform:translateY(20px)}to{opacity:.92;transform:translateY(0)}}
+      .fd-heroMeta{display:flex;gap:32px;margin-top:36px;padding-top:24px;border-top:1px solid rgba(255,255,255,.18);font-size:12px;letter-spacing:.18em;text-transform:uppercase;opacity:.85}
+      .fd-heroMeta span{animation:fd-fadeUp 1s ease both}
+      .fd-heroMeta span:nth-child(1){animation-delay:.9s}
+      .fd-heroMeta span:nth-child(2){animation-delay:1.05s}
+      .fd-heroMeta span:nth-child(3){animation-delay:1.2s}
+      .fd-scrollHint{position:absolute;left:50%;bottom:24px;transform:translateX(-50%);z-index:4;color:#fff;font-size:10px;letter-spacing:.4em;opacity:.7}
+      .fd-scrollHint::after{content:"";display:block;width:1px;height:36px;margin:10px auto 0;background:linear-gradient(180deg,#fff,transparent);animation:fd-scrollLine 1.8s ease-in-out infinite;transform-origin:top}
+      @keyframes fd-scrollLine{0%{transform:scaleY(.2);opacity:.3}50%{transform:scaleY(1);opacity:1}100%{transform:scaleY(.2);opacity:.3}}
+
+      /* MARQUEE */
+      .fd-marquee{background:var(--lime);color:var(--ink);overflow:hidden;border-top:2px solid var(--ink);border-bottom:2px solid var(--ink);padding:14px 0}
+      .fd-marqueeInner{display:flex;gap:48px;white-space:nowrap;font-family:"Bebas Neue",sans-serif;font-size:22px;letter-spacing:.18em;animation:fd-marquee 28s linear infinite}
+      .fd-marqueeInner span{display:inline-flex;align-items:center;gap:48px}
+      .fd-marqueeInner .star{display:inline-block;width:8px;height:8px;background:var(--ink);border-radius:50%}
+      @keyframes fd-marquee{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+
+      /* SECTION base */
+      .fd-section{padding:120px 0}
+      .fd-eyebrow{font-family:"Bebas Neue",sans-serif;letter-spacing:.3em;color:var(--green-700);font-size:14px}
+      .fd-sectionTitle{font-size:clamp(28px,4vw,48px);font-weight:900;line-height:1.25;margin:8px 0 12px}
+      .fd-sectionLead{max-width:640px;color:#3a4a40;line-height:1.9;font-size:15px}
+      .fd-titleRow{display:flex;justify-content:space-between;align-items:end;gap:24px;margin-bottom:48px;flex-wrap:wrap}
+      .fd-more{font-family:"Bebas Neue",sans-serif;letter-spacing:.25em;font-size:14px;border-bottom:2px solid var(--ink);padding-bottom:4px}
+
+      /* CARDS */
+      .fd-grid{display:grid;grid-template-columns:repeat(12,1fr);gap:20px}
+      .fd-card{position:relative;border-radius:18px;overflow:hidden;background:#0a1d12;color:#fff;box-shadow:0 20px 40px -24px rgba(11,61,31,.45);isolation:isolate}
+      .fd-cardBg{position:absolute;inset:0;z-index:0;background-size:200% 200%;animation:fd-gradMove 14s ease-in-out infinite alternate}
+      @keyframes fd-gradMove{0%{background-position:0% 0%}100%{background-position:100% 100%}}
+      .fd-cardBg.b1{background:radial-gradient(circle at 20% 30%, #1fb35a 0%, transparent 50%),radial-gradient(circle at 80% 70%, #c8ff3c 0%, transparent 45%),linear-gradient(135deg,#0b3d1f,#06140b)}
+      .fd-cardBg.b2{background:radial-gradient(circle at 70% 20%, #11733a 0%, transparent 55%),radial-gradient(circle at 30% 80%, #7ce0a1 0%, transparent 45%),linear-gradient(135deg,#04120a,#0b3d1f)}
+      .fd-cardBg.b3{background:radial-gradient(circle at 50% 50%, #1fb35a 0%, transparent 50%),linear-gradient(160deg,#0b3d1f,#11733a)}
+      .fd-cardBg.b4{background:radial-gradient(circle at 25% 75%, #c8ff3c 0%, transparent 40%),radial-gradient(circle at 75% 25%, #11733a 0%, transparent 50%),linear-gradient(135deg,#06140b,#0b3d1f)}
+      .fd-cardBg.b5{background:radial-gradient(circle at 60% 40%, #7ce0a1 0%, transparent 45%),linear-gradient(135deg,#0b3d1f,#04120a)}
+      .fd-card::before{content:"";position:absolute;inset:-50%;z-index:1;pointer-events:none;background:repeating-linear-gradient(115deg,transparent 0 60px,rgba(255,255,255,.05) 60px 62px,transparent 62px 200px,rgba(200,255,60,.06) 200px 202px,transparent 202px 400px);animation:fd-slide 12s linear infinite}
+      .fd-card::after{content:"";position:absolute;inset:0;z-index:2;pointer-events:none;background:linear-gradient(180deg,rgba(0,0,0,.05) 0%, rgba(0,0,0,.2) 50%, rgba(0,0,0,.85) 100%)}
+      .fd-cardBody{position:relative;z-index:3;padding:22px;display:flex;flex-direction:column;height:100%;justify-content:flex-end;gap:10px}
+      .fd-tag{display:inline-flex;align-items:center;align-self:flex-start;background:var(--lime);color:var(--ink);font-weight:700;font-size:11px;letter-spacing:.15em;padding:6px 10px;border-radius:6px}
+      .fd-cardTitle{font-size:20px;font-weight:700;line-height:1.45}
+      .fd-cardMeta{font-size:12px;opacity:.8;letter-spacing:.1em}
+      .feat-1{grid-column:span 7;min-height:520px}
+      .feat-2{grid-column:span 5;min-height:520px}
+      .feat-3,.feat-4,.feat-5{grid-column:span 4;min-height:340px}
+      @media (max-width:900px){.feat-1,.feat-2{grid-column:span 12;min-height:380px}.feat-3,.feat-4,.feat-5{grid-column:span 12;min-height:280px}}
+      .fd-miniBall{position:absolute;width:10px;height:10px;border-radius:50%;background:radial-gradient(circle at 30% 30%, #fff, #ddd 70%);box-shadow:0 0 12px rgba(255,255,255,.6);z-index:2;left:-20px;bottom:30%;animation:fd-ball 7s cubic-bezier(.4,0,.7,1) infinite}
+
+      /* STATS */
+      .fd-stats{background:var(--green-900);color:#fff;padding:80px 0;position:relative;overflow:hidden}
+      .fd-stats::before{content:"TOUR";position:absolute;right:-40px;top:-40px;font-family:"Bebas Neue",sans-serif;font-size:280px;letter-spacing:.05em;color:rgba(255,255,255,.04);line-height:.9;animation:fd-floatX 18s ease-in-out infinite alternate}
+      @keyframes fd-floatX{0%{transform:translateX(0)}100%{transform:translateX(-40px)}}
+      .fd-statsGrid{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;position:relative;z-index:1}
+      .fd-statsGrid div h3{font-family:"Bebas Neue",sans-serif;font-size:64px;color:var(--lime);line-height:1;text-shadow:0 0 24px rgba(200,255,60,.3)}
+      .fd-statsGrid div p{font-size:12px;letter-spacing:.2em;margin-top:8px;opacity:.8}
+      @media (max-width:760px){.fd-statsGrid{grid-template-columns:repeat(2,1fr)}}
+
+      /* REEL */
+      .fd-reelSection{background:#06140b;color:#fff;padding:120px 0;position:relative;overflow:hidden}
+      .fd-reelSection::before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(115deg,transparent 0 100px,rgba(31,179,90,.04) 100px 102px,transparent 102px 250px);animation:fd-slide 14s linear infinite}
+      .fd-reelTrack{display:grid;grid-auto-flow:column;grid-auto-columns:340px;gap:18px;overflow-x:auto;padding:8px 24px 28px;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;position:relative;z-index:1}
+      .fd-reelTrack::-webkit-scrollbar{height:6px}
+      .fd-reelTrack::-webkit-scrollbar-thumb{background:var(--green-500);border-radius:3px}
+      .fd-reel{position:relative;height:540px;border-radius:22px;overflow:hidden;scroll-snap-align:start;background:#000}
+      .fd-reelBg{position:absolute;inset:0;background-size:200% 200%;animation:fd-gradMove 12s ease-in-out infinite alternate}
+      .fd-reel::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 50%,rgba(0,0,0,.85))}
+      .fd-reelLabel{position:absolute;left:18px;bottom:18px;z-index:2;font-size:14px;font-weight:700;color:#fff}
+      .fd-reelLabel small{display:block;font-weight:400;opacity:.7;font-size:11px;letter-spacing:.2em;margin-top:6px}
+      .fd-play{position:absolute;top:18px;right:18px;z-index:2;width:44px;height:44px;border-radius:50%;background:rgba(255,255,255,.18);backdrop-filter:blur(8px);display:grid;place-items:center;border:1px solid rgba(255,255,255,.4);animation:fd-pulse 2s ease-in-out infinite}
+      .fd-play::after{content:"";border-style:solid;border-width:7px 0 7px 11px;border-color:transparent transparent transparent #fff;margin-left:3px}
+      .fd-timecode{position:absolute;left:18px;top:18px;z-index:2;font-family:"Bebas Neue",sans-serif;font-size:13px;letter-spacing:.2em;color:var(--lime)}
+      .fd-timecode::before{content:"●";color:#ff3b3b;margin-right:6px;animation:fd-pulse 1.2s infinite}
+
+      /* PLAYERS */
+      .fd-players{background:#fff;padding:120px 0}
+      .fd-playerGrid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+      @media (max-width:900px){.fd-playerGrid{grid-template-columns:repeat(2,1fr)}}
+      .fd-pCard{border-radius:16px;overflow:hidden;background:var(--paper);border:1px solid var(--line);transition:transform .3s, box-shadow .3s}
+      .fd-pCard:hover{transform:translateY(-6px);box-shadow:0 24px 40px -24px rgba(11,61,31,.35)}
+      .fd-pImg{aspect-ratio:3/4;background:var(--green-900);position:relative;overflow:hidden}
+      .fd-pBg{position:absolute;inset:0;background-size:200% 200%;animation:fd-gradMove 14s ease-in-out infinite alternate}
+      .fd-pImg::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 60%,rgba(11,61,31,.85))}
+      .fd-pNum{position:absolute;left:14px;top:14px;font-family:"Bebas Neue",sans-serif;color:var(--lime);font-size:42px;line-height:1;text-shadow:0 2px 14px rgba(0,0,0,.4);z-index:2}
+      .fd-pName{position:absolute;left:16px;right:16px;bottom:14px;color:#fff;z-index:2}
+      .fd-pName strong{display:block;font-size:18px}
+      .fd-pName span{font-size:11px;letter-spacing:.18em;opacity:.85}
+      .fd-pBody{padding:16px;display:flex;justify-content:space-between;align-items:center;font-size:12px;color:#3a4a40}
+      .fd-pBody b{color:var(--green-700);letter-spacing:.1em}
+
+      /* CTA */
+      .fd-ctaBand{position:relative;overflow:hidden;color:#fff;padding:140px 0;text-align:center;background:#06140b}
+      .fd-ctaBg{position:absolute;inset:0;z-index:0;background:radial-gradient(800px 500px at 30% 40%, #11733a 0%, transparent 60%),radial-gradient(700px 400px at 70% 60%, #1fb35a 0%, transparent 60%),linear-gradient(135deg,#04120a,#0b3d1f);background-size:200% 200%;animation:fd-gradMove 12s ease-in-out infinite alternate}
+      .fd-ctaScan{position:absolute;inset:0;z-index:1;pointer-events:none;background:repeating-linear-gradient(115deg,transparent 0 80px,rgba(200,255,60,.06) 80px 82px,transparent 82px 220px);animation:fd-slide 10s linear infinite}
+      .fd-ctaBall{position:absolute;width:14px;height:14px;border-radius:50%;background:radial-gradient(circle at 30% 30%, #fff, #ddd 70%);box-shadow:0 0 18px rgba(255,255,255,.7);z-index:2;left:-20px;bottom:30%;animation:fd-ball 7s cubic-bezier(.4,0,.7,1) infinite}
+      .fd-ctaBand .fd-container{position:relative;z-index:3}
+      .fd-ctaBand h2{font-family:"Bebas Neue",sans-serif;font-size:clamp(48px,8vw,120px);letter-spacing:.04em}
+      .fd-ctaBand p{margin:14px auto 32px;max-width:560px;line-height:1.9;opacity:.9}
+      .fd-btn{display:inline-flex;align-items:center;gap:10px;background:var(--lime);color:var(--ink);font-weight:700;letter-spacing:.15em;padding:16px 28px;border-radius:999px;font-size:13px;transition:transform .2s;animation:fd-btnPulse 2.4s ease-in-out infinite}
+      @keyframes fd-btnPulse{0%,100%{box-shadow:0 0 0 0 rgba(200,255,60,.6)}50%{box-shadow:0 0 0 12px rgba(200,255,60,0)}}
+      .fd-btn:hover{transform:translateY(-2px)}
+
+      /* FOOTER */
+      .fd-footer{background:#06140b;color:#fff;padding:60px 0 40px}
+      .fd-fGrid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:32px;margin-bottom:40px}
+      @media (max-width:760px){.fd-fGrid{grid-template-columns:1fr 1fr}}
+      .fd-footer h4{font-family:"Bebas Neue",sans-serif;letter-spacing:.2em;font-size:14px;margin-bottom:14px;color:var(--lime)}
+      .fd-footer ul{list-style:none;display:flex;flex-direction:column;gap:10px;font-size:13px;opacity:.85;margin:0;padding:0}
+      .fd-fBottom{display:flex;justify-content:space-between;font-size:11px;opacity:.5;border-top:1px solid rgba(255,255,255,.12);padding-top:24px;letter-spacing:.1em}
+    </style>
   </body>
 </html>
