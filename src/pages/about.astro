@@ -1,63 +1,118 @@
 ---
-import AboutHeroImage from '../assets/blog-placeholder-about.jpg';
 import Layout from '../layouts/BlogPost.astro';
 ---
 
 <Layout
-	title="About Me"
-	description="Lorem ipsum dolor sit amet"
-	pubDate={new Date('August 08 2021')}
-	heroImage={AboutHeroImage}
+	title="About"
+	description="2013年からJLPGAを追いかけてきた観戦者の自己紹介。ITを武器に、ゴルフとLPGAの魅力を発信します。"
+	pubDate={new Date('2013-01-01')}
 >
-	<p>
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-		labore et dolore magna aliqua. Vitae ultricies leo integer malesuada nunc vel risus commodo
-		viverra. Adipiscing enim eu turpis egestas pretium. Euismod elementum nisi quis eleifend quam
-		adipiscing. In hac habitasse platea dictumst vestibulum. Sagittis purus sit amet volutpat. Netus
-		et malesuada fames ac turpis egestas. Eget magna fermentum iaculis eu non diam phasellus
-		vestibulum lorem. Varius sit amet mattis vulputate enim. Habitasse platea dictumst quisque
-		sagittis. Integer quis auctor elit sed vulputate mi. Dictumst quisque sagittis purus sit amet.
+	<p class="about-lead">
+		2013年から、JLPGA観戦をはじめました。
 	</p>
 
 	<p>
-		Morbi tristique senectus et netus. Id semper risus in hendrerit gravida rutrum quisque non
-		tellus. Habitasse platea dictumst quisque sagittis purus sit amet. Tellus molestie nunc non
-		blandit massa. Cursus vitae congue mauris rhoncus. Accumsan tortor posuere ac ut. Fringilla urna
-		porttitor rhoncus dolor. Elit ullamcorper dignissim cras tincidunt lobortis. In cursus turpis
-		massa tincidunt dui ut ornare lectus. Integer feugiat scelerisque varius morbi enim nunc.
-		Bibendum neque egestas congue quisque egestas diam. Cras ornare arcu dui vivamus arcu felis
-		bibendum. Dignissim suspendisse in est ante in nibh mauris. Sed tempus urna et pharetra pharetra
-		massa massa ultricies mi.
+		当初は全国を回って、各地の大会を現地で追いかけていました。
+		最近はスケジュールや体力と相談しながら、気になる大会にスポットで足を運ぶスタイルに切り替えています。
 	</p>
 
 	<p>
-		Mollis nunc sed id semper risus in. Convallis a cras semper auctor neque. Diam sit amet nisl
-		suscipit. Lacus viverra vitae congue eu consequat ac felis donec. Egestas integer eget aliquet
-		nibh praesent tristique magna sit amet. Eget magna fermentum iaculis eu non diam. In vitae
-		turpis massa sed elementum. Tristique et egestas quis ipsum suspendisse ultrices. Eget lorem
-		dolor sed viverra ipsum. Vel turpis nunc eget lorem dolor sed viverra. Posuere ac ut consequat
-		semper viverra nam. Laoreet suspendisse interdum consectetur libero id faucibus. Diam phasellus
-		vestibulum lorem sed risus ultricies tristique. Rhoncus dolor purus non enim praesent elementum
-		facilisis. Ultrices tincidunt arcu non sodales neque. Tempus egestas sed sed risus pretium quam
-		vulputate. Viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare. Fringilla
-		urna porttitor rhoncus dolor purus non. Amet dictum sit amet justo donec enim.
+		これからは <strong>ITを武器に、ゴルフとLPGAの魅力を発信</strong> していきます。
+		現地の空気感、プレーヤーの息づかい、会場で気づいた小さなこと ── ギャラリーの目線だからこそ届けられる景色を、動画と文章でアーカイブしていきます。
 	</p>
 
+	<!-- スタッツ帯 -->
+	<div class="about-stats" aria-label="これまでの記録">
+		<div>
+			<h3>2013</h3>
+			<p>JLPGA観戦 開始</p>
+		</div>
+		<div>
+			<h3>13</h3>
+			<p>観戦を続けている年数</p>
+		</div>
+		<div>
+			<h3>SPOT</h3>
+			<p>現在の観戦スタイル</p>
+		</div>
+	</div>
+
+	<h2>このブログについて</h2>
 	<p>
-		Mattis ullamcorper velit sed ullamcorper morbi tincidunt. Tortor posuere ac ut consequat semper
-		viverra. Tellus mauris a diam maecenas sed enim ut sem viverra. Venenatis urna cursus eget nunc
-		scelerisque viverra mauris in. Arcu ac tortor dignissim convallis aenean et tortor at. Curabitur
-		gravida arcu ac tortor dignissim convallis aenean et tortor. Egestas tellus rutrum tellus
-		pellentesque eu. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet. Ut enim
-		blandit volutpat maecenas volutpat blandit aliquam etiam. Id donec ultrices tincidunt arcu. Id
-		cursus metus aliquam eleifend mi.
+		「FAIRWAY DIARY」は、ひとりのギャラリーがJLPGAの現地で感じたことを書き留める、観戦メモ帳のようなブログです。
+		トーナメントの結果速報ではなく、<em>現地でしか感じられない空気</em>や、応援している選手たちへの小さな気づきを中心にお届けしています。
 	</p>
 
+	<h2>お問い合わせ</h2>
 	<p>
-		Tempus quam pellentesque nec nam aliquam sem. Risus at ultrices mi tempus imperdiet. Id porta
-		nibh venenatis cras sed felis eget velit. Ipsum a arcu cursus vitae. Facilisis magna etiam
-		tempor orci eu lobortis elementum. Tincidunt dui ut ornare lectus sit. Quisque non tellus orci
-		ac. Blandit libero volutpat sed cras. Nec tincidunt praesent semper feugiat nibh sed pulvinar
-		proin gravida. Egestas integer eget aliquet nibh praesent tristique magna.
+		ご意見・ご感想・コラボのご相談は、トップページのニュースレター経由、または各SNSのDMまでお気軽にどうぞ。
 	</p>
+
+	<style>
+		/* About ページ専用の補助スタイル（BlogPost レイアウトの .fd-prose に上乗せ） */
+		.about-lead {
+			font-size: 20px;
+			font-weight: 700;
+			line-height: 1.7;
+			color: var(--green-900);
+			margin-bottom: 1.2em;
+		}
+
+		.about-stats {
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			gap: 16px;
+			margin: 48px 0 56px;
+			padding: 28px 24px;
+			border-radius: 18px;
+			background: linear-gradient(135deg, #0b3d1f, #04120a);
+			color: #fff;
+			position: relative;
+			overflow: hidden;
+		}
+		.about-stats::before {
+			content: "";
+			position: absolute;
+			inset: -30%;
+			pointer-events: none;
+			background: repeating-linear-gradient(
+				115deg,
+				transparent 0 80px,
+				rgba(200, 255, 60, 0.06) 80px 82px,
+				transparent 82px 220px
+			);
+			animation: aboutSlide 10s linear infinite;
+		}
+		@keyframes aboutSlide {
+			0% { transform: translateX(-10%) translateY(-5%); }
+			100% { transform: translateX(10%) translateY(5%); }
+		}
+		.about-stats > div {
+			position: relative;
+			text-align: center;
+		}
+		.about-stats h3 {
+			font-family: "Bebas Neue", sans-serif;
+			font-size: clamp(32px, 5vw, 56px);
+			line-height: 1;
+			margin: 0;
+			color: var(--lime);
+			letter-spacing: 0.04em;
+			text-shadow: 0 0 24px rgba(200, 255, 60, 0.3);
+		}
+		.about-stats p {
+			font-size: 11px;
+			letter-spacing: 0.2em;
+			margin: 8px 0 0;
+			opacity: 0.85;
+			color: #fff;
+		}
+
+		@media (max-width: 560px) {
+			.about-stats {
+				grid-template-columns: 1fr;
+				gap: 20px;
+			}
+		}
+	</style>
 </Layout>
