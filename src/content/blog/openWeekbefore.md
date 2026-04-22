@@ -8,7 +8,7 @@ pubDate: "2026-04-23"
 
 ---
 
-## 0．オープンウィーク前の戦い　振り返り
+## 1．オープンウィーク前の戦い　振り返り
 
 先週までの各大会を振り返ってみると、個性豊かなプレーヤーたちの姿が浮かび上がってくる。
 
@@ -59,11 +59,17 @@ pubDate: "2026-04-23"
 
 ---
 ![ヤマハ高橋](/images/yamahatakahasi1.jpg)
+
 ![ヤマハ高橋勝負を決めた](/images/yamahatakahasi2.jpg)
+
 ![ヤマハ高橋勝負を決めた](/images/yamahatakahasi3.jpg)
+
 ![ヤマハ高橋勝負を決めた](/images/yamahatakahasi4.jpg)
+
 ![ヤマハ菅](/images/yamahaSuga1.jpg)
+
 ![ヤマハ菅ショット](/images/yamahaSuga1.jpg)
+
 ---
 
 ### 🏌️‍♀️ 富士フイルム・スタジオアリス女子オープン　― ウー チャイェン
@@ -84,10 +90,12 @@ pubDate: "2026-04-23"
 そういう選手が、シーズンを通して輝き続けるのだろう。
 
 ![KKT高橋アドレス](/images/KKTtakahasi1.jpg)
+
 ![KKT高橋](/images/KKTtakahasi2.jpg)
+
 ---
 
-## 1．次の大会　優勝予想
+## 2.次の大会　優勝予想
 
 オープンウィークを挟み、いよいよ次の戦いへ。
 
