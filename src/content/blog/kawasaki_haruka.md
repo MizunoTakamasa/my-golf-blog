@@ -13,7 +13,7 @@ pubDate: "2026-04-23"
 「ブリヂストンレディス」まで5戦して4度の予選落ちと不調が続き、
 その後もトップ10入りは「北海道meijiカップ」での9位タイが一度きりでシーズンを終えて、
 メルセデスランキングは75位。プロ1年目からのシード権を失う。
-![ヤマハ川﨑 春花](/images/kawsaki_haruka1.jpg)
+
 
 ## 今年2026年の現在地
 
@@ -22,6 +22,8 @@ pubDate: "2026-04-23"
 シーズン後半、本来の「勢いのあるプレー」が戻ってきたとき、再びトップ争いに加わる姿が見られるはずだ。
 
 ---
+![ヤマハ川﨑 春花](/images/kawsaki_haruka1.jpg)
+
 ![ヤマハ　川﨑 春花](/images/kawsaki_haruka2.jpg)
 ![ヤマハ　川﨑 春花](/images/kawsaki_haruka4.jpg)
 ![ヤマハ　川﨑 春花](/images/kawsaki_haruka7.jpg)
@@ -45,8 +47,8 @@ pubDate: "2026-04-23"
 ### 2022年 ― ルーキーイヤーで一気に駆け上がる
 
 - **日本女子プロゴルフ選手権**（メジャー）を **大会最年少の19歳** で制覇し、ツアー初優勝。
-![メジャー　川﨑 春花](/images/kawsaki_haruka mejar.jpg)
 
+![ヤマハ　川﨑 春花](/images/kawsaki_haruka‗mejar.jpg)
 - **マスターズGCレディース** で2勝目を挙げる。
 - 新人戦 **加賀電子カップ** も制し、**新人賞** を獲得。
 
@@ -55,13 +57,13 @@ pubDate: "2026-04-23"
 ### 2024年 ― 勝利を積み重ねる夏
 
 - 7月、**ミネベアミツミレディス** と **大東建託・いい部屋ネットレディス** を2試合連続で優勝。
-![メジャー　川﨑 春花](/images/kawsaki_haruka minebea.jpg)
+![メジャー　川﨑 春花](/images/kawsaki_haruka‗minebea.jpg)
 
-![いい部屋　川﨑 春花](/images/kawsaki_haruka iiheya.jpg)
+![いい部屋　川﨑 春花](/images/kawsaki_haruka_iiheya.jpg)
 
 - 8月、**CAT Ladies** を制し、ツアー通算 **5勝目** を挙げる。
 
-![Cat 川﨑 春花](/images/kawsaki_haruka Cat.jpg)
+![Cat 川﨑 春花](/images/kawsaki_haruka_Cat.jpg)
 
 ---
 
