@@ -48,7 +48,7 @@ pubDate: "2026-04-23"
 
 - **日本女子プロゴルフ選手権**（メジャー）を **大会最年少の19歳** で制覇し、ツアー初優勝。
 
-![ヤマハ　川﨑 春花](/images/kawsaki_haruka‗mejar.jpg)
+![ヤマハ　川﨑 春花](/images/kawsaki_haruka_mejar.jpg)
 - **マスターズGCレディース** で2勝目を挙げる。
 - 新人戦 **加賀電子カップ** も制し、**新人賞** を獲得。
 
@@ -57,7 +57,7 @@ pubDate: "2026-04-23"
 ### 2024年 ― 勝利を積み重ねる夏
 
 - 7月、**ミネベアミツミレディス** と **大東建託・いい部屋ネットレディス** を2試合連続で優勝。
-![メジャー　川﨑 春花](/images/kawsaki_haruka‗minebea.jpg)
+![メジャー　川﨑 春花](/images/kawsaki_haruka_minebea.jpg)
 
 ![いい部屋　川﨑 春花](/images/kawsaki_haruka_iiheya.jpg)
 
