@@ -1,5 +1,5 @@
 ---
-title: "ゴルフ上達ノート｜腕の緊張で抜けるグリップ・手順・アイアンの体重移動"
+title: "ゴルフ上達ノート｜腕の緊張で力の抜けるグリップ・手順・アイアンの体重移動"
 description: "打つ前に腕に緊張を作るとグリップが脱力する、左手は体とクラブの一体感を作る、アイアンは体重と胸（重心）をターゲット側へ。今日掴んだ3つの気づき。"
 pubDate: "2026-04-26"
 ---
@@ -82,3 +82,5 @@ pubDate: "2026-04-26"
 ---
 
 *written by ゴルフ日記管理人*
+
+<table border="0" cellpadding="0" cellspacing="0"><tr><td><div style="border:1px solid #95a5a6;border-radius:.75rem;background-color:#FFFFFF;width:280px;margin:0px;padding:5px;text-align:center;overflow:hidden;"><table><tr><td style="width:128px"><a href="https://hb.afl.rakuten.co.jp/ichiba/53379856.ad01592c.53379857.d90e8ba9/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fanshinseikatu%2Fj122101%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIxMjh4MTI4IiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"><img src="https://hbb.afl.rakuten.co.jp/hgb/53379856.ad01592c.53379857.d90e8ba9/?me_id=1420788&item_id=10002086&pc=https%3A%2F%2Fthumbnail.image.rakuten.co.jp%2F%400_mall%2Fanshinseikatu%2Fcabinet%2F11034163%2F1221a01.jpg%3F_ex%3D128x128&s=128x128&t=picttext" border="0" style="margin:2px" alt="[商品価格に関しましては、リンクが作成された時点と現時点で情報が変更されている場合がございます。]" title="[商品価格に関しましては、リンクが作成された時点と現時点で情報が変更されている場合がございます。]"></a></td><td style="vertical-align:top;width:136px;display: block;"><p style="font-size:12px;line-height:1.4em;text-align:left;margin:0px;padding:2px 6px;word-wrap:break-word"><a href="https://hb.afl.rakuten.co.jp/ichiba/53379856.ad01592c.53379857.d90e8ba9/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fanshinseikatu%2Fj122101%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIxMjh4MTI4IiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;">【送料無料】ゴルフ グリップ練習 スイング練習 グリップ装着 グリップ矯正 スイング矯正 グリップ トレーニング 練習器具 素振り スイングトレーナー スイング</a><br><span >価格：1,880円（税込、送料無料)</span> <span style="color:#BBB">(2026/4/27時点)</span></p></td></tr></table></div><br><p style="color:#000000;font-size:12px;line-height:1.4em;margin:5px;word-wrap:break-word"></p></td></tr></table>
