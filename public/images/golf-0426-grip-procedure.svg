@@ -1,0 +1,116 @@
+<svg viewBox="0 0 720 380" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="g2Arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#3498db"/>
+    </marker>
+    <marker id="g2Shake" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#9b59b6"/>
+    </marker>
+  </defs>
+
+  <text x="360" y="26" text-anchor="middle" font-size="18" font-weight="bold" fill="#222">グリップの手順｜右手→左手前へ→ぶるぶる→握る</text>
+
+  <!-- ===== Step 1: Right hand holds club ===== -->
+  <g>
+    <text x="90" y="345" text-anchor="middle" font-size="12" fill="#c0392b" font-weight="bold">①右手で持つ</text>
+    <!-- Body -->
+    <circle cx="90" cy="100" r="16" fill="#fff" stroke="#333" stroke-width="2"/>
+    <path d="M 75 116 Q 70 175 78 240 Q 90 245 102 240 Q 110 175 105 116 Z" fill="#fadbd8" stroke="#c0392b" stroke-width="2"/>
+    <!-- Right arm holds club, left hand free -->
+    <path d="M 105 135 Q 130 180 135 230" stroke="#c0392b" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+    <ellipse cx="135" cy="232" rx="9" ry="6" fill="#e74c3c"/>
+    <!-- Left arm relaxed at side -->
+    <path d="M 75 135 Q 60 180 65 230" stroke="#999" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+    <ellipse cx="65" cy="232" rx="8" ry="5" fill="#bbb"/>
+    <!-- Club hanging from right hand -->
+    <line x1="135" y1="238" x2="155" y2="320" stroke="#5F5E5A" stroke-width="3"/>
+    <ellipse cx="158" cy="322" rx="10" ry="5" fill="#222"/>
+    <!-- Legs -->
+    <rect x="78" y="240" width="11" height="80" fill="#888" rx="3"/>
+    <rect x="92" y="240" width="11" height="80" fill="#888" rx="3"/>
+    <!-- Label -->
+    <text x="20" y="180" font-size="10" fill="#c0392b" font-weight="bold">右手</text>
+  </g>
+
+  <!-- Arrow 1 -->
+  <line x1="180" y1="180" x2="220" y2="180" stroke="#3498db" stroke-width="2.5" marker-end="url(#g2Arrow)"/>
+
+  <!-- ===== Step 2: Push left hand forward ===== -->
+  <g>
+    <text x="270" y="345" text-anchor="middle" font-size="12" fill="#d68910" font-weight="bold">②左手を前に出す</text>
+    <circle cx="270" cy="100" r="16" fill="#fff" stroke="#333" stroke-width="2"/>
+    <path d="M 255 116 Q 250 175 258 240 Q 270 245 282 240 Q 290 175 285 116 Z" fill="#fdebd0" stroke="#d68910" stroke-width="2"/>
+    <!-- Right arm holds club -->
+    <path d="M 285 135 Q 305 180 310 230" stroke="#c0392b" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+    <ellipse cx="310" cy="232" rx="9" ry="6" fill="#e74c3c"/>
+    <!-- Left arm extended forward -->
+    <path d="M 255 135 Q 290 145 340 160" stroke="#d68910" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+    <ellipse cx="343" cy="161" rx="9" ry="6" fill="#f39c12"/>
+    <!-- Forward arrow on left hand -->
+    <line x1="345" y1="170" x2="365" y2="170" stroke="#d68910" stroke-width="2" marker-end="url(#g2Arrow)"/>
+    <!-- Club hanging from right -->
+    <line x1="310" y1="238" x2="330" y2="320" stroke="#5F5E5A" stroke-width="3"/>
+    <ellipse cx="333" cy="322" rx="10" ry="5" fill="#222"/>
+    <!-- Legs -->
+    <rect x="258" y="240" width="11" height="80" fill="#888" rx="3"/>
+    <rect x="272" y="240" width="11" height="80" fill="#888" rx="3"/>
+    <!-- Label -->
+    <text x="335" y="148" font-size="10" fill="#d68910" font-weight="bold">左手</text>
+  </g>
+
+  <!-- Arrow 2 -->
+  <line x1="380" y1="180" x2="420" y2="180" stroke="#3498db" stroke-width="2.5" marker-end="url(#g2Arrow)"/>
+
+  <!-- ===== Step 3: Shake (release tension) ===== -->
+  <g>
+    <text x="470" y="345" text-anchor="middle" font-size="12" fill="#9b59b6" font-weight="bold">③ぶるぶる振る</text>
+    <circle cx="470" cy="100" r="16" fill="#fff" stroke="#333" stroke-width="2"/>
+    <path d="M 455 116 Q 450 175 458 240 Q 470 245 482 240 Q 490 175 485 116 Z" fill="#ebdef0" stroke="#9b59b6" stroke-width="2"/>
+    <!-- Right arm -->
+    <path d="M 485 135 Q 505 180 510 230" stroke="#c0392b" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+    <ellipse cx="510" cy="232" rx="9" ry="6" fill="#e74c3c"/>
+    <!-- Left arm shaking (multiple lines suggesting motion) -->
+    <path d="M 455 135 Q 490 142 535 152" stroke="#9b59b6" stroke-width="4.5" fill="none" stroke-linecap="round" opacity="0.4"/>
+    <path d="M 455 135 Q 490 150 535 165" stroke="#9b59b6" stroke-width="4.5" fill="none" stroke-linecap="round" opacity="0.5"/>
+    <path d="M 455 135 Q 490 158 535 178" stroke="#9b59b6" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+    <ellipse cx="540" cy="180" rx="9" ry="6" fill="#9b59b6"/>
+    <!-- Shake motion arrows -->
+    <path d="M 545 165 Q 555 175 545 185" stroke="#9b59b6" stroke-width="2" fill="none" marker-end="url(#g2Shake)"/>
+    <path d="M 545 195 Q 555 185 545 175" stroke="#9b59b6" stroke-width="2" fill="none" marker-end="url(#g2Shake)"/>
+    <text x="555" y="148" font-size="10" fill="#9b59b6" font-weight="bold">力みを抜く</text>
+    <!-- Club -->
+    <line x1="510" y1="238" x2="530" y2="320" stroke="#5F5E5A" stroke-width="3"/>
+    <ellipse cx="533" cy="322" rx="10" ry="5" fill="#222"/>
+    <!-- Legs -->
+    <rect x="458" y="240" width="11" height="80" fill="#888" rx="3"/>
+    <rect x="472" y="240" width="11" height="80" fill="#888" rx="3"/>
+  </g>
+
+  <!-- Arrow 3 -->
+  <line x1="595" y1="180" x2="625" y2="180" stroke="#3498db" stroke-width="2.5" marker-end="url(#g2Arrow)"/>
+
+  <!-- ===== Step 4: Grip with both hands (unity) ===== -->
+  <g>
+    <text x="670" y="345" text-anchor="middle" font-size="12" fill="#1e8449" font-weight="bold">④両手で握る</text>
+    <circle cx="670" cy="100" r="16" fill="#fff" stroke="#1e8449" stroke-width="2"/>
+    <path d="M 655 116 Q 650 175 658 240 Q 670 245 682 240 Q 690 175 685 116 Z" fill="#d5f5e3" stroke="#1e8449" stroke-width="2"/>
+    <!-- Both arms together holding club -->
+    <path d="M 685 135 Q 695 175 690 215" stroke="#1e8449" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+    <path d="M 655 135 Q 645 175 678 215" stroke="#1e8449" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+    <!-- Both hands on grip -->
+    <ellipse cx="685" cy="220" rx="14" ry="9" fill="#27ae60" stroke="#1e8449" stroke-width="2"/>
+    <text x="685" y="224" text-anchor="middle" font-size="9" fill="#fff" font-weight="bold">一体</text>
+    <!-- Club fully gripped -->
+    <line x1="685" y1="230" x2="700" y2="320" stroke="#5F5E5A" stroke-width="3"/>
+    <ellipse cx="703" cy="322" rx="10" ry="5" fill="#222"/>
+    <!-- Legs -->
+    <rect x="658" y="240" width="11" height="80" fill="#888" rx="3"/>
+    <rect x="672" y="240" width="11" height="80" fill="#888" rx="3"/>
+    <!-- Unity label -->
+    <text x="660" y="370" text-anchor="middle" font-size="10" fill="#1e8449" font-weight="bold">体とクラブが</text>
+    <text x="660" y="382" text-anchor="middle" font-size="10" fill="#1e8449" font-weight="bold">一体になる</text>
+  </g>
+
+  <!-- Bottom takeaway -->
+  <text x="360" y="60" text-anchor="middle" font-size="12" fill="#555">手順を踏むと、左手が「体とクラブの一体感」を作ってくれる</text>
+</svg>
