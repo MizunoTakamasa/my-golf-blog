@@ -1,74 +1,101 @@
-<svg viewBox="0 0 600 420" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 600 440" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <marker id="g1Arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+    <marker id="arrBlue" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
       <polygon points="0 0, 10 3, 0 6" fill="#3498db"/>
     </marker>
-    <marker id="g1Down" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+    <marker id="arrGreen" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
       <polygon points="0 0, 10 3, 0 6" fill="#27ae60"/>
+    </marker>
+    <marker id="arrRed" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#c0392b"/>
     </marker>
   </defs>
 
-  <text x="300" y="28" text-anchor="middle" font-size="18" font-weight="bold" fill="#222">打つ前の緊張 → グリップが自然と脱力する</text>
+  <text x="300" y="28" text-anchor="middle" font-size="18" font-weight="bold" fill="#222">打つ前に「腕」に張りをもたせる → グリップが自然と脱力する</text>
+  <text x="300" y="50" text-anchor="middle" font-size="12" fill="#555">腕に張りを持たせておくと、不思議と手の力は抜ける</text>
 
-  <!-- Left: tense body before shot -->
+  <!-- ===== Left figure: arms with tension (slim, firm), grip strong ===== -->
   <g>
-    <text x="140" y="395" text-anchor="middle" font-size="13" fill="#c0392b" font-weight="bold">①体に緊張を作る</text>
-    <!-- Head -->
-    <circle cx="140" cy="100" r="20" fill="#fff" stroke="#c0392b" stroke-width="2"/>
-    <!-- Tension lines around head -->
-    <line x1="115" y1="80" x2="105" y2="70" stroke="#c0392b" stroke-width="2"/>
-    <line x1="165" y1="80" x2="175" y2="70" stroke="#c0392b" stroke-width="2"/>
-    <line x1="120" y1="105" x2="105" y2="105" stroke="#c0392b" stroke-width="2"/>
-    <line x1="160" y1="105" x2="175" y2="105" stroke="#c0392b" stroke-width="2"/>
-    <!-- Torso (tense) -->
-    <path d="M 120 122 Q 110 200 118 280 Q 140 285 162 280 Q 170 200 160 122 Z" fill="#fadbd8" stroke="#c0392b" stroke-width="2.5"/>
-    <!-- Arms holding club -->
-    <path d="M 122 145 Q 115 200 130 250" stroke="#c0392b" stroke-width="5" fill="none" stroke-linecap="round"/>
-    <path d="M 158 145 Q 165 200 150 250" stroke="#c0392b" stroke-width="5" fill="none" stroke-linecap="round"/>
-    <!-- Hands gripping (tight) -->
-    <ellipse cx="140" cy="255" rx="20" ry="12" fill="#e74c3c" stroke="#a93226" stroke-width="2"/>
-    <text x="140" y="259" text-anchor="middle" font-size="10" fill="#fff" font-weight="bold">強</text>
+    <text x="140" y="395" text-anchor="middle" font-size="13" fill="#c0392b" font-weight="bold">①腕に張りをもたせる</text>
+
+    <!-- Head (neutral) -->
+    <circle cx="140" cy="100" r="20" fill="#fafafa" stroke="#bbb" stroke-width="1.5"/>
+
+    <!-- Torso (neutral, de-emphasized) -->
+    <path d="M 120 122 Q 110 200 118 280 Q 140 285 162 280 Q 170 200 160 122 Z" fill="#fafafa" stroke="#ccc" stroke-width="1.5"/>
+
+    <!-- ARMS - slimmer red lines (was 14 → now 6) -->
+    <path d="M 122 145 Q 105 200 130 250" stroke="#c0392b" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <path d="M 158 145 Q 175 200 150 250" stroke="#c0392b" stroke-width="6" fill="none" stroke-linecap="round"/>
+
+    <!-- Subtle tension marks around arms (張り感) -->
+    <line x1="92" y1="180" x2="84" y2="178" stroke="#c0392b" stroke-width="2"/>
+    <line x1="92" y1="200" x2="82" y2="200" stroke="#c0392b" stroke-width="2"/>
+    <line x1="92" y1="220" x2="84" y2="222" stroke="#c0392b" stroke-width="2"/>
+    <line x1="188" y1="180" x2="196" y2="178" stroke="#c0392b" stroke-width="2"/>
+    <line x1="188" y1="200" x2="198" y2="200" stroke="#c0392b" stroke-width="2"/>
+    <line x1="188" y1="220" x2="196" y2="222" stroke="#c0392b" stroke-width="2"/>
+
+    <!-- Callouts pointing to arms -->
+    <text x="50" y="148" font-size="13" fill="#c0392b" font-weight="bold">腕に張り</text>
+    <line x1="80" y1="155" x2="105" y2="180" stroke="#c0392b" stroke-width="2" marker-end="url(#arrRed)"/>
+    <text x="200" y="148" font-size="13" fill="#c0392b" font-weight="bold">腕に張り</text>
+    <line x1="218" y1="155" x2="180" y2="180" stroke="#c0392b" stroke-width="2" marker-end="url(#arrRed)"/>
+
+    <!-- Hands gripping (tight - red) -->
+    <ellipse cx="140" cy="262" rx="18" ry="10" fill="#e74c3c" stroke="#a93226" stroke-width="2"/>
+    <text x="140" y="266" text-anchor="middle" font-size="9" fill="#fff" font-weight="bold">強い</text>
+
     <!-- Grip pressure label -->
-    <text x="195" y="245" font-size="11" fill="#a93226" font-weight="bold">握力：強い</text>
-    <line x1="190" y1="248" x2="165" y2="255" stroke="#a93226" stroke-width="1.5"/>
+    <text x="170" y="282" font-size="11" fill="#a93226" font-weight="bold">握力：強い</text>
+
     <!-- Club shaft -->
-    <line x1="140" y1="265" x2="155" y2="370" stroke="#5F5E5A" stroke-width="3"/>
+    <line x1="140" y1="272" x2="155" y2="370" stroke="#5F5E5A" stroke-width="3"/>
+
     <!-- Legs -->
-    <rect x="125" y="280" width="14" height="100" fill="#888" rx="3"/>
-    <rect x="143" y="280" width="14" height="100" fill="#888" rx="3"/>
+    <rect x="125" y="285" width="14" height="95" fill="#bbb" rx="3"/>
+    <rect x="143" y="285" width="14" height="95" fill="#bbb" rx="3"/>
   </g>
 
   <!-- Arrow between -->
-  <line x1="220" y1="200" x2="290" y2="200" stroke="#3498db" stroke-width="3" marker-end="url(#g1Arrow)"/>
-  <text x="255" y="190" text-anchor="middle" font-size="12" fill="#3498db" font-weight="bold">体に力が入る</text>
-  <text x="255" y="218" text-anchor="middle" font-size="12" fill="#3498db">↓</text>
-  <text x="255" y="235" text-anchor="middle" font-size="12" fill="#27ae60">手は逆に脱力</text>
+  <line x1="240" y1="200" x2="305" y2="200" stroke="#3498db" stroke-width="3" marker-end="url(#arrBlue)"/>
+  <text x="272" y="190" text-anchor="middle" font-size="12" fill="#3498db" font-weight="bold">腕に張りをもたせる</text>
+  <text x="272" y="218" text-anchor="middle" font-size="12" fill="#3498db">↓</text>
+  <text x="272" y="234" text-anchor="middle" font-size="12" fill="#27ae60" font-weight="bold">手は脱力できる</text>
 
-  <!-- Right: relaxed grip with body still tense -->
+  <!-- ===== Right figure: arms still firm, grip relaxed ===== -->
   <g>
     <text x="430" y="395" text-anchor="middle" font-size="13" fill="#27ae60" font-weight="bold">②握る力が自然と抜ける</text>
-    <!-- Head -->
-    <circle cx="430" cy="100" r="20" fill="#fff" stroke="#1e8449" stroke-width="2"/>
-    <!-- Torso (still firm/engaged) -->
-    <path d="M 410 122 Q 400 200 408 280 Q 430 285 452 280 Q 460 200 450 122 Z" fill="#fadbd8" stroke="#c0392b" stroke-width="2.5"/>
-    <!-- Arms -->
-    <path d="M 412 145 Q 405 200 420 250" stroke="#27ae60" stroke-width="5" fill="none" stroke-linecap="round"/>
-    <path d="M 448 145 Q 455 200 440 250" stroke="#27ae60" stroke-width="5" fill="none" stroke-linecap="round"/>
-    <!-- Hands gripping (relaxed) -->
-    <ellipse cx="430" cy="255" rx="20" ry="12" fill="#a9dfbf" stroke="#1e8449" stroke-width="2"/>
-    <text x="430" y="259" text-anchor="middle" font-size="10" fill="#0e6251" font-weight="bold">弱</text>
-    <!-- Grip pressure label -->
-    <text x="485" y="245" font-size="11" fill="#1e8449" font-weight="bold">握力：軽い</text>
-    <line x1="480" y1="248" x2="455" y2="255" stroke="#1e8449" stroke-width="1.5"/>
-    <!-- Down arrow on grip -->
-    <line x1="430" y1="270" x2="430" y2="295" stroke="#27ae60" stroke-width="3" marker-end="url(#g1Down)"/>
-    <!-- Club shaft -->
-    <line x1="430" y1="295" x2="445" y2="370" stroke="#5F5E5A" stroke-width="3"/>
-    <!-- Legs -->
-    <rect x="415" y="280" width="14" height="100" fill="#888" rx="3"/>
-    <rect x="433" y="280" width="14" height="100" fill="#888" rx="3"/>
-  </g>
 
-  <!-- Bottom takeaway -->
-  <text x="300" y="65" text-anchor="middle" font-size="12" fill="#555">体に緊張を作っておくと、不思議と手の力は抜ける</text>
+    <!-- Head (neutral) -->
+    <circle cx="430" cy="100" r="20" fill="#fafafa" stroke="#bbb" stroke-width="1.5"/>
+
+    <!-- Torso (neutral) -->
+    <path d="M 410 122 Q 400 200 408 280 Q 430 285 452 280 Q 460 200 450 122 Z" fill="#fafafa" stroke="#ccc" stroke-width="1.5"/>
+
+    <!-- ARMS still firm/engaged (slimmer green - was 14 → now 6) -->
+    <path d="M 412 145 Q 395 200 420 250" stroke="#1e8449" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <path d="M 448 145 Q 465 200 440 250" stroke="#1e8449" stroke-width="6" fill="none" stroke-linecap="round"/>
+
+    <!-- Label -->
+    <text x="345" y="148" font-size="13" fill="#1e8449" font-weight="bold">腕は張り保つ</text>
+
+    <!-- Hands gripping (relaxed - light green) -->
+    <ellipse cx="430" cy="262" rx="18" ry="10" fill="#a9dfbf" stroke="#1e8449" stroke-width="2"/>
+    <text x="430" y="266" text-anchor="middle" font-size="9" fill="#0e6251" font-weight="bold">軽い</text>
+
+    <!-- Down arrow on grip -->
+    <line x1="475" y1="262" x2="455" y2="262" stroke="#27ae60" stroke-width="3" marker-end="url(#arrGreen)"/>
+    <text x="478" y="266" font-size="11" fill="#1e8449" font-weight="bold">脱力</text>
+
+    <!-- Grip pressure label -->
+    <text x="395" y="285" font-size="11" fill="#1e8449" font-weight="bold">握力：軽い</text>
+
+    <!-- Club shaft -->
+    <line x1="430" y1="272" x2="445" y2="370" stroke="#5F5E5A" stroke-width="3"/>
+
+    <!-- Legs -->
+    <rect x="415" y="285" width="14" height="95" fill="#bbb" rx="3"/>
+    <rect x="433" y="285" width="14" height="95" fill="#bbb" rx="3"/>
+  </g>
 </svg>
