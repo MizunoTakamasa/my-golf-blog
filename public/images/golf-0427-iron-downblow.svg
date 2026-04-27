@@ -1,0 +1,103 @@
+<svg viewBox="0 0 720 480" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="dbArrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#c0392b"/>
+    </marker>
+    <marker id="dbArrowB" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#3498db"/>
+    </marker>
+  </defs>
+
+  <text x="360" y="26" text-anchor="middle" font-size="18" font-weight="bold" fill="#222">アイアンは「叩く」｜ハンドファーストでダウンブロー</text>
+  <text x="360" y="48" text-anchor="middle" font-size="12" fill="#555">先にボール → その先にターフ（ディボット）の順で打つ</text>
+
+  <!-- Ground line -->
+  <line x1="20" y1="380" x2="700" y2="380" stroke="#5dade2" stroke-width="3"/>
+
+  <!-- ========== LEFT: Address ========== -->
+  <g>
+    <rect x="30" y="70" width="320" height="28" fill="#3498db" rx="4"/>
+    <text x="190" y="89" text-anchor="middle" font-size="14" fill="#fff" font-weight="bold">①アドレス（構え）</text>
+
+    <!-- Body upright, centered -->
+    <circle cx="180" cy="130" r="16" fill="#fff" stroke="#333" stroke-width="2"/>
+    <path d="M 162 146 Q 156 220 165 290 Q 180 295 195 290 Q 204 220 198 146 Z" fill="#f0f0f0" stroke="#333" stroke-width="1.5"/>
+    <!-- Arms holding club centered -->
+    <path d="M 168 175 Q 158 230 200 268" stroke="#333" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M 192 175 Q 200 230 205 268" stroke="#333" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <!-- Club shaft straight down -->
+    <line x1="203" y1="270" x2="222" y2="376" stroke="#5F5E5A" stroke-width="3"/>
+    <!-- Club head -->
+    <path d="M 215 376 L 245 378 L 247 383 L 217 381 Z" fill="#999" stroke="#444" stroke-width="1.5"/>
+
+    <!-- Ball: slightly to viewer's right of stance center (toward target) -->
+    <circle cx="240" cy="376" r="6" fill="#f1c40f" stroke="#b7950b" stroke-width="1.5"/>
+
+    <!-- Both legs equal -->
+    <rect x="166" y="290" width="13" height="88" fill="#aaa" stroke="#888" rx="2"/>
+    <rect x="184" y="290" width="13" height="88" fill="#aaa" stroke="#888" rx="2"/>
+    <ellipse cx="172" cy="380" rx="15" ry="5" fill="#bbb" stroke="#888"/>
+    <ellipse cx="191" cy="380" rx="15" ry="5" fill="#bbb" stroke="#888"/>
+
+    <!-- Stance center reference line -->
+    <line x1="181" y1="392" x2="181" y2="425" stroke="#888" stroke-width="1" stroke-dasharray="3,3"/>
+    <text x="181" y="440" text-anchor="middle" font-size="10" fill="#555">スタンス中央</text>
+
+    <!-- Ball position marker -->
+    <line x1="240" y1="392" x2="240" y2="408" stroke="#c0392b" stroke-width="1.5"/>
+    <text x="240" y="422" text-anchor="middle" font-size="10" fill="#c0392b" font-weight="bold">ボール：やや左寄り</text>
+
+    <!-- Target arrow -->
+    <line x1="60" y1="345" x2="330" y2="345" stroke="#3498db" stroke-width="2" stroke-dasharray="5,3" marker-end="url(#dbArrowB)"/>
+    <text x="58" y="338" font-size="10" fill="#3498db" font-weight="bold">→ ターゲット方向</text>
+  </g>
+
+  <!-- ========== RIGHT: Impact (downblow) ========== -->
+  <g>
+    <rect x="370" y="70" width="320" height="28" fill="#c0392b" rx="4"/>
+    <text x="530" y="89" text-anchor="middle" font-size="14" fill="#fff" font-weight="bold">②インパクト（ダウンブロー）</text>
+
+    <!-- Body shifted toward target (viewer's right), weight on left -->
+    <circle cx="495" cy="130" r="16" fill="#fff" stroke="#1e8449" stroke-width="2"/>
+    <path d="M 480 146 Q 472 220 484 285 Q 504 290 518 285 Q 524 220 514 146 Z" fill="#d5f5e3" stroke="#1e8449" stroke-width="2"/>
+
+    <!-- Arms reaching forward to hands-ahead position -->
+    <path d="M 488 175 Q 510 235 615 268" stroke="#1e8449" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M 510 175 Q 535 235 620 268" stroke="#1e8449" stroke-width="4" fill="none" stroke-linecap="round"/>
+
+    <!-- Club shaft from hands (618, 270) to clubhead at ball (forward lean toward target) -->
+    <line x1="618" y1="270" x2="595" y2="378" stroke="#5F5E5A" stroke-width="3.5"/>
+    <!-- Club head at ball -->
+    <path d="M 580 378 L 605 380 L 608 384 L 583 382 Z" fill="#666" stroke="#222" stroke-width="1.5"/>
+
+    <!-- Ball compressed at impact -->
+    <ellipse cx="592" cy="375" rx="7" ry="5" fill="#f1c40f" stroke="#b7950b" stroke-width="1.5"/>
+
+    <!-- Divot AFTER ball (to viewer's right = toward target) -->
+    <path d="M 612 380 Q 632 392 652 388 Q 668 386 678 380 L 678 384 Q 668 391 652 393 Q 632 398 612 384 Z" fill="#8b4513" stroke="#5d2f0d" stroke-width="1.5"/>
+    <text x="645" y="412" text-anchor="middle" font-size="10" fill="#8b4513" font-weight="bold">ターフ</text>
+    <text x="645" y="425" text-anchor="middle" font-size="10" fill="#8b4513" font-weight="bold">（ボールの先）</text>
+
+    <!-- Left leg weighted (viewer's right) -->
+    <rect x="510" y="285" width="13" height="93" fill="#f9d7d3" stroke="#c0392b" stroke-width="2" rx="2"/>
+    <ellipse cx="518" cy="380" rx="20" ry="6" fill="#e74c3c" stroke="#a93226" stroke-width="2"/>
+    <text x="518" y="384" text-anchor="middle" font-size="9" fill="#fff" font-weight="bold">左足</text>
+    <!-- Right leg trail (viewer's left) -->
+    <polygon points="478,285 492,285 466,378 456,378" fill="#ddd" stroke="#aaa" stroke-width="1.5"/>
+    <ellipse cx="460" cy="380" rx="14" ry="4" fill="#ddd" stroke="#aaa"/>
+
+    <!-- Hands ahead reference -->
+    <line x1="618" y1="280" x2="618" y2="400" stroke="#c0392b" stroke-width="1" stroke-dasharray="3,3"/>
+    <line x1="592" y1="385" x2="592" y2="400" stroke="#c0392b" stroke-width="1" stroke-dasharray="3,3"/>
+    <line x1="592" y1="400" x2="615" y2="400" stroke="#c0392b" stroke-width="2" marker-end="url(#dbArrow)"/>
+    <text x="603" y="440" text-anchor="middle" font-size="11" fill="#c0392b" font-weight="bold">ハンドファースト</text>
+
+    <!-- Down blow angle indicator -->
+    <line x1="540" y1="200" x2="585" y2="370" stroke="#c0392b" stroke-width="2" stroke-dasharray="4,3" marker-end="url(#dbArrow)"/>
+    <text x="500" y="200" font-size="11" fill="#c0392b" font-weight="bold">↓ ダウンブロー</text>
+  </g>
+
+  <!-- Bottom note bar -->
+  <rect x="30" y="453" width="660" height="22" fill="#fef5f4" stroke="#c0392b" stroke-width="1.5" rx="4"/>
+  <text x="360" y="468" text-anchor="middle" font-size="11" fill="#c0392b" font-weight="bold">先にボール → その先にターフ。すくい上げず、上から潰すイメージ</text>
+</svg>

@@ -1,0 +1,114 @@
+<svg viewBox="0 0 780 480" xmlns="http://www.w3.org/2000/svg">
+  <text x="390" y="26" text-anchor="middle" font-size="18" font-weight="bold" fill="#222">フェースの向きの目安｜トップで「左前腕」と「リーディングエッジ」が平行か</text>
+  <text x="390" y="48" text-anchor="middle" font-size="12" fill="#555">右利きゴルファー視点／トップで一瞬止めて確認するのが一番わかりやすい</text>
+
+  <!-- Vertical dividers between panels -->
+  <line x1="265" y1="70" x2="265" y2="440" stroke="#e0e0e0" stroke-width="1"/>
+  <line x1="525" y1="70" x2="525" y2="440" stroke="#e0e0e0" stroke-width="1"/>
+
+  <!-- ========== Panel 1: Open ========== -->
+  <g>
+    <rect x="20" y="70" width="240" height="28" fill="#c0392b" rx="4"/>
+    <text x="140" y="89" text-anchor="middle" font-size="14" fill="#fff" font-weight="bold">①開いている（×）</text>
+
+    <!-- Lead forearm at 45° (skin color line) -->
+    <line x1="55" y1="290" x2="135" y2="200" stroke="#333" stroke-width="14" stroke-linecap="round"/>
+    <line x1="55" y1="290" x2="135" y2="200" stroke="#f5cba7" stroke-width="10" stroke-linecap="round"/>
+    <text x="60" y="310" font-size="10" fill="#444" font-weight="bold">左前腕</text>
+
+    <!-- Wrist/hand grip -->
+    <circle cx="138" cy="197" r="9" fill="#f5cba7" stroke="#333" stroke-width="1.5"/>
+
+    <!-- Club shaft continuing line -->
+    <line x1="142" y1="193" x2="222" y2="108" stroke="#5F5E5A" stroke-width="3.5"/>
+
+    <!-- Clubhead with face VERTICAL (leading edge vertical = "立っている" = open) -->
+    <rect x="217" y="80" width="6" height="36" fill="#888" stroke="#222" stroke-width="1.5"/>
+    <line x1="216" y1="80" x2="216" y2="116" stroke="#c0392b" stroke-width="3"/>
+    <text x="240" y="92" font-size="11" fill="#c0392b" font-weight="bold">リーディング</text>
+    <text x="240" y="105" font-size="11" fill="#c0392b" font-weight="bold">エッジが垂直</text>
+
+    <!-- Reference: forearm angle extension -->
+    <line x1="138" y1="197" x2="200" y2="135" stroke="#aaa" stroke-width="1" stroke-dasharray="3,3"/>
+    <text x="55" y="170" font-size="9" fill="#888">前腕の延長線</text>
+
+    <!-- Result box -->
+    <rect x="30" y="335" width="220" height="100" fill="#fef5f4" stroke="#c0392b" stroke-width="1.5" rx="4"/>
+    <text x="140" y="357" text-anchor="middle" font-size="12" fill="#c0392b" font-weight="bold">前腕より「立って」いる</text>
+    <text x="140" y="385" text-anchor="middle" font-size="14" fill="#a93226" font-weight="bold">→ 球が右へ</text>
+    <text x="140" y="408" text-anchor="middle" font-size="11" fill="#a93226">スライス・プッシュ</text>
+    <text x="140" y="425" text-anchor="middle" font-size="10" fill="#a93226">フェースが開いたまま当たる</text>
+  </g>
+
+  <!-- ========== Panel 2: Square (GOOD) ========== -->
+  <g>
+    <rect x="280" y="70" width="240" height="28" fill="#1e8449" rx="4"/>
+    <text x="400" y="89" text-anchor="middle" font-size="14" fill="#fff" font-weight="bold">②スクエア（◎）</text>
+
+    <!-- Lead forearm at 45° -->
+    <line x1="315" y1="290" x2="395" y2="200" stroke="#333" stroke-width="14" stroke-linecap="round"/>
+    <line x1="315" y1="290" x2="395" y2="200" stroke="#f5cba7" stroke-width="10" stroke-linecap="round"/>
+    <text x="320" y="310" font-size="10" fill="#444" font-weight="bold">左前腕</text>
+
+    <circle cx="398" cy="197" r="9" fill="#f5cba7" stroke="#333" stroke-width="1.5"/>
+
+    <!-- Club shaft -->
+    <line x1="402" y1="193" x2="482" y2="108" stroke="#5F5E5A" stroke-width="3.5"/>
+
+    <!-- Clubhead with face PARALLEL to forearm (square) -->
+    <g transform="rotate(-45 482 108)">
+      <rect x="465" y="105" width="34" height="6" fill="#27ae60" stroke="#0e6251" stroke-width="1.5"/>
+      <line x1="465" y1="104" x2="499" y2="104" stroke="#0e6251" stroke-width="2.5"/>
+    </g>
+
+    <!-- Forearm extension - parallel to leading edge -->
+    <line x1="398" y1="197" x2="498" y2="97" stroke="#27ae60" stroke-width="1.5" stroke-dasharray="4,3"/>
+
+    <text x="500" y="92" font-size="11" fill="#1e8449" font-weight="bold">前腕と</text>
+    <text x="500" y="105" font-size="11" fill="#1e8449" font-weight="bold">完全に平行</text>
+
+    <!-- Result box -->
+    <rect x="290" y="335" width="220" height="100" fill="#eafaf1" stroke="#1e8449" stroke-width="1.5" rx="4"/>
+    <text x="400" y="357" text-anchor="middle" font-size="12" fill="#1e8449" font-weight="bold">前腕と「平行」</text>
+    <text x="400" y="385" text-anchor="middle" font-size="14" fill="#0e6251" font-weight="bold">→ 球が真っすぐ</text>
+    <text x="400" y="408" text-anchor="middle" font-size="11" fill="#0e6251">理想の形</text>
+    <text x="400" y="425" text-anchor="middle" font-size="10" fill="#0e6251">そのままインパクトでスクエア</text>
+  </g>
+
+  <!-- ========== Panel 3: Closed ========== -->
+  <g>
+    <rect x="540" y="70" width="240" height="28" fill="#d68910" rx="4"/>
+    <text x="660" y="89" text-anchor="middle" font-size="14" fill="#fff" font-weight="bold">③閉じている（×）</text>
+
+    <!-- Lead forearm -->
+    <line x1="575" y1="290" x2="655" y2="200" stroke="#333" stroke-width="14" stroke-linecap="round"/>
+    <line x1="575" y1="290" x2="655" y2="200" stroke="#f5cba7" stroke-width="10" stroke-linecap="round"/>
+    <text x="580" y="310" font-size="10" fill="#444" font-weight="bold">左前腕</text>
+
+    <circle cx="658" cy="197" r="9" fill="#f5cba7" stroke="#333" stroke-width="1.5"/>
+
+    <!-- Club shaft -->
+    <line x1="662" y1="193" x2="742" y2="108" stroke="#5F5E5A" stroke-width="3.5"/>
+
+    <!-- Clubhead with face HORIZONTAL (leading edge horizontal = "寝ている" = closed) -->
+    <rect x="724" y="105" width="36" height="6" fill="#888" stroke="#222" stroke-width="1.5"/>
+    <line x1="724" y1="103" x2="760" y2="103" stroke="#d68910" stroke-width="3"/>
+
+    <text x="660" y="130" font-size="11" fill="#d68910" font-weight="bold">リーディング</text>
+    <text x="660" y="143" font-size="11" fill="#d68910" font-weight="bold">エッジが水平</text>
+
+    <!-- Forearm extension -->
+    <line x1="658" y1="197" x2="725" y2="135" stroke="#aaa" stroke-width="1" stroke-dasharray="3,3"/>
+    <text x="575" y="170" font-size="9" fill="#888">前腕の延長線</text>
+
+    <!-- Result box -->
+    <rect x="550" y="335" width="220" height="100" fill="#fdebd0" stroke="#d68910" stroke-width="1.5" rx="4"/>
+    <text x="660" y="357" text-anchor="middle" font-size="12" fill="#d68910" font-weight="bold">前腕より「寝て」いる</text>
+    <text x="660" y="385" text-anchor="middle" font-size="14" fill="#9c640c" font-weight="bold">→ 球が左へ</text>
+    <text x="660" y="408" text-anchor="middle" font-size="11" fill="#9c640c">フック・プル</text>
+    <text x="660" y="425" text-anchor="middle" font-size="10" fill="#9c640c">フェースが被ったまま当たる</text>
+  </g>
+
+  <!-- Bottom hint -->
+  <text x="390" y="465" text-anchor="middle" font-size="11" fill="#444" font-weight="bold">→ 鏡 or スマホで真後ろからスロー動画を撮ると一発でわかる</text>
+</svg>
