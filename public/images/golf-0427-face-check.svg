@@ -1,223 +1,130 @@
-<svg viewBox="0 0 780 510" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <marker id="fcArrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
-      <polygon points="0 0, 10 3, 0 6" fill="#3498db"/>
-    </marker>
-  </defs>
-
+<svg viewBox="0 0 780 530" xmlns="http://www.w3.org/2000/svg">
   <text x="390" y="26" text-anchor="middle" font-size="18" font-weight="bold" fill="#222">フェースの向きの目安｜トップで「左前腕」と「リーディングエッジ」が平行か</text>
-  <text x="390" y="48" text-anchor="middle" font-size="12" fill="#555">右利きゴルファー・後ろから見た図（ビハインドビュー）／背中側から見た上半身</text>
 
-  <!-- Vertical dividers -->
-  <line x1="265" y1="62" x2="265" y2="490" stroke="#e0e0e0" stroke-width="1"/>
-  <line x1="525" y1="62" x2="525" y2="490" stroke="#e0e0e0" stroke-width="1"/>
+  <line x1="265" y1="62" x2="265" y2="510" stroke="#e0e0e0" stroke-width="1"/>
+  <line x1="525" y1="62" x2="525" y2="510" stroke="#e0e0e0" stroke-width="1"/>
 
-  <!-- ========================================================== -->
-  <!-- Panel 1: Open                                              -->
-  <!-- ========================================================== -->
-  <g>
-    <rect x="20" y="70" width="240" height="28" fill="#c0392b" rx="4"/>
-    <text x="140" y="89" text-anchor="middle" font-size="14" fill="#fff" font-weight="bold">①開いている（×）</text>
-
-    <!-- Ground line inside panel -->
-    <line x1="35" y1="335" x2="245" y2="335" stroke="#aaa" stroke-width="1"/>
-
-    <!-- Feet (turned, viewed from behind) -->
-    <ellipse cx="118" cy="335" rx="17" ry="5" fill="#999" stroke="#666"/>
-    <ellipse cx="160" cy="335" rx="17" ry="5" fill="#999" stroke="#666"/>
-
-    <!-- Legs -->
-    <rect x="111" y="252" width="14" height="83" fill="#d6dbdf" stroke="#888" rx="2"/>
-    <rect x="153" y="252" width="14" height="83" fill="#d6dbdf" stroke="#888" rx="2"/>
-
-    <!-- Hips (belt line) -->
-    <rect x="108" y="246" width="62" height="10" fill="#7f8c8d" stroke="#444" rx="2"/>
-
-    <!-- Torso (back view, slight right-tilt at top of backswing for RH golfer) -->
-    <path d="M 105 175 Q 100 220 108 250 L 170 250 Q 178 220 173 175 Q 170 162 158 156 Q 138 152 120 156 Q 108 162 105 175 Z" fill="#bdc3c7" stroke="#555" stroke-width="1.5"/>
-
-    <!-- Spine line (tilted slightly right - top of backswing posture) -->
-    <line x1="142" y1="160" x2="135" y2="250" stroke="#566573" stroke-width="1.5" stroke-dasharray="3,3"/>
-
-    <!-- Head -->
-    <circle cx="138" cy="138" r="15" fill="#f5cba7" stroke="#333" stroke-width="1.5"/>
-    <!-- Hair / back of head shading -->
-    <path d="M 124 132 Q 138 121 152 132 Q 152 124 138 121 Q 124 124 124 132 Z" fill="#34495e"/>
-
-    <!-- Lead arm (LEFT arm) - thick, crossing chest UP-RIGHT to hands at top -->
-    <path d="M 108 180 Q 145 130 188 90" stroke="#333" stroke-width="14" stroke-linecap="round" fill="none"/>
-    <path d="M 108 180 Q 145 130 188 90" stroke="#f5cba7" stroke-width="10" stroke-linecap="round" fill="none"/>
-    <text x="55" y="200" font-size="10" fill="#c0392b" font-weight="bold">左前腕</text>
-
-    <!-- Trail arm (RIGHT arm) - bent with elbow up -->
-    <path d="M 168 175 Q 205 135 192 92" stroke="#333" stroke-width="11" stroke-linecap="round" fill="none"/>
-    <path d="M 168 175 Q 205 135 192 92" stroke="#f5cba7" stroke-width="7" stroke-linecap="round" fill="none"/>
-
-    <!-- Hands grip -->
-    <circle cx="190" cy="90" r="9" fill="#f5cba7" stroke="#333" stroke-width="1.5"/>
-
-    <!-- Club shaft going up-right -->
-    <line x1="195" y1="85" x2="247" y2="40" stroke="#5F5E5A" stroke-width="3.5"/>
-
-    <!-- Clubhead - face VERTICAL (open: leading edge perpendicular to ground) -->
-    <rect x="241" y="22" width="6" height="36" fill="#888" stroke="#222" stroke-width="1.5"/>
-    <line x1="240" y1="22" x2="240" y2="58" stroke="#c0392b" stroke-width="3"/>
-
-    <!-- Annotation -->
-    <text x="180" y="35" font-size="10" fill="#c0392b" font-weight="bold">エッジ</text>
-    <text x="180" y="48" font-size="10" fill="#c0392b" font-weight="bold">が垂直</text>
-
-    <!-- Forearm extension reference line -->
-    <line x1="190" y1="90" x2="230" y2="50" stroke="#aaa" stroke-width="1" stroke-dasharray="3,3"/>
-
-    <!-- Body orientation indicator -->
-    <text x="140" y="357" text-anchor="middle" font-size="10" fill="#3498db" font-weight="bold">背中＝ターゲット側 ／ 体は右へ捻転</text>
-
-    <!-- Result box -->
-    <rect x="30" y="368" width="220" height="115" fill="#fef5f4" stroke="#c0392b" stroke-width="1.5" rx="4"/>
-    <text x="140" y="392" text-anchor="middle" font-size="12" fill="#c0392b" font-weight="bold">前腕より「立って」いる</text>
-    <text x="140" y="423" text-anchor="middle" font-size="14" fill="#a93226" font-weight="bold">→ 球が右へ</text>
-    <text x="140" y="448" text-anchor="middle" font-size="11" fill="#a93226">スライス・プッシュ</text>
-    <text x="140" y="468" text-anchor="middle" font-size="10" fill="#a93226">フェースが開いたまま当たる</text>
+  <!-- ============= Panel 1: Open ============= -->
+  <g transform="matrix(-1,0,0,1,280,0)">
+    <line x1="35" y1="345" x2="245" y2="345" stroke="#aaa" stroke-width="1"/>
+    <line x1="105" y1="78" x2="65" y2="48" stroke="#5F5E5A" stroke-width="3"/>
+    <rect x="60" y="28" width="6" height="36" fill="#888" stroke="#222" stroke-width="1.5"/>
+    <line x1="59" y1="28" x2="59" y2="64" stroke="#c0392b" stroke-width="3"/>
+    <line x1="110" y1="80" x2="70" y2="50" stroke="#aaa" stroke-width="1" stroke-dasharray="3,3"/>
+    <path d="M 110 175 Q 70 130 105 80" stroke="#666" stroke-width="11" stroke-linecap="round" fill="none" opacity="0.85"/>
+    <path d="M 110 175 Q 70 130 105 80" stroke="#f5cba7" stroke-width="7" stroke-linecap="round" fill="none" opacity="0.92"/>
+    <line x1="172" y1="178" x2="180" y2="130" stroke="#444" stroke-width="14" stroke-linecap="round"/>
+    <line x1="172" y1="178" x2="180" y2="130" stroke="#f5cba7" stroke-width="10" stroke-linecap="round"/>
+    <line x1="180" y1="130" x2="110" y2="80" stroke="#444" stroke-width="14" stroke-linecap="round"/>
+    <line x1="180" y1="130" x2="110" y2="80" stroke="#f5cba7" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="180" cy="130" r="5" fill="#e8d4b9" stroke="#333" stroke-width="1"/>
+    <circle cx="108" cy="80" r="9" fill="#f5cba7" stroke="#555" stroke-width="1.5"/>
+    <path d="M 108 192 Q 102 240 112 268 L 168 268 Q 178 240 172 192 Q 170 178 158 172 Q 138 168 122 172 Q 110 178 108 192 Z" fill="#bdc3c7" stroke="#555" stroke-width="1.5"/>
+    <line x1="140" y1="178" x2="140" y2="265" stroke="#888" stroke-width="1" stroke-dasharray="3,2"/>
+    <rect x="110" y="263" width="60" height="10" fill="#7f8c8d" stroke="#444" rx="2"/>
+    <rect x="113" y="269" width="14" height="76" fill="#d6dbdf" stroke="#888" rx="2"/>
+    <rect x="153" y="269" width="14" height="76" fill="#d6dbdf" stroke="#888" rx="2"/>
+    <ellipse cx="120" cy="345" rx="17" ry="5" fill="#999" stroke="#666"/>
+    <ellipse cx="160" cy="345" rx="17" ry="5" fill="#999" stroke="#666"/>
+    <circle cx="140" cy="148" r="20" fill="#3a2718" stroke="#1f1408" stroke-width="2"/>
+    <path d="M 122 158 Q 140 174 158 158" stroke="#1f1408" stroke-width="1" fill="none"/>
+    <path d="M 128 138 Q 140 132 152 138" stroke="#5a3a22" stroke-width="1.2" fill="none" opacity="0.8"/>
+    <ellipse cx="140" cy="170" rx="9" ry="3" fill="#2a1a0e" opacity="0.6"/>
   </g>
 
-  <!-- ========================================================== -->
-  <!-- Panel 2: Square (GOOD)                                     -->
-  <!-- ========================================================== -->
-  <g>
-    <rect x="280" y="70" width="240" height="28" fill="#1e8449" rx="4"/>
-    <text x="400" y="89" text-anchor="middle" font-size="14" fill="#fff" font-weight="bold">②スクエア（◎）</text>
+  <text x="132" y="100" text-anchor="end" font-size="11" fill="#c0392b" font-weight="bold">左前腕</text>
+  <text x="140" y="153" text-anchor="middle" font-size="13" fill="#fff" font-weight="bold">頭</text>
 
-    <line x1="295" y1="335" x2="505" y2="335" stroke="#aaa" stroke-width="1"/>
+  <rect x="20" y="355" width="240" height="28" fill="#c0392b" rx="4"/>
+  <text x="140" y="374" text-anchor="middle" font-size="14" fill="#fff" font-weight="bold">①開いている（×）</text>
 
-    <!-- Feet -->
-    <ellipse cx="378" cy="335" rx="17" ry="5" fill="#999" stroke="#666"/>
-    <ellipse cx="420" cy="335" rx="17" ry="5" fill="#999" stroke="#666"/>
+  <rect x="30" y="395" width="220" height="110" fill="#fef5f4" stroke="#c0392b" stroke-width="1.5" rx="4"/>
+  <text x="140" y="416" text-anchor="middle" font-size="12" fill="#c0392b" font-weight="bold">前腕より「立って」いる</text>
+  <text x="140" y="445" text-anchor="middle" font-size="14" fill="#a93226" font-weight="bold">→ 球が右へ</text>
+  <text x="140" y="468" text-anchor="middle" font-size="11" fill="#a93226">スライス・プッシュ</text>
+  <text x="140" y="488" text-anchor="middle" font-size="10" fill="#a93226">フェースが開いたまま当たる</text>
 
-    <!-- Legs -->
-    <rect x="371" y="252" width="14" height="83" fill="#d6dbdf" stroke="#888" rx="2"/>
-    <rect x="413" y="252" width="14" height="83" fill="#d6dbdf" stroke="#888" rx="2"/>
-
-    <!-- Hips -->
-    <rect x="368" y="246" width="62" height="10" fill="#7f8c8d" stroke="#444" rx="2"/>
-
-    <!-- Torso -->
-    <path d="M 365 175 Q 360 220 368 250 L 430 250 Q 438 220 433 175 Q 430 162 418 156 Q 398 152 380 156 Q 368 162 365 175 Z" fill="#bdc3c7" stroke="#555" stroke-width="1.5"/>
-
-    <!-- Spine -->
-    <line x1="402" y1="160" x2="395" y2="250" stroke="#566573" stroke-width="1.5" stroke-dasharray="3,3"/>
-
-    <!-- Head -->
-    <circle cx="398" cy="138" r="15" fill="#f5cba7" stroke="#333" stroke-width="1.5"/>
-    <path d="M 384 132 Q 398 121 412 132 Q 412 124 398 121 Q 384 124 384 132 Z" fill="#34495e"/>
-
-    <!-- Lead arm -->
-    <path d="M 368 180 Q 405 130 448 90" stroke="#333" stroke-width="14" stroke-linecap="round" fill="none"/>
-    <path d="M 368 180 Q 405 130 448 90" stroke="#f5cba7" stroke-width="10" stroke-linecap="round" fill="none"/>
-    <text x="315" y="200" font-size="10" fill="#1e8449" font-weight="bold">左前腕</text>
-
-    <!-- Trail arm -->
-    <path d="M 428 175 Q 465 135 452 92" stroke="#333" stroke-width="11" stroke-linecap="round" fill="none"/>
-    <path d="M 428 175 Q 465 135 452 92" stroke="#f5cba7" stroke-width="7" stroke-linecap="round" fill="none"/>
-
-    <!-- Hands -->
-    <circle cx="450" cy="90" r="9" fill="#f5cba7" stroke="#333" stroke-width="1.5"/>
-
-    <!-- Club shaft -->
-    <line x1="455" y1="85" x2="507" y2="40" stroke="#5F5E5A" stroke-width="3.5"/>
-
-    <!-- Clubhead - face PARALLEL to lead forearm direction (square) -->
-    <!-- Lead forearm goes from approx (450, 90) backward to (368, 180), angle ~48° from horizontal -->
-    <!-- Club shaft continues in similar direction -->
-    <!-- Square leading edge is parallel to that angle -->
-    <g transform="rotate(-48 506 41)">
-      <rect x="490" y="38" width="36" height="6" fill="#27ae60" stroke="#0e6251" stroke-width="1.5"/>
-      <line x1="490" y1="36" x2="526" y2="36" stroke="#0e6251" stroke-width="3"/>
+  <!-- ============= Panel 2: Square ============= -->
+  <g transform="matrix(-1,0,0,1,800,0)">
+    <line x1="295" y1="345" x2="505" y2="345" stroke="#aaa" stroke-width="1"/>
+    <line x1="365" y1="78" x2="335" y2="50" stroke="#5F5E5A" stroke-width="3"/>
+    <g transform="rotate(35.5 332 47)">
+      <rect x="316" y="44" width="36" height="6" fill="#27ae60" stroke="#0e6251" stroke-width="1.5"/>
+      <line x1="316" y1="42" x2="352" y2="42" stroke="#0e6251" stroke-width="3"/>
     </g>
-
-    <!-- Annotation -->
-    <text x="445" y="32" font-size="10" fill="#1e8449" font-weight="bold">前腕と</text>
-    <text x="445" y="44" font-size="10" fill="#1e8449" font-weight="bold">完全に平行</text>
-
-    <!-- Forearm extension reference - shows parallel relationship -->
-    <line x1="450" y1="90" x2="510" y2="30" stroke="#27ae60" stroke-width="1.5" stroke-dasharray="4,3"/>
-
-    <text x="400" y="357" text-anchor="middle" font-size="10" fill="#3498db" font-weight="bold">背中＝ターゲット側 ／ 体は右へ捻転</text>
-
-    <!-- Result box -->
-    <rect x="290" y="368" width="220" height="115" fill="#eafaf1" stroke="#1e8449" stroke-width="1.5" rx="4"/>
-    <text x="400" y="392" text-anchor="middle" font-size="12" fill="#1e8449" font-weight="bold">前腕と「平行」</text>
-    <text x="400" y="423" text-anchor="middle" font-size="14" fill="#0e6251" font-weight="bold">→ 球が真っすぐ</text>
-    <text x="400" y="448" text-anchor="middle" font-size="11" fill="#0e6251">理想の形</text>
-    <text x="400" y="468" text-anchor="middle" font-size="10" fill="#0e6251">そのままインパクトでスクエア</text>
+    <line x1="370" y1="80" x2="335" y2="48" stroke="#27ae60" stroke-width="1.5" stroke-dasharray="4,3"/>
+    <path d="M 370 175 Q 330 130 365 80" stroke="#666" stroke-width="11" stroke-linecap="round" fill="none" opacity="0.85"/>
+    <path d="M 370 175 Q 330 130 365 80" stroke="#f5cba7" stroke-width="7" stroke-linecap="round" fill="none" opacity="0.92"/>
+    <line x1="432" y1="178" x2="440" y2="130" stroke="#444" stroke-width="14" stroke-linecap="round"/>
+    <line x1="432" y1="178" x2="440" y2="130" stroke="#f5cba7" stroke-width="10" stroke-linecap="round"/>
+    <line x1="440" y1="130" x2="370" y2="80" stroke="#444" stroke-width="14" stroke-linecap="round"/>
+    <line x1="440" y1="130" x2="370" y2="80" stroke="#f5cba7" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="440" cy="130" r="5" fill="#e8d4b9" stroke="#333" stroke-width="1"/>
+    <circle cx="368" cy="80" r="9" fill="#f5cba7" stroke="#555" stroke-width="1.5"/>
+    <path d="M 368 192 Q 362 240 372 268 L 428 268 Q 438 240 432 192 Q 430 178 418 172 Q 398 168 382 172 Q 370 178 368 192 Z" fill="#bdc3c7" stroke="#555" stroke-width="1.5"/>
+    <line x1="400" y1="178" x2="400" y2="265" stroke="#888" stroke-width="1" stroke-dasharray="3,2"/>
+    <rect x="370" y="263" width="60" height="10" fill="#7f8c8d" stroke="#444" rx="2"/>
+    <rect x="373" y="269" width="14" height="76" fill="#d6dbdf" stroke="#888" rx="2"/>
+    <rect x="413" y="269" width="14" height="76" fill="#d6dbdf" stroke="#888" rx="2"/>
+    <ellipse cx="380" cy="345" rx="17" ry="5" fill="#999" stroke="#666"/>
+    <ellipse cx="420" cy="345" rx="17" ry="5" fill="#999" stroke="#666"/>
+    <circle cx="400" cy="148" r="20" fill="#3a2718" stroke="#1f1408" stroke-width="2"/>
+    <path d="M 382 158 Q 400 174 418 158" stroke="#1f1408" stroke-width="1" fill="none"/>
+    <path d="M 388 138 Q 400 132 412 138" stroke="#5a3a22" stroke-width="1.2" fill="none" opacity="0.8"/>
+    <ellipse cx="400" cy="170" rx="9" ry="3" fill="#2a1a0e" opacity="0.6"/>
   </g>
 
-  <!-- ========================================================== -->
-  <!-- Panel 3: Closed                                            -->
-  <!-- ========================================================== -->
-  <g>
-    <rect x="540" y="70" width="240" height="28" fill="#d68910" rx="4"/>
-    <text x="660" y="89" text-anchor="middle" font-size="14" fill="#fff" font-weight="bold">③閉じている（×）</text>
+  <text x="392" y="100" text-anchor="end" font-size="11" fill="#1e8449" font-weight="bold">左前腕</text>
+  <text x="400" y="153" text-anchor="middle" font-size="13" fill="#fff" font-weight="bold">頭</text>
 
-    <line x1="555" y1="335" x2="765" y2="335" stroke="#aaa" stroke-width="1"/>
+  <rect x="280" y="355" width="240" height="28" fill="#1e8449" rx="4"/>
+  <text x="400" y="374" text-anchor="middle" font-size="14" fill="#fff" font-weight="bold">②スクエア（◎）</text>
 
-    <!-- Feet -->
-    <ellipse cx="638" cy="335" rx="17" ry="5" fill="#999" stroke="#666"/>
-    <ellipse cx="680" cy="335" rx="17" ry="5" fill="#999" stroke="#666"/>
+  <rect x="290" y="395" width="220" height="110" fill="#eafaf1" stroke="#1e8449" stroke-width="1.5" rx="4"/>
+  <text x="400" y="416" text-anchor="middle" font-size="12" fill="#1e8449" font-weight="bold">前腕と「平行」</text>
+  <text x="400" y="445" text-anchor="middle" font-size="14" fill="#0e6251" font-weight="bold">→ 球が真っすぐ</text>
+  <text x="400" y="468" text-anchor="middle" font-size="11" fill="#0e6251">理想の形</text>
+  <text x="400" y="488" text-anchor="middle" font-size="10" fill="#0e6251">そのままインパクトでスクエア</text>
 
-    <!-- Legs -->
-    <rect x="631" y="252" width="14" height="83" fill="#d6dbdf" stroke="#888" rx="2"/>
-    <rect x="673" y="252" width="14" height="83" fill="#d6dbdf" stroke="#888" rx="2"/>
-
-    <!-- Hips -->
-    <rect x="628" y="246" width="62" height="10" fill="#7f8c8d" stroke="#444" rx="2"/>
-
-    <!-- Torso -->
-    <path d="M 625 175 Q 620 220 628 250 L 690 250 Q 698 220 693 175 Q 690 162 678 156 Q 658 152 640 156 Q 628 162 625 175 Z" fill="#bdc3c7" stroke="#555" stroke-width="1.5"/>
-
-    <!-- Spine -->
-    <line x1="662" y1="160" x2="655" y2="250" stroke="#566573" stroke-width="1.5" stroke-dasharray="3,3"/>
-
-    <!-- Head -->
-    <circle cx="658" cy="138" r="15" fill="#f5cba7" stroke="#333" stroke-width="1.5"/>
-    <path d="M 644 132 Q 658 121 672 132 Q 672 124 658 121 Q 644 124 644 132 Z" fill="#34495e"/>
-
-    <!-- Lead arm -->
-    <path d="M 628 180 Q 665 130 708 90" stroke="#333" stroke-width="14" stroke-linecap="round" fill="none"/>
-    <path d="M 628 180 Q 665 130 708 90" stroke="#f5cba7" stroke-width="10" stroke-linecap="round" fill="none"/>
-    <text x="575" y="200" font-size="10" fill="#d68910" font-weight="bold">左前腕</text>
-
-    <!-- Trail arm -->
-    <path d="M 688 175 Q 725 135 712 92" stroke="#333" stroke-width="11" stroke-linecap="round" fill="none"/>
-    <path d="M 688 175 Q 725 135 712 92" stroke="#f5cba7" stroke-width="7" stroke-linecap="round" fill="none"/>
-
-    <!-- Hands -->
-    <circle cx="710" cy="90" r="9" fill="#f5cba7" stroke="#333" stroke-width="1.5"/>
-
-    <!-- Club shaft -->
-    <line x1="715" y1="85" x2="765" y2="40" stroke="#5F5E5A" stroke-width="3.5"/>
-
-    <!-- Clubhead - face HORIZONTAL (closed: leading edge horizontal) -->
-    <rect x="747" y="32" width="36" height="6" fill="#888" stroke="#222" stroke-width="1.5"/>
-    <line x1="747" y1="30" x2="783" y2="30" stroke="#d68910" stroke-width="3"/>
-
-    <!-- Annotation -->
-    <text x="700" y="22" font-size="10" fill="#d68910" font-weight="bold">エッジが</text>
-    <text x="700" y="34" font-size="10" fill="#d68910" font-weight="bold">水平</text>
-
-    <!-- Forearm extension reference -->
-    <line x1="710" y1="90" x2="755" y2="50" stroke="#aaa" stroke-width="1" stroke-dasharray="3,3"/>
-
-    <text x="660" y="357" text-anchor="middle" font-size="10" fill="#3498db" font-weight="bold">背中＝ターゲット側 ／ 体は右へ捻転</text>
-
-    <!-- Result box -->
-    <rect x="550" y="368" width="220" height="115" fill="#fdebd0" stroke="#d68910" stroke-width="1.5" rx="4"/>
-    <text x="660" y="392" text-anchor="middle" font-size="12" fill="#d68910" font-weight="bold">前腕より「寝て」いる</text>
-    <text x="660" y="423" text-anchor="middle" font-size="14" fill="#9c640c" font-weight="bold">→ 球が左へ</text>
-    <text x="660" y="448" text-anchor="middle" font-size="11" fill="#9c640c">フック・プル</text>
-    <text x="660" y="468" text-anchor="middle" font-size="10" fill="#9c640c">フェースが被ったまま当たる</text>
+  <!-- ============= Panel 3: Closed ============= -->
+  <g transform="matrix(-1,0,0,1,1320,0)">
+    <line x1="555" y1="345" x2="765" y2="345" stroke="#aaa" stroke-width="1"/>
+    <line x1="625" y1="78" x2="600" y2="50" stroke="#5F5E5A" stroke-width="3"/>
+    <rect x="582" y="46" width="36" height="6" fill="#888" stroke="#222" stroke-width="1.5"/>
+    <line x1="582" y1="44" x2="618" y2="44" stroke="#d68910" stroke-width="3"/>
+    <line x1="630" y1="80" x2="600" y2="55" stroke="#aaa" stroke-width="1" stroke-dasharray="3,3"/>
+    <path d="M 630 175 Q 590 130 625 80" stroke="#666" stroke-width="11" stroke-linecap="round" fill="none" opacity="0.85"/>
+    <path d="M 630 175 Q 590 130 625 80" stroke="#f5cba7" stroke-width="7" stroke-linecap="round" fill="none" opacity="0.92"/>
+    <line x1="692" y1="178" x2="700" y2="130" stroke="#444" stroke-width="14" stroke-linecap="round"/>
+    <line x1="692" y1="178" x2="700" y2="130" stroke="#f5cba7" stroke-width="10" stroke-linecap="round"/>
+    <line x1="700" y1="130" x2="630" y2="80" stroke="#444" stroke-width="14" stroke-linecap="round"/>
+    <line x1="700" y1="130" x2="630" y2="80" stroke="#f5cba7" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="700" cy="130" r="5" fill="#e8d4b9" stroke="#333" stroke-width="1"/>
+    <circle cx="628" cy="80" r="9" fill="#f5cba7" stroke="#555" stroke-width="1.5"/>
+    <path d="M 628 192 Q 622 240 632 268 L 688 268 Q 698 240 692 192 Q 690 178 678 172 Q 658 168 642 172 Q 630 178 628 192 Z" fill="#bdc3c7" stroke="#555" stroke-width="1.5"/>
+    <line x1="660" y1="178" x2="660" y2="265" stroke="#888" stroke-width="1" stroke-dasharray="3,2"/>
+    <rect x="630" y="263" width="60" height="10" fill="#7f8c8d" stroke="#444" rx="2"/>
+    <rect x="633" y="269" width="14" height="76" fill="#d6dbdf" stroke="#888" rx="2"/>
+    <rect x="673" y="269" width="14" height="76" fill="#d6dbdf" stroke="#888" rx="2"/>
+    <ellipse cx="640" cy="345" rx="17" ry="5" fill="#999" stroke="#666"/>
+    <ellipse cx="680" cy="345" rx="17" ry="5" fill="#999" stroke="#666"/>
+    <circle cx="660" cy="148" r="20" fill="#3a2718" stroke="#1f1408" stroke-width="2"/>
+    <path d="M 642 158 Q 660 174 678 158" stroke="#1f1408" stroke-width="1" fill="none"/>
+    <path d="M 648 138 Q 660 132 672 138" stroke="#5a3a22" stroke-width="1.2" fill="none" opacity="0.8"/>
+    <ellipse cx="660" cy="170" rx="9" ry="3" fill="#2a1a0e" opacity="0.6"/>
   </g>
 
-  <!-- Bottom hint -->
-  <text x="390" y="503" text-anchor="middle" font-size="11" fill="#444" font-weight="bold">→ 鏡 or スマホで真後ろからスロー動画を撮ると一発でわかる</text>
+  <text x="652" y="100" text-anchor="end" font-size="11" fill="#d68910" font-weight="bold">左前腕</text>
+  <text x="660" y="153" text-anchor="middle" font-size="13" fill="#fff" font-weight="bold">頭</text>
+
+  <rect x="540" y="355" width="240" height="28" fill="#d68910" rx="4"/>
+  <text x="660" y="374" text-anchor="middle" font-size="14" fill="#fff" font-weight="bold">③閉じている（×）</text>
+
+  <rect x="550" y="395" width="220" height="110" fill="#fdebd0" stroke="#d68910" stroke-width="1.5" rx="4"/>
+  <text x="660" y="416" text-anchor="middle" font-size="12" fill="#d68910" font-weight="bold">前腕より「寝て」いる</text>
+  <text x="660" y="445" text-anchor="middle" font-size="14" fill="#9c640c" font-weight="bold">→ 球が左へ</text>
+  <text x="660" y="468" text-anchor="middle" font-size="11" fill="#9c640c">フック・プル</text>
+  <text x="660" y="488" text-anchor="middle" font-size="10" fill="#9c640c">フェースが被ったまま当たる</text>
+
+  <text x="390" y="525" text-anchor="middle" font-size="11" fill="#444" font-weight="bold">→ 鏡 or スマホで真後ろからスロー動画を撮ると一発でわかる</text>
 </svg>
