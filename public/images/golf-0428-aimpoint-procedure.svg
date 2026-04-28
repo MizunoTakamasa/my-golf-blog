@@ -1,0 +1,184 @@
+<svg viewBox="0 0 820 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="apArrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#c0392b"/>
+    </marker>
+    <marker id="apArrowB" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#3498db"/>
+    </marker>
+  </defs>
+
+  <text x="410" y="28" text-anchor="middle" font-size="20" font-weight="bold" fill="#222">エームポイント・エクスプレス｜基本の4ステップ</text>
+  <text x="410" y="50" text-anchor="middle" font-size="13" fill="#555">ラインの読みポイントに行く → 足で感じる → 指を立てる → 指先を狙う</text>
+
+  <!-- Vertical dividers -->
+  <line x1="205" y1="68" x2="205" y2="475" stroke="#e0e0e0" stroke-width="1"/>
+  <line x1="410" y1="68" x2="410" y2="475" stroke="#e0e0e0" stroke-width="1"/>
+  <line x1="615" y1="68" x2="615" y2="475" stroke="#e0e0e0" stroke-width="1"/>
+
+  <!-- =================== Panel 1: STRADDLE =================== -->
+  <g>
+    <rect x="15" y="75" width="180" height="28" fill="#27ae60" rx="4"/>
+    <text x="105" y="94" text-anchor="middle" font-size="14" fill="#fff" font-weight="bold">①ラインをまたぐ</text>
+
+    <!-- Top-down view of green: ball → cup, feet straddle -->
+    <!-- Green grass background -->
+    <rect x="20" y="115" width="170" height="240" fill="#dff5e0" stroke="#a8d5b0" stroke-width="1.5" rx="6"/>
+
+    <!-- Cup (top) -->
+    <circle cx="105" cy="145" r="10" fill="#1f1408" stroke="#000" stroke-width="1.5"/>
+    <text x="105" y="135" text-anchor="middle" font-size="9" fill="#444" font-weight="bold">カップ</text>
+
+    <!-- Putt line (dashed) -->
+    <line x1="105" y1="155" x2="105" y2="320" stroke="#3498db" stroke-width="2" stroke-dasharray="4,3"/>
+
+    <!-- Ball -->
+    <circle cx="105" cy="328" r="6" fill="#fff" stroke="#888" stroke-width="1.5"/>
+    <text x="105" y="350" text-anchor="middle" font-size="9" fill="#444" font-weight="bold">ボール</text>
+
+    <!-- Two feet straddling the line at the read point (apex) -->
+    <ellipse cx="80" cy="240" rx="14" ry="22" fill="#e74c3c" stroke="#a93226" stroke-width="1.5"/>
+    <ellipse cx="130" cy="240" rx="14" ry="22" fill="#e74c3c" stroke="#a93226" stroke-width="1.5"/>
+    <text x="80" y="244" text-anchor="middle" font-size="8" fill="#fff" font-weight="bold">左足</text>
+    <text x="130" y="244" text-anchor="middle" font-size="8" fill="#fff" font-weight="bold">右足</text>
+
+    <!-- Bottom hint -->
+    <rect x="20" y="370" width="170" height="95" fill="#eafaf1" stroke="#1e8449" stroke-width="1.2" rx="4"/>
+    <text x="105" y="390" text-anchor="middle" font-size="11" fill="#1e8449" font-weight="bold">読むポイントへ歩く</text>
+    <text x="105" y="410" text-anchor="middle" font-size="10" fill="#0e6251">（多くは曲がりの頂点）</text>
+    <text x="105" y="432" text-anchor="middle" font-size="10" fill="#0e6251">ラインを足の真ん中に</text>
+    <text x="105" y="452" text-anchor="middle" font-size="10" fill="#0e6251">両足を肩幅に開く</text>
+  </g>
+
+  <!-- =================== Panel 2: FEEL =================== -->
+  <g>
+    <rect x="220" y="75" width="180" height="28" fill="#27ae60" rx="4"/>
+    <text x="310" y="94" text-anchor="middle" font-size="14" fill="#fff" font-weight="bold">②足で傾斜を感じる</text>
+
+    <!-- Green slope (side view) -->
+    <rect x="225" y="115" width="170" height="240" fill="#dff5e0" stroke="#a8d5b0" stroke-width="1.5" rx="6"/>
+
+    <!-- Sloped ground (side view) -->
+    <line x1="240" y1="320" x2="380" y2="270" stroke="#7d6f4d" stroke-width="3"/>
+    <text x="245" y="338" font-size="9" fill="#888">低い</text>
+    <text x="365" y="262" font-size="9" fill="#888">高い</text>
+
+    <!-- Stick figure standing across slope -->
+    <!-- Head -->
+    <circle cx="310" cy="170" r="14" fill="#fff" stroke="#333" stroke-width="2"/>
+    <!-- Body -->
+    <path d="M 300 184 Q 296 220 304 248 L 316 248 Q 324 220 320 184 Z" fill="#f0f0f0" stroke="#333" stroke-width="1.5"/>
+    <!-- Arms folded/relaxed -->
+    <line x1="298" y1="200" x2="285" y2="235" stroke="#333" stroke-width="3" stroke-linecap="round"/>
+    <line x1="322" y1="200" x2="335" y2="235" stroke="#333" stroke-width="3" stroke-linecap="round"/>
+    <!-- Left leg (lower side, viewer's left) - HIGHLIGHT lower foot -->
+    <line x1="304" y1="248" x2="280" y2="313" stroke="#c0392b" stroke-width="6" stroke-linecap="round"/>
+    <ellipse cx="278" cy="316" rx="14" ry="4" fill="#e74c3c" stroke="#a93226" stroke-width="2"/>
+    <text x="278" y="319" text-anchor="middle" font-size="8" fill="#fff" font-weight="bold">↓低</text>
+    <!-- Right leg (higher side) -->
+    <line x1="316" y1="248" x2="345" y2="287" stroke="#666" stroke-width="6" stroke-linecap="round"/>
+    <ellipse cx="347" cy="290" rx="13" ry="4" fill="#bbb" stroke="#888"/>
+
+    <!-- Slope indicator arrow -->
+    <line x1="385" y1="165" x2="385" y2="265" stroke="#c0392b" stroke-width="2" marker-end="url(#apArrow)"/>
+    <text x="403" y="220" text-anchor="middle" font-size="10" fill="#c0392b" font-weight="bold">傾斜</text>
+    <text x="403" y="234" text-anchor="middle" font-size="10" fill="#c0392b" font-weight="bold">の</text>
+    <text x="403" y="248" text-anchor="middle" font-size="10" fill="#c0392b" font-weight="bold">強さ</text>
+
+    <rect x="225" y="370" width="170" height="95" fill="#eafaf1" stroke="#1e8449" stroke-width="1.2" rx="4"/>
+    <text x="310" y="390" text-anchor="middle" font-size="11" fill="#1e8449" font-weight="bold">どちらが低いか</text>
+    <text x="310" y="410" text-anchor="middle" font-size="10" fill="#0e6251">どれくらい低いか</text>
+    <text x="310" y="432" text-anchor="middle" font-size="10" fill="#0e6251">→ 1〜5の数字で判定</text>
+    <text x="310" y="452" text-anchor="middle" font-size="10" fill="#0e6251">（次の図の対応表）</text>
+  </g>
+
+  <!-- =================== Panel 3: POINT (fingers) =================== -->
+  <g>
+    <rect x="425" y="75" width="180" height="28" fill="#27ae60" rx="4"/>
+    <text x="515" y="94" text-anchor="middle" font-size="14" fill="#fff" font-weight="bold">③指を立てる</text>
+
+    <rect x="430" y="115" width="170" height="240" fill="#dff5e0" stroke="#a8d5b0" stroke-width="1.5" rx="6"/>
+
+    <!-- Person facing cup (away from viewer) - back view -->
+    <!-- Back of head -->
+    <circle cx="510" cy="200" r="16" fill="#3a2718" stroke="#1f1408" stroke-width="2"/>
+    <!-- Body -->
+    <path d="M 498 216 Q 492 260 504 295 L 516 295 Q 528 260 522 216 Z" fill="#bdc3c7" stroke="#555" stroke-width="1.5"/>
+    <!-- Arm extended forward (toward cup, into the figure plane) - shown going up to hand at top -->
+    <line x1="510" y1="225" x2="510" y2="155" stroke="#444" stroke-width="13" stroke-linecap="round"/>
+    <line x1="510" y1="225" x2="510" y2="155" stroke="#f5cba7" stroke-width="9" stroke-linecap="round"/>
+
+    <!-- Hand with 3 fingers up (example) -->
+    <!-- Palm -->
+    <ellipse cx="510" cy="148" rx="10" ry="9" fill="#f5cba7" stroke="#555" stroke-width="1.5"/>
+    <!-- Three fingers extended -->
+    <rect x="497" y="120" width="5" height="22" rx="2" fill="#f5cba7" stroke="#555" stroke-width="1"/>
+    <rect x="507" y="115" width="5" height="27" rx="2" fill="#f5cba7" stroke="#555" stroke-width="1"/>
+    <rect x="517" y="120" width="5" height="22" rx="2" fill="#f5cba7" stroke="#555" stroke-width="1"/>
+    <!-- Folded fingers -->
+    <ellipse cx="492" cy="145" rx="3" ry="4" fill="#e8b88a" stroke="#555" stroke-width="0.8"/>
+    <ellipse cx="528" cy="145" rx="3" ry="4" fill="#e8b88a" stroke="#555" stroke-width="0.8"/>
+
+    <!-- Legs -->
+    <rect x="500" y="293" width="8" height="50" fill="#aaa" stroke="#888" rx="2"/>
+    <rect x="512" y="293" width="8" height="50" fill="#aaa" stroke="#888" rx="2"/>
+    <ellipse cx="504" cy="345" rx="11" ry="3" fill="#bbb" stroke="#888"/>
+    <ellipse cx="516" cy="345" rx="11" ry="3" fill="#bbb" stroke="#888"/>
+
+    <!-- Number indicator -->
+    <text x="555" y="135" font-size="22" fill="#c0392b" font-weight="bold">3本</text>
+    <text x="565" y="155" font-size="10" fill="#c0392b" font-weight="bold">（例）</text>
+
+    <!-- Small slope number scale hint -->
+    <text x="455" y="135" font-size="10" fill="#555">傾斜=3</text>
+    <text x="455" y="148" font-size="10" fill="#555">→指3本</text>
+
+    <rect x="430" y="370" width="170" height="95" fill="#eafaf1" stroke="#1e8449" stroke-width="1.2" rx="4"/>
+    <text x="515" y="390" text-anchor="middle" font-size="11" fill="#1e8449" font-weight="bold">腕をまっすぐ伸ばす</text>
+    <text x="515" y="410" text-anchor="middle" font-size="10" fill="#0e6251">傾斜の数だけ指を立てる</text>
+    <text x="515" y="432" text-anchor="middle" font-size="10" fill="#0e6251">指は「低い側」へ向ける</text>
+    <text x="515" y="452" text-anchor="middle" font-size="10" fill="#0e6251">片目で見るとブレない</text>
+  </g>
+
+  <!-- =================== Panel 4: AIM =================== -->
+  <g>
+    <rect x="630" y="75" width="180" height="28" fill="#27ae60" rx="4"/>
+    <text x="720" y="94" text-anchor="middle" font-size="14" fill="#fff" font-weight="bold">④指先を狙う</text>
+
+    <rect x="635" y="115" width="170" height="240" fill="#dff5e0" stroke="#a8d5b0" stroke-width="1.5" rx="6"/>
+
+    <!-- Top-down view: cup, ball, putt path curves, aim point -->
+    <!-- Cup -->
+    <circle cx="720" cy="150" r="10" fill="#1f1408" stroke="#000" stroke-width="1.5"/>
+    <text x="720" y="140" text-anchor="middle" font-size="9" fill="#444" font-weight="bold">カップ</text>
+
+    <!-- Aim point (offset to right of cup, as if slope falls left) -->
+    <circle cx="755" cy="155" r="5" fill="#e74c3c" stroke="#a93226" stroke-width="1.5"/>
+    <text x="755" y="142" text-anchor="middle" font-size="9" fill="#c0392b" font-weight="bold">狙い</text>
+
+    <!-- Straight aim line (from ball to aim point) -->
+    <line x1="700" y1="320" x2="755" y2="155" stroke="#c0392b" stroke-width="2" stroke-dasharray="4,3"/>
+
+    <!-- Curved actual ball path (from ball to cup, curves due to slope) -->
+    <path d="M 700 320 Q 745 240 720 160" stroke="#3498db" stroke-width="2" fill="none"/>
+    <text x="675" y="240" font-size="9" fill="#3498db" font-weight="bold">実際の</text>
+    <text x="675" y="253" font-size="9" fill="#3498db" font-weight="bold">転がり</text>
+
+    <!-- Ball -->
+    <circle cx="700" cy="328" r="6" fill="#fff" stroke="#888" stroke-width="1.5"/>
+    <text x="700" y="349" text-anchor="middle" font-size="9" fill="#444" font-weight="bold">ボール</text>
+
+    <!-- Distance offset indicator -->
+    <line x1="720" y1="170" x2="755" y2="170" stroke="#888" stroke-width="1" stroke-dasharray="2,2"/>
+    <text x="737" y="184" text-anchor="middle" font-size="9" fill="#666">指3本分</text>
+
+    <rect x="635" y="370" width="170" height="95" fill="#eafaf1" stroke="#1e8449" stroke-width="1.2" rx="4"/>
+    <text x="720" y="390" text-anchor="middle" font-size="11" fill="#1e8449" font-weight="bold">外側の指先 ＝ 狙い目</text>
+    <text x="720" y="410" text-anchor="middle" font-size="10" fill="#0e6251">カップを直接狙わない</text>
+    <text x="720" y="432" text-anchor="middle" font-size="10" fill="#0e6251">指先の延長線に打ち出す</text>
+    <text x="720" y="452" text-anchor="middle" font-size="10" fill="#0e6251">スピードは普通の強さで</text>
+  </g>
+
+  <!-- Bottom hint -->
+  <text x="410" y="492" text-anchor="middle" font-size="11" fill="#444" font-weight="bold">→ 「足で感じる → 指の本数 → 指先で狙う」が決まれば、毎回同じ手順でラインを読める</text>
+</svg>

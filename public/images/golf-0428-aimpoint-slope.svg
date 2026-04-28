@@ -1,0 +1,177 @@
+<svg viewBox="0 0 900 460" xmlns="http://www.w3.org/2000/svg">
+  <text x="450" y="28" text-anchor="middle" font-size="20" font-weight="bold" fill="#222">傾斜レベル 1〜5｜足で感じた強さ ＝ 立てる指の本数</text>
+  <text x="450" y="50" text-anchor="middle" font-size="13" fill="#555">数字が大きいほど傾斜が強い → 指の本数が増える → カップから離れた所を狙う</text>
+
+  <!-- 5 panels horizontally -->
+  <!-- Column centers: 110, 270, 430, 590, 750 -->
+  <line x1="190" y1="68" x2="190" y2="440" stroke="#e0e0e0" stroke-width="1"/>
+  <line x1="350" y1="68" x2="350" y2="440" stroke="#e0e0e0" stroke-width="1"/>
+  <line x1="510" y1="68" x2="510" y2="440" stroke="#e0e0e0" stroke-width="1"/>
+  <line x1="670" y1="68" x2="670" y2="440" stroke="#e0e0e0" stroke-width="1"/>
+  <line x1="830" y1="68" x2="830" y2="440" stroke="#e0e0e0" stroke-width="1"/>
+
+  <!-- ========================================================== -->
+  <!-- Helper: shared structure per panel                         -->
+  <!-- ========================================================== -->
+
+  <!-- ============== Level 1 (cx=110) ============== -->
+  <g>
+    <rect x="35" y="78" width="150" height="32" fill="#27ae60" rx="4"/>
+    <text x="110" y="100" text-anchor="middle" font-size="20" fill="#fff" font-weight="bold">レベル 1</text>
+
+    <!-- Slope side view -->
+    <g>
+      <rect x="35" y="120" width="150" height="80" fill="#dff5e0" stroke="#a8d5b0" stroke-width="1" rx="4"/>
+      <line x1="50" y1="180" x2="170" y2="172" stroke="#7d6f4d" stroke-width="3"/>
+      <text x="110" y="146" text-anchor="middle" font-size="10" fill="#666">ほぼ平ら</text>
+      <text x="110" y="160" text-anchor="middle" font-size="10" fill="#666">（〜0.5°）</text>
+    </g>
+
+    <!-- Hand with 1 finger -->
+    <g>
+      <rect x="35" y="208" width="150" height="115" fill="#fff8e8" stroke="#e6c97c" stroke-width="1" rx="4"/>
+      <!-- Palm -->
+      <ellipse cx="110" cy="295" rx="22" ry="14" fill="#f5cba7" stroke="#555" stroke-width="1.5"/>
+      <!-- 1 extended finger -->
+      <rect x="105" y="240" width="10" height="55" rx="3" fill="#f5cba7" stroke="#555" stroke-width="1.2"/>
+      <!-- folded fingers -->
+      <ellipse cx="90" cy="290" rx="5" ry="6" fill="#e8b88a" stroke="#555" stroke-width="0.8"/>
+      <ellipse cx="78" cy="293" rx="5" ry="6" fill="#e8b88a" stroke="#555" stroke-width="0.8"/>
+      <ellipse cx="130" cy="290" rx="5" ry="6" fill="#e8b88a" stroke="#555" stroke-width="0.8"/>
+      <text x="110" y="225" text-anchor="middle" font-size="13" fill="#c0392b" font-weight="bold">指 1本</text>
+    </g>
+
+    <!-- Description -->
+    <rect x="35" y="332" width="150" height="100" fill="#f5f9f6" stroke="#a8d5b0" stroke-width="1" rx="4"/>
+    <text x="110" y="352" text-anchor="middle" font-size="11" fill="#1e8449" font-weight="bold">超ゆるい</text>
+    <text x="110" y="372" text-anchor="middle" font-size="10" fill="#0e6251">ほぼ真っすぐ</text>
+    <text x="110" y="392" text-anchor="middle" font-size="10" fill="#0e6251">カップ端をかすめる</text>
+    <text x="110" y="412" text-anchor="middle" font-size="10" fill="#0e6251">くらいで OK</text>
+  </g>
+
+  <!-- ============== Level 2 (cx=270) ============== -->
+  <g>
+    <rect x="195" y="78" width="150" height="32" fill="#27ae60" rx="4"/>
+    <text x="270" y="100" text-anchor="middle" font-size="20" fill="#fff" font-weight="bold">レベル 2</text>
+
+    <g>
+      <rect x="195" y="120" width="150" height="80" fill="#dff5e0" stroke="#a8d5b0" stroke-width="1" rx="4"/>
+      <line x1="210" y1="186" x2="330" y2="160" stroke="#7d6f4d" stroke-width="3"/>
+      <text x="270" y="146" text-anchor="middle" font-size="10" fill="#666">ゆるい</text>
+      <text x="270" y="160" text-anchor="middle" font-size="10" fill="#666">（〜1°）</text>
+    </g>
+
+    <g>
+      <rect x="195" y="208" width="150" height="115" fill="#fff8e8" stroke="#e6c97c" stroke-width="1" rx="4"/>
+      <ellipse cx="270" cy="295" rx="22" ry="14" fill="#f5cba7" stroke="#555" stroke-width="1.5"/>
+      <!-- 2 extended fingers -->
+      <rect x="259" y="240" width="9" height="55" rx="3" fill="#f5cba7" stroke="#555" stroke-width="1.2"/>
+      <rect x="272" y="240" width="9" height="55" rx="3" fill="#f5cba7" stroke="#555" stroke-width="1.2"/>
+      <ellipse cx="248" cy="290" rx="5" ry="6" fill="#e8b88a" stroke="#555" stroke-width="0.8"/>
+      <ellipse cx="290" cy="290" rx="5" ry="6" fill="#e8b88a" stroke="#555" stroke-width="0.8"/>
+      <text x="270" y="225" text-anchor="middle" font-size="13" fill="#c0392b" font-weight="bold">指 2本</text>
+    </g>
+
+    <rect x="195" y="332" width="150" height="100" fill="#f5f9f6" stroke="#a8d5b0" stroke-width="1" rx="4"/>
+    <text x="270" y="352" text-anchor="middle" font-size="11" fill="#1e8449" font-weight="bold">ゆるい</text>
+    <text x="270" y="372" text-anchor="middle" font-size="10" fill="#0e6251">指2本分</text>
+    <text x="270" y="392" text-anchor="middle" font-size="10" fill="#0e6251">カップの外を</text>
+    <text x="270" y="412" text-anchor="middle" font-size="10" fill="#0e6251">少しだけ狙う</text>
+  </g>
+
+  <!-- ============== Level 3 (cx=430) ============== -->
+  <g>
+    <rect x="355" y="78" width="150" height="32" fill="#d68910" rx="4"/>
+    <text x="430" y="100" text-anchor="middle" font-size="20" fill="#fff" font-weight="bold">レベル 3</text>
+
+    <g>
+      <rect x="355" y="120" width="150" height="80" fill="#dff5e0" stroke="#a8d5b0" stroke-width="1" rx="4"/>
+      <line x1="370" y1="190" x2="490" y2="148" stroke="#7d6f4d" stroke-width="3"/>
+      <text x="430" y="146" text-anchor="middle" font-size="10" fill="#666">中くらい</text>
+      <text x="430" y="160" text-anchor="middle" font-size="10" fill="#666">（〜1.5°）</text>
+    </g>
+
+    <g>
+      <rect x="355" y="208" width="150" height="115" fill="#fff8e8" stroke="#e6c97c" stroke-width="1" rx="4"/>
+      <ellipse cx="430" cy="295" rx="22" ry="14" fill="#f5cba7" stroke="#555" stroke-width="1.5"/>
+      <!-- 3 fingers -->
+      <rect x="416" y="240" width="9" height="55" rx="3" fill="#f5cba7" stroke="#555" stroke-width="1.2"/>
+      <rect x="426" y="238" width="9" height="57" rx="3" fill="#f5cba7" stroke="#555" stroke-width="1.2"/>
+      <rect x="436" y="240" width="9" height="55" rx="3" fill="#f5cba7" stroke="#555" stroke-width="1.2"/>
+      <ellipse cx="408" cy="290" rx="5" ry="6" fill="#e8b88a" stroke="#555" stroke-width="0.8"/>
+      <ellipse cx="450" cy="290" rx="5" ry="6" fill="#e8b88a" stroke="#555" stroke-width="0.8"/>
+      <text x="430" y="225" text-anchor="middle" font-size="13" fill="#c0392b" font-weight="bold">指 3本</text>
+    </g>
+
+    <rect x="355" y="332" width="150" height="100" fill="#fdf5e7" stroke="#e6c97c" stroke-width="1" rx="4"/>
+    <text x="430" y="352" text-anchor="middle" font-size="11" fill="#d68910" font-weight="bold">そこそこ強い</text>
+    <text x="430" y="372" text-anchor="middle" font-size="10" fill="#9c640c">指3本分</text>
+    <text x="430" y="392" text-anchor="middle" font-size="10" fill="#9c640c">よくあるレベル</text>
+    <text x="430" y="412" text-anchor="middle" font-size="10" fill="#9c640c">基準にすると◎</text>
+  </g>
+
+  <!-- ============== Level 4 (cx=590) ============== -->
+  <g>
+    <rect x="515" y="78" width="150" height="32" fill="#d68910" rx="4"/>
+    <text x="590" y="100" text-anchor="middle" font-size="20" fill="#fff" font-weight="bold">レベル 4</text>
+
+    <g>
+      <rect x="515" y="120" width="150" height="80" fill="#dff5e0" stroke="#a8d5b0" stroke-width="1" rx="4"/>
+      <line x1="530" y1="195" x2="650" y2="138" stroke="#7d6f4d" stroke-width="3"/>
+      <text x="590" y="146" text-anchor="middle" font-size="10" fill="#666">強い</text>
+      <text x="590" y="160" text-anchor="middle" font-size="10" fill="#666">（〜2°）</text>
+    </g>
+
+    <g>
+      <rect x="515" y="208" width="150" height="115" fill="#fff8e8" stroke="#e6c97c" stroke-width="1" rx="4"/>
+      <ellipse cx="590" cy="295" rx="22" ry="14" fill="#f5cba7" stroke="#555" stroke-width="1.5"/>
+      <!-- 4 fingers -->
+      <rect x="572" y="240" width="8" height="55" rx="3" fill="#f5cba7" stroke="#555" stroke-width="1.2"/>
+      <rect x="582" y="238" width="8" height="57" rx="3" fill="#f5cba7" stroke="#555" stroke-width="1.2"/>
+      <rect x="592" y="238" width="8" height="57" rx="3" fill="#f5cba7" stroke="#555" stroke-width="1.2"/>
+      <rect x="602" y="240" width="8" height="55" rx="3" fill="#f5cba7" stroke="#555" stroke-width="1.2"/>
+      <ellipse cx="568" cy="290" rx="4" ry="5" fill="#e8b88a" stroke="#555" stroke-width="0.8"/>
+      <text x="590" y="225" text-anchor="middle" font-size="13" fill="#c0392b" font-weight="bold">指 4本</text>
+    </g>
+
+    <rect x="515" y="332" width="150" height="100" fill="#fdf5e7" stroke="#e6c97c" stroke-width="1" rx="4"/>
+    <text x="590" y="352" text-anchor="middle" font-size="11" fill="#d68910" font-weight="bold">かなり強い</text>
+    <text x="590" y="372" text-anchor="middle" font-size="10" fill="#9c640c">指4本分</text>
+    <text x="590" y="392" text-anchor="middle" font-size="10" fill="#9c640c">大きく曲がる</text>
+    <text x="590" y="412" text-anchor="middle" font-size="10" fill="#9c640c">強さの調整も必要</text>
+  </g>
+
+  <!-- ============== Level 5 (cx=750) ============== -->
+  <g>
+    <rect x="675" y="78" width="150" height="32" fill="#c0392b" rx="4"/>
+    <text x="750" y="100" text-anchor="middle" font-size="20" fill="#fff" font-weight="bold">レベル 5</text>
+
+    <g>
+      <rect x="675" y="120" width="150" height="80" fill="#dff5e0" stroke="#a8d5b0" stroke-width="1" rx="4"/>
+      <line x1="690" y1="200" x2="810" y2="125" stroke="#7d6f4d" stroke-width="3"/>
+      <text x="750" y="146" text-anchor="middle" font-size="10" fill="#666">超強い</text>
+      <text x="750" y="160" text-anchor="middle" font-size="10" fill="#666">（2.5°〜）</text>
+    </g>
+
+    <g>
+      <rect x="675" y="208" width="150" height="115" fill="#fff8e8" stroke="#e6c97c" stroke-width="1" rx="4"/>
+      <ellipse cx="750" cy="295" rx="24" ry="14" fill="#f5cba7" stroke="#555" stroke-width="1.5"/>
+      <!-- 5 fingers (incl. thumb) -->
+      <rect x="732" y="245" width="7" height="50" rx="3" fill="#f5cba7" stroke="#555" stroke-width="1.2"/>
+      <rect x="742" y="240" width="7" height="55" rx="3" fill="#f5cba7" stroke="#555" stroke-width="1.2"/>
+      <rect x="752" y="238" width="7" height="57" rx="3" fill="#f5cba7" stroke="#555" stroke-width="1.2"/>
+      <rect x="762" y="240" width="7" height="55" rx="3" fill="#f5cba7" stroke="#555" stroke-width="1.2"/>
+      <!-- thumb -->
+      <ellipse cx="722" cy="278" rx="6" ry="10" fill="#f5cba7" stroke="#555" stroke-width="1.2" transform="rotate(-25 722 278)"/>
+      <text x="750" y="225" text-anchor="middle" font-size="13" fill="#c0392b" font-weight="bold">指 5本</text>
+    </g>
+
+    <rect x="675" y="332" width="150" height="100" fill="#fef5f4" stroke="#c0392b" stroke-width="1" rx="4"/>
+    <text x="750" y="352" text-anchor="middle" font-size="11" fill="#c0392b" font-weight="bold">超強い</text>
+    <text x="750" y="372" text-anchor="middle" font-size="10" fill="#a93226">指5本分</text>
+    <text x="750" y="392" text-anchor="middle" font-size="10" fill="#a93226">滅多にないレベル</text>
+    <text x="750" y="412" text-anchor="middle" font-size="10" fill="#a93226">速度・ライン両方注意</text>
+  </g>
+
+  <text x="450" y="455" text-anchor="middle" font-size="11" fill="#444" font-weight="bold">→ 「ほぼ平ら=1」「明らかに片足が低い=3」「立ってるのがツラい=5」を基準にすると感覚がつかみやすい</text>
+</svg>
