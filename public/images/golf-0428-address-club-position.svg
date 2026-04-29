@@ -1,0 +1,191 @@
+<svg viewBox="0 0 820 540" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="cpArr" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#c0392b"/>
+    </marker>
+  </defs>
+
+  <text x="410" y="28" text-anchor="middle" font-size="20" font-weight="bold" fill="#222">クラブ別のアドレス｜スタンス幅とボール位置</text>
+  <text x="410" y="50" text-anchor="middle" font-size="13" fill="#555">クラブが短くなるほど、スタンスは狭く・ボールは中央へ</text>
+
+  <!-- ============ Top section: visual diagrams (4 clubs) ============ -->
+  <!-- Reference center line -->
+  <line x1="410" y1="78" x2="410" y2="370" stroke="#566573" stroke-width="1" stroke-dasharray="3,3" opacity="0.5"/>
+  <text x="410" y="76" text-anchor="middle" font-size="9" fill="#566573">スタンス中央</text>
+
+  <!-- Panel header bars -->
+  <rect x="20" y="85" width="190" height="25" fill="#1b4f72" rx="3"/>
+  <text x="115" y="103" text-anchor="middle" font-size="12" fill="#fff" font-weight="bold">①ドライバー</text>
+
+  <rect x="215" y="85" width="190" height="25" fill="#2874a6" rx="3"/>
+  <text x="310" y="103" text-anchor="middle" font-size="12" fill="#fff" font-weight="bold">②FW・UT</text>
+
+  <rect x="410" y="85" width="190" height="25" fill="#1e8449" rx="3"/>
+  <text x="505" y="103" text-anchor="middle" font-size="12" fill="#fff" font-weight="bold">③ミドルアイアン（7I）</text>
+
+  <rect x="605" y="85" width="195" height="25" fill="#d68910" rx="3"/>
+  <text x="702" y="103" text-anchor="middle" font-size="12" fill="#fff" font-weight="bold">④ウェッジ（PW・SW）</text>
+
+  <!-- ============ Diagrams: top-down view (feet, ball position) ============ -->
+  <!-- For each panel: show feet positions and ball location -->
+
+  <!-- Panel 1: Driver - widest stance, ball at left foot -->
+  <rect x="20" y="115" width="190" height="200" fill="#ebf5fb" stroke="#1b4f72" stroke-width="1" rx="3"/>
+
+  <!-- Target line (toward green) -->
+  <line x1="40" y1="130" x2="190" y2="130" stroke="#566573" stroke-width="1" stroke-dasharray="2,2"/>
+  <text x="115" y="125" text-anchor="middle" font-size="8" fill="#566573">目標方向 →</text>
+
+  <!-- Stance width line -->
+  <line x1="55" y1="200" x2="175" y2="200" stroke="#c0392b" stroke-width="1.5"/>
+
+  <!-- Left foot (toe pointing right) -->
+  <ellipse cx="65" cy="200" rx="14" ry="8" fill="#1b4f72"/>
+  <text x="65" y="222" text-anchor="middle" font-size="9" fill="#1b4f72">左足</text>
+
+  <!-- Right foot -->
+  <ellipse cx="165" cy="200" rx="14" ry="8" fill="#1b4f72"/>
+  <text x="165" y="222" text-anchor="middle" font-size="9" fill="#1b4f72">右足</text>
+
+  <!-- Ball position (at left heel for driver) -->
+  <circle cx="68" cy="180" r="6" fill="#fff" stroke="#1b4f72" stroke-width="1.5"/>
+  <line x1="68" y1="160" x2="68" y2="170" stroke="#c0392b" stroke-width="1"/>
+  <text x="68" y="155" text-anchor="middle" font-size="9" fill="#c0392b" font-weight="bold">左足かかと</text>
+
+  <!-- Stance width label -->
+  <text x="115" y="260" text-anchor="middle" font-size="11" fill="#1b4f72" font-weight="bold">広い</text>
+  <text x="115" y="275" text-anchor="middle" font-size="9" fill="#1b4f72">肩幅より少し広く</text>
+
+  <!-- Ball position label -->
+  <text x="115" y="298" text-anchor="middle" font-size="10" fill="#c0392b" font-weight="bold">ボール位置</text>
+  <text x="115" y="312" text-anchor="middle" font-size="9" fill="#c0392b">左足かかと内側</text>
+
+  <!-- Panel 2: FW - slightly narrower, ball ~3cm right of left foot -->
+  <rect x="215" y="115" width="190" height="200" fill="#d6eaf8" stroke="#2874a6" stroke-width="1" rx="3"/>
+
+  <line x1="235" y1="130" x2="385" y2="130" stroke="#566573" stroke-width="1" stroke-dasharray="2,2"/>
+  <text x="310" y="125" text-anchor="middle" font-size="8" fill="#566573">目標方向 →</text>
+
+  <line x1="255" y1="200" x2="365" y2="200" stroke="#c0392b" stroke-width="1.5"/>
+
+  <ellipse cx="265" cy="200" rx="13" ry="8" fill="#2874a6"/>
+  <text x="265" y="222" text-anchor="middle" font-size="9" fill="#2874a6">左足</text>
+
+  <ellipse cx="355" cy="200" rx="13" ry="8" fill="#2874a6"/>
+  <text x="355" y="222" text-anchor="middle" font-size="9" fill="#2874a6">右足</text>
+
+  <!-- Ball position (~1 ball inside from left heel) -->
+  <circle cx="285" cy="180" r="6" fill="#fff" stroke="#2874a6" stroke-width="1.5"/>
+  <line x1="285" y1="160" x2="285" y2="170" stroke="#c0392b" stroke-width="1"/>
+  <text x="285" y="155" text-anchor="middle" font-size="9" fill="#c0392b" font-weight="bold">左足の内側</text>
+
+  <text x="310" y="260" text-anchor="middle" font-size="11" fill="#2874a6" font-weight="bold">少し狭い</text>
+  <text x="310" y="275" text-anchor="middle" font-size="9" fill="#2874a6">肩幅</text>
+
+  <text x="310" y="298" text-anchor="middle" font-size="10" fill="#c0392b" font-weight="bold">ボール位置</text>
+  <text x="310" y="312" text-anchor="middle" font-size="9" fill="#c0392b">左足から1個内側</text>
+
+  <!-- Panel 3: 7I - shoulder width stance, ball center-left -->
+  <rect x="410" y="115" width="190" height="200" fill="#eafaf1" stroke="#1e8449" stroke-width="1" rx="3"/>
+
+  <line x1="430" y1="130" x2="580" y2="130" stroke="#566573" stroke-width="1" stroke-dasharray="2,2"/>
+  <text x="505" y="125" text-anchor="middle" font-size="8" fill="#566573">目標方向 →</text>
+
+  <line x1="455" y1="200" x2="555" y2="200" stroke="#c0392b" stroke-width="1.5"/>
+
+  <ellipse cx="465" cy="200" rx="12" ry="8" fill="#1e8449"/>
+  <text x="465" y="222" text-anchor="middle" font-size="9" fill="#1e8449">左足</text>
+
+  <ellipse cx="545" cy="200" rx="12" ry="8" fill="#1e8449"/>
+  <text x="545" y="222" text-anchor="middle" font-size="9" fill="#1e8449">右足</text>
+
+  <!-- Ball position (slightly left of center) -->
+  <circle cx="495" cy="180" r="6" fill="#fff" stroke="#1e8449" stroke-width="1.5"/>
+  <line x1="495" y1="160" x2="495" y2="170" stroke="#c0392b" stroke-width="1"/>
+  <text x="495" y="155" text-anchor="middle" font-size="9" fill="#c0392b" font-weight="bold">中央のやや左</text>
+
+  <text x="505" y="260" text-anchor="middle" font-size="11" fill="#1e8449" font-weight="bold">肩幅</text>
+  <text x="505" y="275" text-anchor="middle" font-size="9" fill="#1e8449">標準スタンス</text>
+
+  <text x="505" y="298" text-anchor="middle" font-size="10" fill="#c0392b" font-weight="bold">ボール位置</text>
+  <text x="505" y="312" text-anchor="middle" font-size="9" fill="#c0392b">スタンス中央</text>
+
+  <!-- Panel 4: Wedge - narrowest, ball center -->
+  <rect x="605" y="115" width="195" height="200" fill="#fdf6ec" stroke="#d68910" stroke-width="1" rx="3"/>
+
+  <line x1="625" y1="130" x2="780" y2="130" stroke="#566573" stroke-width="1" stroke-dasharray="2,2"/>
+  <text x="702" y="125" text-anchor="middle" font-size="8" fill="#566573">目標方向 →</text>
+
+  <line x1="660" y1="200" x2="745" y2="200" stroke="#c0392b" stroke-width="1.5"/>
+
+  <ellipse cx="670" cy="200" rx="11" ry="8" fill="#d68910"/>
+  <text x="670" y="222" text-anchor="middle" font-size="9" fill="#9c640c">左足</text>
+
+  <ellipse cx="735" cy="200" rx="11" ry="8" fill="#d68910"/>
+  <text x="735" y="222" text-anchor="middle" font-size="9" fill="#9c640c">右足</text>
+
+  <!-- Ball position (center) -->
+  <circle cx="702" cy="180" r="6" fill="#fff" stroke="#d68910" stroke-width="1.5"/>
+  <line x1="702" y1="160" x2="702" y2="170" stroke="#c0392b" stroke-width="1"/>
+  <text x="702" y="155" text-anchor="middle" font-size="9" fill="#c0392b" font-weight="bold">中央</text>
+
+  <text x="702" y="260" text-anchor="middle" font-size="11" fill="#9c640c" font-weight="bold">狭い</text>
+  <text x="702" y="275" text-anchor="middle" font-size="9" fill="#9c640c">肩幅より少し狭く</text>
+
+  <text x="702" y="298" text-anchor="middle" font-size="10" fill="#c0392b" font-weight="bold">ボール位置</text>
+  <text x="702" y="312" text-anchor="middle" font-size="9" fill="#c0392b">スタンス中央</text>
+
+  <!-- ============ Bottom: Comparison table ============ -->
+  <text x="20" y="350" font-size="14" fill="#222" font-weight="bold">▶ クラブ別の早見表</text>
+
+  <rect x="20" y="360" width="780" height="135" fill="#f4f6f6" stroke="#566573" stroke-width="1.5" rx="4"/>
+
+  <!-- Headers -->
+  <line x1="20" y1="385" x2="800" y2="385" stroke="#566573" stroke-width="1"/>
+  <line x1="160" y1="360" x2="160" y2="495" stroke="#566573" stroke-width="1"/>
+  <line x1="320" y1="360" x2="320" y2="495" stroke="#566573" stroke-width="1"/>
+  <line x1="480" y1="360" x2="480" y2="495" stroke="#566573" stroke-width="1"/>
+  <line x1="640" y1="360" x2="640" y2="495" stroke="#566573" stroke-width="1"/>
+
+  <text x="90" y="378" text-anchor="middle" font-size="11" fill="#222" font-weight="bold">項目</text>
+  <text x="240" y="378" text-anchor="middle" font-size="11" fill="#1b4f72" font-weight="bold">ドライバー</text>
+  <text x="400" y="378" text-anchor="middle" font-size="11" fill="#2874a6" font-weight="bold">FW・UT</text>
+  <text x="560" y="378" text-anchor="middle" font-size="11" fill="#1e8449" font-weight="bold">7I（基準）</text>
+  <text x="720" y="378" text-anchor="middle" font-size="11" fill="#9c640c" font-weight="bold">ウェッジ</text>
+
+  <!-- Row 1: Stance width -->
+  <text x="30" y="408" font-size="10" fill="#222" font-weight="bold">スタンス幅</text>
+  <text x="240" y="408" text-anchor="middle" font-size="10" fill="#222">肩幅+α</text>
+  <text x="400" y="408" text-anchor="middle" font-size="10" fill="#222">肩幅</text>
+  <text x="560" y="408" text-anchor="middle" font-size="10" fill="#222">肩幅</text>
+  <text x="720" y="408" text-anchor="middle" font-size="10" fill="#222">肩幅−α</text>
+
+  <line x1="20" y1="418" x2="800" y2="418" stroke="#566573" stroke-width="0.5" opacity="0.3"/>
+
+  <!-- Row 2: Ball position -->
+  <text x="30" y="438" font-size="10" fill="#222" font-weight="bold">ボール位置</text>
+  <text x="240" y="438" text-anchor="middle" font-size="10" fill="#222">左足かかと内側</text>
+  <text x="400" y="438" text-anchor="middle" font-size="10" fill="#222">左足から1個内</text>
+  <text x="560" y="438" text-anchor="middle" font-size="10" fill="#222">スタンス中央</text>
+  <text x="720" y="438" text-anchor="middle" font-size="10" fill="#222">中央</text>
+
+  <line x1="20" y1="448" x2="800" y2="448" stroke="#566573" stroke-width="0.5" opacity="0.3"/>
+
+  <!-- Row 3: Body weight -->
+  <text x="30" y="468" font-size="10" fill="#222" font-weight="bold">体重配分</text>
+  <text x="240" y="468" text-anchor="middle" font-size="10" fill="#222">右5：左5</text>
+  <text x="400" y="468" text-anchor="middle" font-size="10" fill="#222">右5：左5</text>
+  <text x="560" y="468" text-anchor="middle" font-size="10" fill="#222">右5：左5</text>
+  <text x="720" y="468" text-anchor="middle" font-size="10" fill="#222">右4：左6</text>
+
+  <line x1="20" y1="478" x2="800" y2="478" stroke="#566573" stroke-width="0.5" opacity="0.3"/>
+
+  <!-- Row 4: Aim -->
+  <text x="30" y="492" font-size="10" fill="#222" font-weight="bold">打ち方</text>
+  <text x="240" y="492" text-anchor="middle" font-size="9" fill="#444">アッパー</text>
+  <text x="400" y="492" text-anchor="middle" font-size="9" fill="#444">レベル</text>
+  <text x="560" y="492" text-anchor="middle" font-size="9" fill="#444">ダウンブロー</text>
+  <text x="720" y="492" text-anchor="middle" font-size="9" fill="#444">ダウンブロー</text>
+
+  <text x="410" y="528" text-anchor="middle" font-size="11" fill="#444" font-weight="bold">→ 7I（基準）を覚えて、そこから前後にずらす感覚で</text>
+</svg>

@@ -1,0 +1,154 @@
+<svg viewBox="0 0 820 540" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="adArr" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#c0392b"/>
+    </marker>
+  </defs>
+
+  <text x="410" y="28" text-anchor="middle" font-size="20" font-weight="bold" fill="#222">ゴルフのアドレス｜基本姿勢の作り方</text>
+  <text x="410" y="50" text-anchor="middle" font-size="13" fill="#555">前傾・スタンス・体重配分・ボール位置の基本</text>
+
+  <!-- ============ Left: Side view ============ -->
+  <rect x="20" y="78" width="385" height="30" fill="#1e8449" rx="4"/>
+  <text x="212" y="98" text-anchor="middle" font-size="14" fill="#fff" font-weight="bold">▶ 横から見たアドレス</text>
+
+  <rect x="20" y="115" width="385" height="395" fill="#eafaf1" rx="4"/>
+
+  <!-- Ground line -->
+  <line x1="40" y1="465" x2="385" y2="465" stroke="#1e8449" stroke-width="2"/>
+  <text x="40" y="488" font-size="9" fill="#1e8449">地面</text>
+
+  <!-- Side-view player -->
+  <!-- Head (tilted forward slightly) -->
+  <circle cx="180" cy="170" r="18" fill="#fff" stroke="#1e8449" stroke-width="2"/>
+  <!-- Face direction (looking down at ball) -->
+  <circle cx="187" cy="172" r="2" fill="#333"/>
+  <line x1="195" y1="180" x2="210" y2="195" stroke="#0e6251" stroke-width="1" stroke-dasharray="2,2"/>
+
+  <!-- Spine line (forward tilt from hip) -->
+  <line x1="180" y1="188" x2="170" y2="280" stroke="#1e8449" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Hip pivot point -->
+  <circle cx="170" cy="280" r="4" fill="#c0392b"/>
+  <text x="155" y="295" text-anchor="end" font-size="9" fill="#c0392b" font-weight="bold">股関節</text>
+
+  <!-- Thighs (down to knees) -->
+  <line x1="170" y1="280" x2="190" y2="370" stroke="#1e8449" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Knees (slightly bent) -->
+  <circle cx="190" cy="370" r="4" fill="#1e8449"/>
+
+  <!-- Lower legs to feet -->
+  <line x1="190" y1="370" x2="195" y2="455" stroke="#1e8449" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Foot -->
+  <ellipse cx="200" cy="462" rx="20" ry="5" fill="#1e8449"/>
+
+  <!-- Arms hanging from shoulder -->
+  <line x1="183" y1="200" x2="220" y2="290" stroke="#1e8449" stroke-width="5" stroke-linecap="round"/>
+  <line x1="183" y1="200" x2="220" y2="290" stroke="#f5cba7" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Hands holding club -->
+  <circle cx="220" cy="290" r="6" fill="#f5cba7" stroke="#1e8449" stroke-width="1.5"/>
+
+  <!-- Club shaft going to ball -->
+  <line x1="220" y1="295" x2="280" y2="455" stroke="#2c3e50" stroke-width="2.5"/>
+  <!-- Club head -->
+  <ellipse cx="282" cy="458" rx="14" ry="5" fill="#2c3e50" stroke="#1b2631" stroke-width="1"/>
+
+  <!-- Ball -->
+  <circle cx="290" cy="450" r="6" fill="#fff" stroke="#1e8449" stroke-width="1.5"/>
+  <text x="290" y="430" text-anchor="middle" font-size="9" fill="#0e6251">ボール</text>
+
+  <!-- Spine angle indicator -->
+  <line x1="180" y1="188" x2="180" y2="280" stroke="#c0392b" stroke-width="1" stroke-dasharray="2,2"/>
+  <path d="M 180 230 A 50 50 0 0 0 175 235" stroke="#c0392b" stroke-width="1" fill="none"/>
+  <text x="158" y="225" text-anchor="end" font-size="10" fill="#c0392b" font-weight="bold">前傾30〜40度</text>
+
+  <!-- Knee flex indicator -->
+  <line x1="190" y1="370" x2="195" y2="455" stroke="#3498db" stroke-width="1" stroke-dasharray="2,2"/>
+  <text x="138" y="380" text-anchor="end" font-size="10" fill="#3498db" font-weight="bold">膝は軽く曲げる</text>
+  <line x1="143" y1="380" x2="180" y2="370" stroke="#3498db" stroke-width="1"/>
+
+  <!-- Arms hang naturally -->
+  <text x="280" y="240" text-anchor="start" font-size="10" fill="#9c640c" font-weight="bold">腕は</text>
+  <text x="280" y="255" text-anchor="start" font-size="10" fill="#9c640c" font-weight="bold">自然に垂らす</text>
+  <line x1="277" y1="248" x2="245" y2="270" stroke="#9c640c" stroke-width="1" marker-end="url(#adArr)"/>
+
+  <!-- Step labels -->
+  <rect x="40" y="135" width="120" height="22" fill="#fff" stroke="#1e8449" stroke-width="1" rx="3"/>
+  <text x="100" y="151" text-anchor="middle" font-size="11" fill="#0e6251" font-weight="bold">CHECK ①前傾</text>
+
+  <rect x="280" y="135" width="115" height="22" fill="#fff" stroke="#3498db" stroke-width="1" rx="3"/>
+  <text x="337" y="151" text-anchor="middle" font-size="11" fill="#2874a6" font-weight="bold">CHECK ②膝</text>
+
+  <!-- ============ Right: Front view ============ -->
+  <rect x="415" y="78" width="385" height="30" fill="#3498db" rx="4"/>
+  <text x="607" y="98" text-anchor="middle" font-size="14" fill="#fff" font-weight="bold">▶ 正面から見たアドレス</text>
+
+  <rect x="415" y="115" width="385" height="395" fill="#ebf5fb" rx="4"/>
+
+  <!-- Ground -->
+  <line x1="435" y1="465" x2="785" y2="465" stroke="#3498db" stroke-width="2"/>
+
+  <!-- Front-view player -->
+  <!-- Head -->
+  <circle cx="610" cy="160" r="20" fill="#fff" stroke="#3498db" stroke-width="2"/>
+  <circle cx="603" cy="158" r="2" fill="#333"/>
+  <circle cx="617" cy="158" r="2" fill="#333"/>
+
+  <!-- Shoulders -->
+  <line x1="575" y1="200" x2="645" y2="200" stroke="#3498db" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Body -->
+  <line x1="610" y1="200" x2="610" y2="295" stroke="#3498db" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- Arms hanging -->
+  <line x1="580" y1="200" x2="600" y2="290" stroke="#3498db" stroke-width="5" stroke-linecap="round"/>
+  <line x1="580" y1="200" x2="600" y2="290" stroke="#f5cba7" stroke-width="2" stroke-linecap="round"/>
+
+  <line x1="640" y1="200" x2="620" y2="290" stroke="#3498db" stroke-width="5" stroke-linecap="round"/>
+  <line x1="640" y1="200" x2="620" y2="290" stroke="#f5cba7" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Hands -->
+  <ellipse cx="610" cy="295" rx="14" ry="8" fill="#f5cba7" stroke="#3498db" stroke-width="1.5"/>
+
+  <!-- Hips -->
+  <line x1="585" y1="305" x2="635" y2="305" stroke="#3498db" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Legs -->
+  <line x1="590" y1="305" x2="565" y2="455" stroke="#3498db" stroke-width="6" stroke-linecap="round"/>
+  <line x1="630" y1="305" x2="655" y2="455" stroke="#3498db" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Feet -->
+  <ellipse cx="565" cy="462" rx="20" ry="5" fill="#3498db"/>
+  <ellipse cx="655" cy="462" rx="20" ry="5" fill="#3498db"/>
+
+  <!-- Club shaft -->
+  <line x1="610" y1="300" x2="610" y2="455" stroke="#2c3e50" stroke-width="2.5"/>
+  <ellipse cx="610" cy="458" rx="14" ry="5" fill="#2c3e50"/>
+
+  <!-- Ball position -->
+  <circle cx="610" cy="450" r="6" fill="#fff" stroke="#2874a6" stroke-width="1.5"/>
+
+  <!-- Stance width indicator -->
+  <line x1="545" y1="490" x2="675" y2="490" stroke="#c0392b" stroke-width="2" marker-start="url(#adArr)" marker-end="url(#adArr)"/>
+  <text x="610" y="505" text-anchor="middle" font-size="10" fill="#c0392b" font-weight="bold">スタンス幅 = 肩幅</text>
+
+  <!-- Weight distribution -->
+  <text x="465" y="395" text-anchor="middle" font-size="10" fill="#2874a6" font-weight="bold">体重 50%</text>
+  <line x1="495" y1="395" x2="540" y2="430" stroke="#2874a6" stroke-width="1" marker-end="url(#adArr)"/>
+
+  <text x="755" y="395" text-anchor="middle" font-size="10" fill="#2874a6" font-weight="bold">体重 50%</text>
+  <line x1="725" y1="395" x2="680" y2="430" stroke="#2874a6" stroke-width="1" marker-end="url(#adArr)"/>
+
+  <!-- Step labels -->
+  <rect x="435" y="135" width="135" height="22" fill="#fff" stroke="#3498db" stroke-width="1" rx="3"/>
+  <text x="503" y="151" text-anchor="middle" font-size="11" fill="#2874a6" font-weight="bold">CHECK ③スタンス</text>
+
+  <rect x="650" y="135" width="135" height="22" fill="#fff" stroke="#3498db" stroke-width="1" rx="3"/>
+  <text x="717" y="151" text-anchor="middle" font-size="11" fill="#2874a6" font-weight="bold">CHECK ④体重配分</text>
+
+  <!-- ============ Bottom: Summary ============ -->
+  <text x="410" y="528" text-anchor="middle" font-size="11" fill="#444" font-weight="bold">→ 4つのチェックポイントを毎回確認すれば、アドレスは安定する</text>
+</svg>
