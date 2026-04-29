@@ -1,0 +1,164 @@
+<svg viewBox="0 0 820 520" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="grArr" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#c0392b"/>
+    </marker>
+  </defs>
+
+  <text x="410" y="28" text-anchor="middle" font-size="20" font-weight="bold" fill="#222">ゴルフグリップの種類｜3つの握り方を比較</text>
+  <text x="410" y="50" text-anchor="middle" font-size="13" fill="#555">オーバーラッピング・インターロッキング・テンフィンガー</text>
+
+  <!-- ============ Panel 1: Overlapping ============ -->
+  <rect x="20" y="78" width="255" height="30" fill="#1e8449" rx="4"/>
+  <text x="147" y="98" text-anchor="middle" font-size="14" fill="#fff" font-weight="bold">①オーバーラッピング</text>
+
+  <rect x="20" y="115" width="255" height="350" fill="#eafaf1" rx="4"/>
+
+  <!-- Club shaft -->
+  <rect x="135" y="135" width="24" height="280" fill="#2c3e50" stroke="#1b2631" stroke-width="1"/>
+  <rect x="130" y="135" width="34" height="20" fill="#566573" stroke="#1b2631" stroke-width="1"/>
+
+  <!-- Left hand (top) - drawn as a stylized fist -->
+  <g>
+    <!-- Palm/fist shape -->
+    <ellipse cx="147" cy="195" rx="38" ry="28" fill="#f5cba7" stroke="#a04000" stroke-width="1.5"/>
+    <!-- Knuckle lines -->
+    <line x1="120" y1="178" x2="175" y2="178" stroke="#a04000" stroke-width="1" opacity="0.5"/>
+    <line x1="120" y1="190" x2="175" y2="190" stroke="#a04000" stroke-width="1" opacity="0.5"/>
+    <!-- L label -->
+    <text x="120" y="200" text-anchor="middle" font-size="11" fill="#7d3c00" font-weight="bold">L</text>
+  </g>
+
+  <!-- Right hand (bottom) -->
+  <g>
+    <ellipse cx="147" cy="265" rx="38" ry="28" fill="#f5cba7" stroke="#a04000" stroke-width="1.5"/>
+    <!-- Right pinky overlapping (the key feature) -->
+    <ellipse cx="147" cy="232" rx="14" ry="6" fill="#f5cba7" stroke="#c0392b" stroke-width="2"/>
+    <text x="147" y="236" text-anchor="middle" font-size="8" fill="#922b21" font-weight="bold">小指</text>
+    <!-- Knuckle lines -->
+    <line x1="120" y1="250" x2="175" y2="250" stroke="#a04000" stroke-width="1" opacity="0.5"/>
+    <line x1="120" y1="262" x2="175" y2="262" stroke="#a04000" stroke-width="1" opacity="0.5"/>
+    <text x="174" y="270" text-anchor="middle" font-size="11" fill="#7d3c00" font-weight="bold">R</text>
+  </g>
+
+  <!-- Arrow pointing to overlap -->
+  <line x1="100" y1="232" x2="125" y2="232" stroke="#c0392b" stroke-width="2" marker-end="url(#grArr)"/>
+  <text x="55" y="236" text-anchor="middle" font-size="10" fill="#c0392b" font-weight="bold">右小指を</text>
+  <text x="55" y="218" text-anchor="middle" font-size="10" fill="#c0392b" font-weight="bold">左人差し指に</text>
+  <text x="55" y="248" text-anchor="middle" font-size="10" fill="#c0392b" font-weight="bold">のせる</text>
+
+  <!-- Description below -->
+  <line x1="40" y1="320" x2="255" y2="320" stroke="#1e8449" stroke-width="1"/>
+  <text x="40" y="338" font-size="11" fill="#0e6251" font-weight="bold">特徴</text>
+  <text x="40" y="354" font-size="10" fill="#0e6251">・最も一般的</text>
+  <text x="40" y="370" font-size="10" fill="#0e6251">・両手が一体化しやすい</text>
+  <text x="40" y="386" font-size="10" fill="#0e6251">・力が均等に伝わる</text>
+
+  <text x="40" y="410" font-size="11" fill="#0e6251" font-weight="bold">向く人</text>
+  <text x="40" y="426" font-size="10" fill="#0e6251">・手が普通〜大きめ</text>
+  <text x="40" y="442" font-size="10" fill="#0e6251">・初心者〜上級者</text>
+  <text x="40" y="458" font-size="10" fill="#0e6251" font-style="italic">→ 迷ったらコレ</text>
+
+  <!-- ============ Panel 2: Interlocking ============ -->
+  <rect x="280" y="78" width="255" height="30" fill="#3498db" rx="4"/>
+  <text x="407" y="98" text-anchor="middle" font-size="14" fill="#fff" font-weight="bold">②インターロッキング</text>
+
+  <rect x="280" y="115" width="255" height="350" fill="#ebf5fb" rx="4"/>
+
+  <!-- Club shaft -->
+  <rect x="395" y="135" width="24" height="280" fill="#2c3e50" stroke="#1b2631" stroke-width="1"/>
+  <rect x="390" y="135" width="34" height="20" fill="#566573" stroke="#1b2631" stroke-width="1"/>
+
+  <!-- Left hand -->
+  <g>
+    <ellipse cx="407" cy="195" rx="38" ry="28" fill="#f5cba7" stroke="#a04000" stroke-width="1.5"/>
+    <line x1="380" y1="178" x2="435" y2="178" stroke="#a04000" stroke-width="1" opacity="0.5"/>
+    <line x1="380" y1="190" x2="435" y2="190" stroke="#a04000" stroke-width="1" opacity="0.5"/>
+    <text x="380" y="200" text-anchor="middle" font-size="11" fill="#7d3c00" font-weight="bold">L</text>
+  </g>
+
+  <!-- Right hand -->
+  <g>
+    <ellipse cx="407" cy="265" rx="38" ry="28" fill="#f5cba7" stroke="#a04000" stroke-width="1.5"/>
+    <line x1="380" y1="250" x2="435" y2="250" stroke="#a04000" stroke-width="1" opacity="0.5"/>
+    <line x1="380" y1="262" x2="435" y2="262" stroke="#a04000" stroke-width="1" opacity="0.5"/>
+    <text x="434" y="270" text-anchor="middle" font-size="11" fill="#7d3c00" font-weight="bold">R</text>
+  </g>
+
+  <!-- Interlocking detail (fingers crossed/locked) -->
+  <g>
+    <!-- L index finger going down -->
+    <ellipse cx="395" cy="232" rx="6" ry="11" fill="#f5cba7" stroke="#2874a6" stroke-width="2"/>
+    <!-- R pinky going up, crossed -->
+    <ellipse cx="419" cy="232" rx="6" ry="11" fill="#f5cba7" stroke="#2874a6" stroke-width="2"/>
+    <!-- Cross indicator -->
+    <line x1="385" y1="225" x2="425" y2="240" stroke="#c0392b" stroke-width="1.5" stroke-dasharray="2,2"/>
+    <line x1="385" y1="240" x2="425" y2="225" stroke="#c0392b" stroke-width="1.5" stroke-dasharray="2,2"/>
+  </g>
+
+  <!-- Arrow -->
+  <line x1="360" y1="232" x2="380" y2="232" stroke="#c0392b" stroke-width="2" marker-end="url(#grArr)"/>
+  <text x="320" y="220" text-anchor="middle" font-size="10" fill="#c0392b" font-weight="bold">右小指と</text>
+  <text x="320" y="234" text-anchor="middle" font-size="10" fill="#c0392b" font-weight="bold">左人差し指を</text>
+  <text x="320" y="248" text-anchor="middle" font-size="10" fill="#c0392b" font-weight="bold">絡める</text>
+
+  <!-- Description -->
+  <line x1="300" y1="320" x2="515" y2="320" stroke="#3498db" stroke-width="1"/>
+  <text x="300" y="338" font-size="11" fill="#2874a6" font-weight="bold">特徴</text>
+  <text x="300" y="354" font-size="10" fill="#2874a6">・最も両手が固定される</text>
+  <text x="300" y="370" font-size="10" fill="#2874a6">・タイガー・ニクラスが採用</text>
+  <text x="300" y="386" font-size="10" fill="#2874a6">・力が抜けにくい</text>
+
+  <text x="300" y="410" font-size="11" fill="#2874a6" font-weight="bold">向く人</text>
+  <text x="300" y="426" font-size="10" fill="#2874a6">・手が小さい人</text>
+  <text x="300" y="442" font-size="10" fill="#2874a6">・指が短い人</text>
+  <text x="300" y="458" font-size="10" fill="#2874a6" font-style="italic">→ 女性に多い</text>
+
+  <!-- ============ Panel 3: Ten-finger ============ -->
+  <rect x="540" y="78" width="260" height="30" fill="#d68910" rx="4"/>
+  <text x="670" y="98" text-anchor="middle" font-size="14" fill="#fff" font-weight="bold">③テンフィンガー（野球）</text>
+
+  <rect x="540" y="115" width="260" height="350" fill="#fdf6ec" rx="4"/>
+
+  <!-- Club shaft -->
+  <rect x="658" y="135" width="24" height="280" fill="#2c3e50" stroke="#1b2631" stroke-width="1"/>
+  <rect x="653" y="135" width="34" height="20" fill="#566573" stroke="#1b2631" stroke-width="1"/>
+
+  <!-- Left hand -->
+  <g>
+    <ellipse cx="670" cy="195" rx="38" ry="28" fill="#f5cba7" stroke="#a04000" stroke-width="1.5"/>
+    <line x1="643" y1="178" x2="698" y2="178" stroke="#a04000" stroke-width="1" opacity="0.5"/>
+    <line x1="643" y1="190" x2="698" y2="190" stroke="#a04000" stroke-width="1" opacity="0.5"/>
+    <text x="643" y="200" text-anchor="middle" font-size="11" fill="#7d3c00" font-weight="bold">L</text>
+  </g>
+
+  <!-- Right hand: positioned just below L, touching but not overlapping -->
+  <g>
+    <ellipse cx="670" cy="245" rx="38" ry="22" fill="#f5cba7" stroke="#a04000" stroke-width="1.5"/>
+    <line x1="643" y1="235" x2="698" y2="235" stroke="#a04000" stroke-width="1" opacity="0.5"/>
+    <line x1="643" y1="247" x2="698" y2="247" stroke="#a04000" stroke-width="1" opacity="0.5"/>
+    <text x="697" y="252" text-anchor="middle" font-size="11" fill="#7d3c00" font-weight="bold">R</text>
+  </g>
+
+  <!-- 10 fingers on grip -->
+  <text x="670" y="300" text-anchor="middle" font-size="11" fill="#9c640c" font-weight="bold">10本指 全部グリップに</text>
+
+  <!-- Arrow -->
+  <line x1="725" y1="220" x2="710" y2="220" stroke="#c0392b" stroke-width="2" marker-end="url(#grArr)"/>
+  <text x="775" y="216" text-anchor="middle" font-size="10" fill="#c0392b" font-weight="bold">両手が</text>
+  <text x="775" y="232" text-anchor="middle" font-size="10" fill="#c0392b" font-weight="bold">並ぶだけ</text>
+
+  <!-- Description -->
+  <line x1="560" y1="320" x2="780" y2="320" stroke="#d68910" stroke-width="1"/>
+  <text x="560" y="338" font-size="11" fill="#9c640c" font-weight="bold">特徴</text>
+  <text x="560" y="354" font-size="10" fill="#9c640c">・野球の握りに近い</text>
+  <text x="560" y="370" font-size="10" fill="#9c640c">・力を入れやすい</text>
+  <text x="560" y="386" font-size="10" fill="#9c640c">・両手の連動はやや弱い</text>
+
+  <text x="560" y="410" font-size="11" fill="#9c640c" font-weight="bold">向く人</text>
+  <text x="560" y="426" font-size="10" fill="#9c640c">・初心者・力が弱い人</text>
+  <text x="560" y="442" font-size="10" fill="#9c640c">・ジュニア・シニア</text>
+  <text x="560" y="458" font-size="10" fill="#9c640c" font-style="italic">→ 飛距離が出やすい</text>
+
+  <text x="410" y="495" text-anchor="middle" font-size="11" fill="#444" font-weight="bold">→ どれが正解はない。自分の手の大きさ・パワーで選ぶ</text>
+</svg>

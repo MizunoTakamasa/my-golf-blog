@@ -1,0 +1,142 @@
+<svg viewBox="0 0 820 540" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="gsArr" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#c0392b"/>
+    </marker>
+  </defs>
+
+  <text x="410" y="28" text-anchor="middle" font-size="20" font-weight="bold" fill="#222">グリップの「強さ」｜ウィーク・スクエア・ストロング</text>
+  <text x="410" y="50" text-anchor="middle" font-size="13" fill="#555">左手の握り方の角度で、球筋が決まる</text>
+
+  <!-- ============ Top: Hand position diagrams (3 panels) ============ -->
+  <!-- Panel 1: Weak -->
+  <rect x="20" y="78" width="255" height="30" fill="#3498db" rx="4"/>
+  <text x="147" y="98" text-anchor="middle" font-size="14" fill="#fff" font-weight="bold">①ウィーク（弱い）</text>
+
+  <rect x="20" y="115" width="255" height="200" fill="#ebf5fb" rx="4"/>
+
+  <!-- Top-down view of left hand on grip - WEAK -->
+  <!-- Grip cross-section -->
+  <circle cx="147" cy="200" r="22" fill="#2c3e50" stroke="#1b2631" stroke-width="2"/>
+
+  <!-- Hand on top -->
+  <ellipse cx="147" cy="180" rx="38" ry="22" fill="#f5cba7" stroke="#a04000" stroke-width="1.5"/>
+
+  <!-- Knuckles - WEAK = only 1 visible -->
+  <circle cx="135" cy="170" r="3.5" fill="#a04000"/>
+  <circle cx="148" cy="168" r="3.5" fill="#f5cba7" stroke="#a04000" stroke-width="1" opacity="0.4"/>
+  <circle cx="160" cy="170" r="3.5" fill="#f5cba7" stroke="#a04000" stroke-width="1" opacity="0.4"/>
+
+  <text x="147" y="148" text-anchor="middle" font-size="10" fill="#2874a6" font-weight="bold">ナックル 1個見える</text>
+
+  <!-- V shape pointing toward chin/left shoulder -->
+  <line x1="147" y1="200" x2="125" y2="232" stroke="#c0392b" stroke-width="2"/>
+  <line x1="147" y1="200" x2="135" y2="232" stroke="#c0392b" stroke-width="2"/>
+  <text x="115" y="248" text-anchor="middle" font-size="9" fill="#c0392b" font-weight="bold">「V」が顎方向</text>
+
+  <text x="147" y="278" text-anchor="middle" font-size="11" fill="#2874a6" font-weight="bold">球筋：スライス系</text>
+  <text x="147" y="296" text-anchor="middle" font-size="9" fill="#2874a6">右に曲がりやすい</text>
+
+  <!-- Panel 2: Square -->
+  <rect x="280" y="78" width="255" height="30" fill="#1e8449" rx="4"/>
+  <text x="407" y="98" text-anchor="middle" font-size="14" fill="#fff" font-weight="bold">②スクエア（基本）</text>
+
+  <rect x="280" y="115" width="255" height="200" fill="#eafaf1" rx="4"/>
+
+  <!-- Grip cross-section -->
+  <circle cx="407" cy="200" r="22" fill="#2c3e50" stroke="#1b2631" stroke-width="2"/>
+
+  <!-- Hand -->
+  <ellipse cx="407" cy="180" rx="38" ry="22" fill="#f5cba7" stroke="#a04000" stroke-width="1.5"/>
+
+  <!-- Knuckles - SQUARE = 2 visible -->
+  <circle cx="395" cy="170" r="3.5" fill="#a04000"/>
+  <circle cx="408" cy="168" r="3.5" fill="#a04000"/>
+  <circle cx="420" cy="170" r="3.5" fill="#f5cba7" stroke="#a04000" stroke-width="1" opacity="0.4"/>
+
+  <text x="407" y="148" text-anchor="middle" font-size="10" fill="#0e6251" font-weight="bold">ナックル 2個見える</text>
+
+  <!-- V shape pointing toward right shoulder -->
+  <line x1="407" y1="200" x2="402" y2="235" stroke="#c0392b" stroke-width="2"/>
+  <line x1="407" y1="200" x2="415" y2="235" stroke="#c0392b" stroke-width="2"/>
+  <text x="408" y="251" text-anchor="middle" font-size="9" fill="#c0392b" font-weight="bold">「V」が右肩方向</text>
+
+  <text x="407" y="278" text-anchor="middle" font-size="11" fill="#0e6251" font-weight="bold">球筋：ストレート</text>
+  <text x="407" y="296" text-anchor="middle" font-size="9" fill="#0e6251">基本の握り方</text>
+
+  <!-- Panel 3: Strong -->
+  <rect x="540" y="78" width="260" height="30" fill="#d68910" rx="4"/>
+  <text x="670" y="98" text-anchor="middle" font-size="14" fill="#fff" font-weight="bold">③ストロング（強い）</text>
+
+  <rect x="540" y="115" width="260" height="200" fill="#fdf6ec" rx="4"/>
+
+  <!-- Grip cross-section -->
+  <circle cx="670" cy="200" r="22" fill="#2c3e50" stroke="#1b2631" stroke-width="2"/>
+
+  <!-- Hand rotated more clockwise -->
+  <ellipse cx="670" cy="180" rx="38" ry="22" fill="#f5cba7" stroke="#a04000" stroke-width="1.5"/>
+
+  <!-- Knuckles - STRONG = 3 visible -->
+  <circle cx="655" cy="170" r="3.5" fill="#a04000"/>
+  <circle cx="668" cy="168" r="3.5" fill="#a04000"/>
+  <circle cx="681" cy="170" r="3.5" fill="#a04000"/>
+
+  <text x="670" y="148" text-anchor="middle" font-size="10" fill="#9c640c" font-weight="bold">ナックル 3個見える</text>
+
+  <!-- V shape pointing further right -->
+  <line x1="670" y1="200" x2="685" y2="232" stroke="#c0392b" stroke-width="2"/>
+  <line x1="670" y1="200" x2="695" y2="228" stroke="#c0392b" stroke-width="2"/>
+  <text x="700" y="248" text-anchor="middle" font-size="9" fill="#c0392b" font-weight="bold">「V」が右肩より外</text>
+
+  <text x="670" y="278" text-anchor="middle" font-size="11" fill="#9c640c" font-weight="bold">球筋：フック系</text>
+  <text x="670" y="296" text-anchor="middle" font-size="9" fill="#9c640c">左に曲がりやすい</text>
+
+  <!-- ============ Bottom: Comparison table / explanation ============ -->
+  <text x="20" y="345" font-size="14" fill="#222" font-weight="bold">▶ どれを選べばいい？</text>
+
+  <!-- Comparison table -->
+  <rect x="20" y="355" width="780" height="130" fill="#f4f6f6" stroke="#566573" stroke-width="1.5" rx="4"/>
+
+  <!-- Header row -->
+  <line x1="20" y1="382" x2="800" y2="382" stroke="#566573" stroke-width="1"/>
+  <line x1="170" y1="355" x2="170" y2="485" stroke="#566573" stroke-width="1"/>
+  <line x1="380" y1="355" x2="380" y2="485" stroke="#566573" stroke-width="1"/>
+  <line x1="590" y1="355" x2="590" y2="485" stroke="#566573" stroke-width="1"/>
+
+  <text x="95" y="374" text-anchor="middle" font-size="11" fill="#222" font-weight="bold">タイプ</text>
+  <text x="275" y="374" text-anchor="middle" font-size="11" fill="#3498db" font-weight="bold">①ウィーク</text>
+  <text x="485" y="374" text-anchor="middle" font-size="11" fill="#1e8449" font-weight="bold">②スクエア</text>
+  <text x="695" y="374" text-anchor="middle" font-size="11" fill="#d68910" font-weight="bold">③ストロング</text>
+
+  <!-- Row 1 -->
+  <text x="30" y="402" font-size="10" fill="#222" font-weight="bold">ナックル</text>
+  <text x="275" y="402" text-anchor="middle" font-size="10" fill="#222">1個</text>
+  <text x="485" y="402" text-anchor="middle" font-size="10" fill="#222">2個</text>
+  <text x="695" y="402" text-anchor="middle" font-size="10" fill="#222">3個</text>
+
+  <line x1="20" y1="412" x2="800" y2="412" stroke="#566573" stroke-width="0.5" opacity="0.3"/>
+
+  <!-- Row 2 -->
+  <text x="30" y="430" font-size="10" fill="#222" font-weight="bold">向く人</text>
+  <text x="275" y="430" text-anchor="middle" font-size="9" fill="#222">フック・引っ掛けに悩む人</text>
+  <text x="485" y="430" text-anchor="middle" font-size="9" fill="#222">基本（迷ったらコレ）</text>
+  <text x="695" y="430" text-anchor="middle" font-size="9" fill="#222">スライスに悩む人・初心者</text>
+
+  <line x1="20" y1="440" x2="800" y2="440" stroke="#566573" stroke-width="0.5" opacity="0.3"/>
+
+  <!-- Row 3 -->
+  <text x="30" y="458" font-size="10" fill="#222" font-weight="bold">飛距離</text>
+  <text x="275" y="458" text-anchor="middle" font-size="9" fill="#222">出にくい</text>
+  <text x="485" y="458" text-anchor="middle" font-size="9" fill="#222">普通</text>
+  <text x="695" y="458" text-anchor="middle" font-size="9" fill="#222">出やすい</text>
+
+  <line x1="20" y1="468" x2="800" y2="468" stroke="#566573" stroke-width="0.5" opacity="0.3"/>
+
+  <!-- Row 4 -->
+  <text x="275" y="481" text-anchor="middle" font-size="9" fill="#444" font-style="italic">プロでは少数派</text>
+  <text x="485" y="481" text-anchor="middle" font-size="9" fill="#444" font-style="italic">最も標準的</text>
+  <text x="695" y="481" text-anchor="middle" font-size="9" fill="#444" font-style="italic">アマチュアに人気</text>
+
+  <text x="410" y="510" text-anchor="middle" font-size="11" fill="#444" font-weight="bold">→ 初心者は「スクエア〜ストロング」がおすすめ</text>
+  <text x="410" y="528" text-anchor="middle" font-size="10" fill="#566573">球筋に悩んでる人は、グリップから見直すと一発で直ることがある</text>
+</svg>
