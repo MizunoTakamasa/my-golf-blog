@@ -1,0 +1,84 @@
+<svg viewBox="0 0 800 540" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ゴルフのパッティングストローク｜肩を支点にした振り子運動・三角形をキープ・バックとフォローが対称・頭は動かさないという4つのポイントの図解">
+  <defs>
+    <style>
+      .ttl { font-family: "Hiragino Sans","Yu Gothic","Noto Sans JP",sans-serif; font-size: 22px; font-weight: 700; fill: #222; }
+      .lbl { font-family: "Hiragino Sans","Yu Gothic","Noto Sans JP",sans-serif; font-size: 15px; font-weight: 600; fill: #333; }
+      .note { font-family: "Hiragino Sans","Yu Gothic","Noto Sans JP",sans-serif; font-size: 13px; fill: #555; }
+      .cap { font-family: "Hiragino Sans","Yu Gothic","Noto Sans JP",sans-serif; font-size: 13px; fill: #666; font-style: italic; }
+    </style>
+    <marker id="arr-blue" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto">
+      <polygon points="0 0, 7 3, 0 6" fill="#3498db"/>
+    </marker>
+    <marker id="arr-red" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto">
+      <polygon points="0 0, 7 3, 0 6" fill="#e74c3c"/>
+    </marker>
+  </defs>
+
+  <rect width="800" height="540" fill="#f7faf7"/>
+  <text x="400" y="40" class="ttl" text-anchor="middle">パターのストローク｜肩を支点にした振り子運動</text>
+
+  <!-- Ground -->
+  <line x1="80" y1="430" x2="720" y2="430" stroke="#666" stroke-width="2"/>
+
+  <!-- Pivot point (between shoulders) -->
+  <circle cx="400" cy="190" r="8" fill="#e74c3c"/>
+  <text x="420" y="180" class="lbl" fill="#e74c3c">支点＝両肩の中央</text>
+
+  <!-- Triangle: shoulders + arms + grip -->
+  <!-- Shoulders -->
+  <line x1="350" y1="195" x2="450" y2="195" stroke="#27ae60" stroke-width="3"/>
+  <!-- Center position (impact) - solid -->
+  <line x1="350" y1="195" x2="395" y2="365" stroke="#27ae60" stroke-width="3"/>
+  <line x1="450" y1="195" x2="405" y2="365" stroke="#27ae60" stroke-width="3"/>
+  <circle cx="400" cy="365" r="9" fill="#27ae60"/>
+  <!-- Putter shaft (impact position) -->
+  <line x1="400" y1="374" x2="400" y2="425" stroke="#333" stroke-width="3"/>
+  <rect x="380" y="423" width="40" height="8" fill="#333"/>
+  <!-- Ball at impact -->
+  <circle cx="400" cy="420" r="6" fill="#fff" stroke="#333" stroke-width="1.5"/>
+
+  <!-- BACK position (faded ghost) -->
+  <line x1="350" y1="195" x2="333" y2="360" stroke="#3498db" stroke-width="2.5" stroke-dasharray="4,3" opacity="0.7"/>
+  <line x1="450" y1="195" x2="343" y2="360" stroke="#3498db" stroke-width="2.5" stroke-dasharray="4,3" opacity="0.7"/>
+  <circle cx="338" cy="360" r="9" fill="none" stroke="#3498db" stroke-width="2.5" opacity="0.7"/>
+  <!-- back putter -->
+  <line x1="338" y1="370" x2="318" y2="420" stroke="#3498db" stroke-width="2" opacity="0.6"/>
+  <text x="290" y="395" class="lbl" fill="#3498db" text-anchor="middle">バック</text>
+  <text x="290" y="412" class="note" fill="#3498db" text-anchor="middle">右へ20cm</text>
+
+  <!-- FORWARD position (faded ghost) -->
+  <line x1="350" y1="195" x2="457" y2="360" stroke="#e67e22" stroke-width="2.5" stroke-dasharray="4,3" opacity="0.7"/>
+  <line x1="450" y1="195" x2="467" y2="360" stroke="#e67e22" stroke-width="2.5" stroke-dasharray="4,3" opacity="0.7"/>
+  <circle cx="462" cy="360" r="9" fill="none" stroke="#e67e22" stroke-width="2.5" opacity="0.7"/>
+  <!-- forward putter -->
+  <line x1="462" y1="370" x2="482" y2="420" stroke="#e67e22" stroke-width="2" opacity="0.6"/>
+  <text x="510" y="395" class="lbl" fill="#e67e22">フォロー</text>
+  <text x="510" y="412" class="note" fill="#e67e22">左へ20cm</text>
+
+  <!-- Pendulum arc -->
+  <path d="M 318 420 Q 400 470 482 420" fill="none" stroke="#999" stroke-width="1.5" stroke-dasharray="3,3"/>
+
+  <!-- Equal symbol between back and forward -->
+  <text x="400" y="500" class="lbl" text-anchor="middle" fill="#3498db">バック</text>
+  <text x="425" y="500" class="lbl" text-anchor="middle" fill="#666">＝</text>
+  <text x="450" y="500" class="lbl" text-anchor="middle" fill="#e67e22">フォロー</text>
+  <text x="400" y="518" class="note" text-anchor="middle">同じ振り幅・対称</text>
+
+  <!-- Triangle annotation -->
+  <text x="640" y="180" class="lbl" fill="#27ae60">三角形を</text>
+  <text x="640" y="198" class="lbl" fill="#27ae60">崩さない</text>
+  <path d="M 630 200 Q 580 220 480 235" fill="none" stroke="#27ae60" stroke-width="1.5" stroke-dasharray="3,3" marker-end="url(#arr-blue)"/>
+  <text x="640" y="218" class="note" fill="#27ae60">（手首を使わない）</text>
+
+  <!-- Head position (still) -->
+  <text x="160" y="170" class="lbl" fill="#e74c3c">頭は最後まで</text>
+  <text x="160" y="188" class="lbl" fill="#e74c3c">動かさない</text>
+  <text x="160" y="206" class="note" fill="#e74c3c">（音を聞いてから顔を上げる）</text>
+
+  <!-- Tempo box -->
+  <rect x="80" y="65" width="180" height="48" rx="6" fill="#9b59b6" opacity="0.15" stroke="#9b59b6" stroke-width="1.5"/>
+  <text x="170" y="86" class="lbl" text-anchor="middle" fill="#7d3c98">テンポは「1・2」</text>
+  <text x="170" y="104" class="note" text-anchor="middle" fill="#7d3c98">距離が変わってもテンポは一定</text>
+
+  <text x="400" y="80" class="cap" text-anchor="middle" fill="#888">図3：振り子ストロークの4要素</text>
+</svg>

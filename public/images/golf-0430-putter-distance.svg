@@ -1,0 +1,81 @@
+<svg viewBox="0 0 800 540" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ゴルフのパッティング距離感｜振り幅と距離の対応関係を示した図解。5cm・10cm・15cm・20cmの振り幅と1〜10mの距離">
+  <defs>
+    <style>
+      .ttl { font-family: "Hiragino Sans","Yu Gothic","Noto Sans JP",sans-serif; font-size: 22px; font-weight: 700; fill: #222; }
+      .lbl { font-family: "Hiragino Sans","Yu Gothic","Noto Sans JP",sans-serif; font-size: 14px; font-weight: 600; fill: #333; }
+      .dist { font-family: "Hiragino Sans","Yu Gothic","Noto Sans JP",sans-serif; font-size: 14px; font-weight: 700; fill: #fff; }
+      .note { font-family: "Hiragino Sans","Yu Gothic","Noto Sans JP",sans-serif; font-size: 12px; fill: #555; }
+      .cap { font-family: "Hiragino Sans","Yu Gothic","Noto Sans JP",sans-serif; font-size: 13px; fill: #666; font-style: italic; }
+    </style>
+  </defs>
+
+  <rect width="800" height="540" fill="#f7faf7"/>
+  <text x="400" y="40" class="ttl" text-anchor="middle">パターの距離感｜振り幅で距離をコントロール</text>
+  <text x="400" y="65" class="note" text-anchor="middle">＊強さで調整しない／テンポは一定／バックとフォローは対称</text>
+
+  <!-- Common pivot point -->
+  <circle cx="400" cy="100" r="8" fill="#e74c3c"/>
+  <text x="415" y="95" class="note" fill="#e74c3c">支点（両肩中央）</text>
+
+  <!-- Reference vertical line through pivot -->
+  <line x1="400" y1="100" x2="400" y2="430" stroke="#bbb" stroke-width="1" stroke-dasharray="3,3"/>
+
+  <!-- Ball -->
+  <circle cx="400" cy="430" r="7" fill="#fff" stroke="#333" stroke-width="1.5"/>
+
+  <!-- 4 different stroke arcs at common pivot -->
+  <!-- 1m: ±5cm = small arc (about ±5°) -->
+  <path d="M 380 425 Q 400 442 420 425" fill="none" stroke="#27ae60" stroke-width="3" opacity="0.85"/>
+  <line x1="380" y1="425" x2="400" y2="100" stroke="#27ae60" stroke-width="1.5" stroke-dasharray="2,2" opacity="0.4"/>
+  <line x1="420" y1="425" x2="400" y2="100" stroke="#27ae60" stroke-width="1.5" stroke-dasharray="2,2" opacity="0.4"/>
+
+  <!-- 3m: ±10cm = wider arc (about ±10°) -->
+  <path d="M 360 420 Q 400 460 440 420" fill="none" stroke="#3498db" stroke-width="3" opacity="0.85"/>
+  <line x1="360" y1="420" x2="400" y2="100" stroke="#3498db" stroke-width="1.5" stroke-dasharray="2,2" opacity="0.4"/>
+  <line x1="440" y1="420" x2="400" y2="100" stroke="#3498db" stroke-width="1.5" stroke-dasharray="2,2" opacity="0.4"/>
+
+  <!-- 5m: ±15cm = even wider (about ±15°) -->
+  <path d="M 340 415 Q 400 478 460 415" fill="none" stroke="#9b59b6" stroke-width="3" opacity="0.85"/>
+  <line x1="340" y1="415" x2="400" y2="100" stroke="#9b59b6" stroke-width="1.5" stroke-dasharray="2,2" opacity="0.4"/>
+  <line x1="460" y1="415" x2="400" y2="100" stroke="#9b59b6" stroke-width="1.5" stroke-dasharray="2,2" opacity="0.4"/>
+
+  <!-- 10m: ±20cm = widest (about ±20°) -->
+  <path d="M 320 410 Q 400 495 480 410" fill="none" stroke="#e67e22" stroke-width="3" opacity="0.85"/>
+  <line x1="320" y1="410" x2="400" y2="100" stroke="#e67e22" stroke-width="1.5" stroke-dasharray="2,2" opacity="0.4"/>
+  <line x1="480" y1="410" x2="400" y2="100" stroke="#e67e22" stroke-width="1.5" stroke-dasharray="2,2" opacity="0.4"/>
+
+  <!-- LEFT side legend with distance labels -->
+  <rect x="40" y="120" width="240" height="40" rx="6" fill="#27ae60"/>
+  <text x="60" y="146" class="dist">5cm幅 → 1〜2m</text>
+
+  <rect x="40" y="170" width="240" height="40" rx="6" fill="#3498db"/>
+  <text x="60" y="196" class="dist">10cm幅 → 3〜4m</text>
+
+  <rect x="40" y="220" width="240" height="40" rx="6" fill="#9b59b6"/>
+  <text x="60" y="246" class="dist">15cm幅 → 5〜7m</text>
+
+  <rect x="40" y="270" width="240" height="40" rx="6" fill="#e67e22"/>
+  <text x="60" y="296" class="dist">20cm幅 → 8〜10m</text>
+
+  <text x="40" y="335" class="note">＊振り幅は片側の数値（バック側）</text>
+  <text x="40" y="353" class="note">＊フォローは同じ幅で必ず出す</text>
+
+  <!-- RIGHT side: tip box -->
+  <rect x="520" y="130" width="240" height="180" rx="8" fill="#27ae60" opacity="0.08" stroke="#27ae60" stroke-width="1.5"/>
+  <text x="640" y="158" class="lbl" text-anchor="middle" fill="#27ae60">朝の練習グリーンで</text>
+  <text x="640" y="178" class="lbl" text-anchor="middle" fill="#27ae60">「自分の単位」を作る</text>
+
+  <line x1="540" y1="195" x2="740" y2="195" stroke="#27ae60" stroke-width="1" opacity="0.5"/>
+
+  <text x="540" y="220" class="note">・5mを5回打って</text>
+  <text x="540" y="238" class="note">　その日の振り幅を確認</text>
+  <text x="540" y="262" class="note">・グリーンの速さは日によって</text>
+  <text x="540" y="280" class="note">　違う＝毎ラウンド調整必須</text>
+  <text x="540" y="304" class="note">・「カップ30cm先で止まる強さ」が理想</text>
+
+  <!-- Bottom warning -->
+  <rect x="80" y="465" width="640" height="38" rx="6" fill="#e74c3c" opacity="0.1" stroke="#e74c3c" stroke-width="1.5"/>
+  <text x="400" y="488" class="lbl" text-anchor="middle" fill="#c0392b">⚠ 「強く打とう」としてフォローを止めるとショート連発。バックを大きくすればフォローも大きくなる</text>
+
+  <text x="400" y="525" class="cap" text-anchor="middle">図4：振り幅と距離の対応イメージ（個人差あり、自分の単位を作るのが基本）</text>
+</svg>
