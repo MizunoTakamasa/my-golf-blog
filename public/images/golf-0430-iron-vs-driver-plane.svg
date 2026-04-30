@@ -1,0 +1,95 @@
+<svg viewBox="0 0 800 540" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ゴルフのアイアンとドライバーのスイングプレーン比較｜フラットとアップライトの軌道角度の違いを示した図">
+  <defs>
+    <style>
+      .ttl { font-family: "Hiragino Sans","Yu Gothic","Noto Sans JP",sans-serif; font-size: 22px; font-weight: 700; fill: #222; }
+      .stl { font-family: "Hiragino Sans","Yu Gothic","Noto Sans JP",sans-serif; font-size: 16px; font-weight: 700; fill: #fff; }
+      .lbl { font-family: "Hiragino Sans","Yu Gothic","Noto Sans JP",sans-serif; font-size: 14px; font-weight: 600; fill: #333; }
+      .keypt { font-family: "Hiragino Sans","Yu Gothic","Noto Sans JP",sans-serif; font-size: 13px; font-weight: 700; }
+      .note { font-family: "Hiragino Sans","Yu Gothic","Noto Sans JP",sans-serif; font-size: 13px; fill: #555; }
+      .cap { font-family: "Hiragino Sans","Yu Gothic","Noto Sans JP",sans-serif; font-size: 13px; fill: #666; font-style: italic; }
+    </style>
+  </defs>
+
+  <rect width="800" height="540" fill="#f7faf7"/>
+  <text x="400" y="40" class="ttl" text-anchor="middle">スイングプレーンの違い｜フラット vs アップライト</text>
+  <text x="400" y="62" class="cap" text-anchor="middle">＊体の前から見た「クラブが通る角度」の比較</text>
+
+  <line x1="400" y1="80" x2="400" y2="510" stroke="#ddd" stroke-width="2" stroke-dasharray="6,6"/>
+
+  <!-- ========================= -->
+  <!-- LEFT: ドライバー = フラット -->
+  <rect x="50" y="80" width="300" height="38" rx="6" fill="#e67e22"/>
+  <text x="200" y="105" class="stl" text-anchor="middle">ドライバー｜フラット</text>
+
+  <!-- Ground -->
+  <line x1="40" y1="440" x2="360" y2="440" stroke="#666" stroke-width="2"/>
+
+  <!-- Stick figure (small, side view from behind) -->
+  <circle cx="200" cy="180" r="18" fill="#fff" stroke="#e67e22" stroke-width="2.5"/>
+  <line x1="200" y1="198" x2="205" y2="290" stroke="#e67e22" stroke-width="2.5"/>
+  <!-- shoulders -->
+  <line x1="175" y1="215" x2="225" y2="215" stroke="#e67e22" stroke-width="2.5"/>
+  <!-- spine angle (forward lean) -->
+  <line x1="200" y1="180" x2="200" y2="290" stroke="#bbb" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="205" y1="290" x2="200" y2="320" stroke="#e67e22" stroke-width="2.5"/>
+  <!-- legs -->
+  <line x1="200" y1="320" x2="170" y2="430" stroke="#e67e22" stroke-width="2.5"/>
+  <line x1="200" y1="320" x2="240" y2="430" stroke="#e67e22" stroke-width="2.5"/>
+
+  <!-- Swing plane FLAT - more horizontal angle through hip -->
+  <!-- Long swing plane line at flat angle (~55 degrees from vertical) -->
+  <line x1="50" y1="380" x2="350" y2="120" stroke="#e67e22" stroke-width="3" stroke-dasharray="10,4" opacity="0.9"/>
+  <!-- club at address -->
+  <line x1="200" y1="240" x2="270" y2="438" stroke="#333" stroke-width="2.5"/>
+  <ellipse cx="275" cy="438" rx="18" ry="9" fill="#333"/>
+  <!-- ball -->
+  <circle cx="285" cy="425" r="6" fill="#fff" stroke="#333" stroke-width="1.5"/>
+
+  <!-- Plane angle indicator -->
+  <path d="M 200 380 A 50 50 0 0 0 150 380" fill="none" stroke="#e67e22" stroke-width="2"/>
+  <text x="100" y="395" class="keypt" fill="#e67e22">フラット</text>
+  <text x="100" y="412" class="note" fill="#e67e22">（横振り寄り）</text>
+
+  <!-- Description -->
+  <rect x="50" y="460" width="300" height="50" rx="6" fill="#e67e22" opacity="0.1" stroke="#e67e22" stroke-width="1.5"/>
+  <text x="65" y="480" class="lbl" fill="#d35400">★クラブが長い → 体から遠い</text>
+  <text x="65" y="500" class="note">　地面に対して寝た角度のプレーン</text>
+
+  <!-- ========================= -->
+  <!-- RIGHT: アイアン = アップライト -->
+  <rect x="450" y="80" width="300" height="38" rx="6" fill="#27ae60"/>
+  <text x="600" y="105" class="stl" text-anchor="middle">アイアン｜アップライト</text>
+
+  <!-- Ground -->
+  <line x1="440" y1="440" x2="760" y2="440" stroke="#666" stroke-width="2"/>
+
+  <!-- Stick figure -->
+  <circle cx="600" cy="180" r="18" fill="#fff" stroke="#27ae60" stroke-width="2.5"/>
+  <line x1="600" y1="198" x2="605" y2="290" stroke="#27ae60" stroke-width="2.5"/>
+  <line x1="575" y1="215" x2="625" y2="215" stroke="#27ae60" stroke-width="2.5"/>
+  <line x1="600" y1="180" x2="600" y2="290" stroke="#bbb" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="605" y1="290" x2="600" y2="320" stroke="#27ae60" stroke-width="2.5"/>
+  <line x1="600" y1="320" x2="575" y2="430" stroke="#27ae60" stroke-width="2.5"/>
+  <line x1="600" y1="320" x2="630" y2="430" stroke="#27ae60" stroke-width="2.5"/>
+
+  <!-- Swing plane UPRIGHT - more vertical angle -->
+  <!-- Steeper swing plane (~35 degrees from vertical) -->
+  <line x1="500" y1="430" x2="700" y2="100" stroke="#27ae60" stroke-width="3" stroke-dasharray="10,4" opacity="0.9"/>
+  <!-- club at address (shorter, closer) -->
+  <line x1="600" y1="240" x2="640" y2="430" stroke="#333" stroke-width="2.5"/>
+  <path d="M 632 432 L 656 430 L 656 438 L 632 437 Z" fill="#333"/>
+  <circle cx="645" cy="430" r="6" fill="#fff" stroke="#333" stroke-width="1.5"/>
+
+  <!-- Plane angle indicator -->
+  <path d="M 600 380 A 30 30 0 0 0 570 380" fill="none" stroke="#27ae60" stroke-width="2"/>
+  <text x="475" y="395" class="keypt" fill="#27ae60">アップライト</text>
+  <text x="475" y="412" class="note" fill="#27ae60">（縦振り寄り）</text>
+
+  <!-- Description -->
+  <rect x="450" y="460" width="300" height="50" rx="6" fill="#27ae60" opacity="0.1" stroke="#27ae60" stroke-width="1.5"/>
+  <text x="465" y="480" class="lbl" fill="#1e8449">★クラブが短い → 体に近い</text>
+  <text x="465" y="500" class="note">　地面に対して立った角度のプレーン</text>
+
+  <!-- common note bottom -->
+  <text x="400" y="528" class="cap" text-anchor="middle" fill="#888">図4：プレーン角度は変わるが、リズムや回転動作は共通</text>
+</svg>

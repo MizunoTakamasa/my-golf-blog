@@ -1,0 +1,98 @@
+<svg viewBox="0 0 800 540" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ゴルフのアイアンとドライバーの体重配分の違い｜アドレス時とインパクト時の比較図">
+  <defs>
+    <style>
+      .ttl { font-family: "Hiragino Sans","Yu Gothic","Noto Sans JP",sans-serif; font-size: 22px; font-weight: 700; fill: #222; }
+      .stl { font-family: "Hiragino Sans","Yu Gothic","Noto Sans JP",sans-serif; font-size: 16px; font-weight: 700; fill: #fff; }
+      .lbl { font-family: "Hiragino Sans","Yu Gothic","Noto Sans JP",sans-serif; font-size: 14px; font-weight: 600; fill: #333; }
+      .ratio { font-family: "Hiragino Sans","Yu Gothic","Noto Sans JP",sans-serif; font-size: 18px; font-weight: 800; }
+      .note { font-family: "Hiragino Sans","Yu Gothic","Noto Sans JP",sans-serif; font-size: 12px; fill: #555; }
+      .cap { font-family: "Hiragino Sans","Yu Gothic","Noto Sans JP",sans-serif; font-size: 13px; fill: #666; font-style: italic; }
+    </style>
+  </defs>
+
+  <rect width="800" height="540" fill="#f7faf7"/>
+  <text x="400" y="40" class="ttl" text-anchor="middle">体重配分の違い｜アドレスとインパクト</text>
+
+  <!-- Section labels -->
+  <text x="200" y="80" class="lbl" text-anchor="middle">【アドレス時】</text>
+  <text x="600" y="80" class="lbl" text-anchor="middle">【インパクト時】</text>
+
+  <!-- Vertical divider -->
+  <line x1="400" y1="100" x2="400" y2="510" stroke="#ddd" stroke-width="2" stroke-dasharray="6,6"/>
+
+  <!-- ============================================== -->
+  <!-- ADDRESS - DRIVER (top left) -->
+  <rect x="40" y="100" width="300" height="32" rx="6" fill="#e67e22"/>
+  <text x="190" y="121" class="stl" text-anchor="middle">ドライバー：やや右足寄り</text>
+
+  <!-- Feet representation -->
+  <ellipse cx="120" cy="190" rx="40" ry="18" fill="#fff" stroke="#333" stroke-width="2"/>
+  <text x="120" y="195" class="lbl" text-anchor="middle">右足</text>
+  <ellipse cx="270" cy="190" rx="40" ry="18" fill="#fff" stroke="#333" stroke-width="2"/>
+  <text x="270" y="195" class="lbl" text-anchor="middle">左足</text>
+
+  <!-- Weight bars -->
+  <rect x="80" y="225" width="80" height="28" fill="#e67e22"/>
+  <text x="120" y="245" class="ratio" text-anchor="middle" fill="#fff">5.5</text>
+  <rect x="230" y="225" width="65" height="28" fill="#f7c180"/>
+  <text x="262" y="245" class="ratio" text-anchor="middle" fill="#333">4.5</text>
+
+  <text x="195" y="275" class="note" text-anchor="middle">→ アッパーブローを作りやすい</text>
+
+  <!-- ============================================== -->
+  <!-- ADDRESS - IRON (bottom left) -->
+  <rect x="40" y="310" width="300" height="32" rx="6" fill="#27ae60"/>
+  <text x="190" y="331" class="stl" text-anchor="middle">アイアン：左右均等〜やや左</text>
+
+  <ellipse cx="120" cy="395" rx="40" ry="18" fill="#fff" stroke="#333" stroke-width="2"/>
+  <text x="120" y="400" class="lbl" text-anchor="middle">右足</text>
+  <ellipse cx="270" cy="395" rx="40" ry="18" fill="#fff" stroke="#333" stroke-width="2"/>
+  <text x="270" y="400" class="lbl" text-anchor="middle">左足</text>
+
+  <rect x="83" y="430" width="73" height="28" fill="#a4d8a8"/>
+  <text x="120" y="450" class="ratio" text-anchor="middle" fill="#333">5</text>
+  <rect x="233" y="430" width="73" height="28" fill="#27ae60"/>
+  <text x="270" y="450" class="ratio" text-anchor="middle" fill="#fff">5</text>
+
+  <text x="195" y="480" class="note" text-anchor="middle">→ ダウンブローを作りやすい</text>
+
+  <!-- ============================================== -->
+  <!-- IMPACT - DRIVER (top right) -->
+  <rect x="450" y="100" width="300" height="32" rx="6" fill="#e67e22"/>
+  <text x="600" y="121" class="stl" text-anchor="middle">ドライバー：左 6 ：右 4</text>
+
+  <ellipse cx="525" cy="190" rx="40" ry="18" fill="#fff" stroke="#333" stroke-width="2"/>
+  <text x="525" y="195" class="lbl" text-anchor="middle">右足</text>
+  <ellipse cx="675" cy="190" rx="40" ry="18" fill="#fff" stroke="#333" stroke-width="2"/>
+  <text x="675" y="195" class="lbl" text-anchor="middle">左足</text>
+
+  <rect x="490" y="225" width="62" height="28" fill="#f7c180"/>
+  <text x="521" y="245" class="ratio" text-anchor="middle" fill="#333">4</text>
+  <rect x="625" y="225" width="93" height="28" fill="#e67e22"/>
+  <text x="671" y="245" class="ratio" text-anchor="middle" fill="#fff">6</text>
+
+  <text x="600" y="275" class="note" text-anchor="middle">左に乗るが、頭はやや残す</text>
+
+  <!-- ============================================== -->
+  <!-- IMPACT - IRON (bottom right) -->
+  <rect x="450" y="310" width="300" height="32" rx="6" fill="#27ae60"/>
+  <text x="600" y="331" class="stl" text-anchor="middle">アイアン：左 7〜8 ：右 2〜3</text>
+
+  <ellipse cx="525" cy="395" rx="40" ry="18" fill="#fff" stroke="#333" stroke-width="2"/>
+  <text x="525" y="400" class="lbl" text-anchor="middle">右足</text>
+  <ellipse cx="675" cy="395" rx="40" ry="18" fill="#fff" stroke="#333" stroke-width="2"/>
+  <text x="675" y="400" class="lbl" text-anchor="middle">左足</text>
+
+  <rect x="500" y="430" width="42" height="28" fill="#a4d8a8"/>
+  <text x="521" y="450" class="ratio" text-anchor="middle" fill="#333">2</text>
+  <rect x="608" y="430" width="115" height="28" fill="#27ae60"/>
+  <text x="665" y="450" class="ratio" text-anchor="middle" fill="#fff">8</text>
+
+  <text x="600" y="480" class="note" text-anchor="middle">しっかり左に乗せて押し込む</text>
+
+  <!-- bottom common note -->
+  <rect x="80" y="510" width="640" height="22" rx="4" fill="#e74c3c" opacity="0.08" stroke="#e74c3c" stroke-width="1"/>
+  <text x="400" y="525" class="note" text-anchor="middle" fill="#c0392b" font-weight="700">★どちらも「左の壁」を作るのは共通（流れすぎ＝引っ掛け／フックの原因）</text>
+
+  <text x="400" y="498" class="cap" text-anchor="middle" fill="#888">図3：体重配分はアドレスもインパクトも番手で異なる</text>
+</svg>
