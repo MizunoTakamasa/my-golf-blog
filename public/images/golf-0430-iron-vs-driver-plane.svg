@@ -38,7 +38,7 @@
 
   <!-- Swing plane FLAT - more horizontal angle through hip -->
   <!-- Long swing plane line at flat angle (~55 degrees from vertical) -->
-  <line x1="50" y1="380" x2="350" y2="120" stroke="#e67e22" stroke-width="3" stroke-dasharray="10,4" opacity="0.9"/>
+  <line x1="350" y1="380" x2="50" y2="120" stroke="#e67e22" stroke-width="3" stroke-dasharray="10,4" opacity="0.9"/>
   <!-- club at address -->
   <line x1="200" y1="240" x2="270" y2="438" stroke="#333" stroke-width="2.5"/>
   <ellipse cx="275" cy="438" rx="18" ry="9" fill="#333"/>
@@ -74,7 +74,7 @@
 
   <!-- Swing plane UPRIGHT - more vertical angle -->
   <!-- Steeper swing plane (~35 degrees from vertical) -->
-  <line x1="500" y1="430" x2="700" y2="100" stroke="#27ae60" stroke-width="3" stroke-dasharray="10,4" opacity="0.9"/>
+  <line x1="700" y1="430" x2="500" y2="100" stroke="#27ae60" stroke-width="3" stroke-dasharray="10,4" opacity="0.9"/>
   <!-- club at address (shorter, closer) -->
   <line x1="600" y1="240" x2="640" y2="430" stroke="#333" stroke-width="2.5"/>
   <path d="M 632 432 L 656 430 L 656 438 L 632 437 Z" fill="#333"/>
