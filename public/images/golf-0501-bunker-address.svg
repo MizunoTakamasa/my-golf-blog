@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 600" width="1100" height="600" font-family="'Hiragino Sans','Yu Gothic','Meiryo','Noto Sans JP',sans-serif">
+  <rect width="1100" height="600" fill="#fff7ed"/>
+
+  <!-- title -->
+  <text x="40" y="44" fill="#0f172a" font-size="22" font-weight="800">バンカーショットのアドレス：ボール位置とオープンスタンス（上から見た図）</text>
+  <text x="40" y="70" fill="#64748b" font-size="14">右利きを想定／目標は画面右方向</text>
+
+  <!-- sand area -->
+  <ellipse cx="550" cy="350" rx="480" ry="200" fill="#fde68a" stroke="#d97706" stroke-width="2"/>
+  <text x="120" y="510" fill="#92400e" font-size="14" font-weight="700">砂（バンカー）</text>
+
+  <!-- target line -->
+  <line x1="200" y1="350" x2="980" y2="350" stroke="#16a34a" stroke-width="3" stroke-dasharray="10,6"/>
+  <polygon points="980,350 970,344 970,356" fill="#16a34a"/>
+  <text x="900" y="335" fill="#15803d" font-size="14" font-weight="800">目標方向</text>
+
+  <!-- body / stance line (open: angled left of target) -->
+  <line x1="280" y1="430" x2="900" y2="270" stroke="#0ea5e9" stroke-width="3" stroke-dasharray="6,4"/>
+  <text x="640" y="285" fill="#0369a1" font-size="14" font-weight="800">スタンスのライン（目標の左を向く）</text>
+
+  <!-- LEFT foot (front, closer to target) -->
+  <g transform="translate(640,300)">
+    <ellipse cx="0" cy="0" rx="36" ry="18" fill="#475569" stroke="#0f172a" stroke-width="2" transform="rotate(-15)"/>
+    <text x="0" y="-30" text-anchor="middle" fill="#0f172a" font-size="14" font-weight="800">左足（前）</text>
+    <text x="0" y="36" text-anchor="middle" fill="#475569" font-size="11">体重 約60%</text>
+  </g>
+
+  <!-- RIGHT foot (back, further from target) -->
+  <g transform="translate(440,400)">
+    <ellipse cx="0" cy="0" rx="36" ry="18" fill="#475569" stroke="#0f172a" stroke-width="2" transform="rotate(-15)"/>
+    <text x="0" y="-30" text-anchor="middle" fill="#0f172a" font-size="14" font-weight="800">右足（後ろ）</text>
+    <text x="0" y="36" text-anchor="middle" fill="#475569" font-size="11">体重 約40%</text>
+  </g>
+
+  <!-- shoulder width line -->
+  <line x1="440" y1="400" x2="640" y2="300" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="500" y="380" fill="#475569" font-size="12">肩幅以上に広く</text>
+
+  <!-- ball : 左足かかとの内側 -->
+  <circle cx="610" cy="350" r="11" fill="#ffffff" stroke="#0f172a" stroke-width="2"/>
+  <line x1="610" y1="350" x2="610" y2="220" stroke="#ef4444" stroke-width="2" stroke-dasharray="4,3"/>
+  <rect x="540" y="180" width="220" height="36" rx="6" fill="#ef4444"/>
+  <text x="650" y="204" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="800">ボール位置：左足かかとの内側</text>
+
+  <!-- club face direction -->
+  <g transform="translate(610,350)">
+    <line x1="-8" y1="0" x2="60" y2="0" stroke="#dc2626" stroke-width="3"/>
+    <polygon points="60,0 50,-6 50,6" fill="#dc2626"/>
+    <text x="70" y="5" fill="#b91c1c" font-size="12" font-weight="700">フェースは目標へ（少し開く）</text>
+  </g>
+
+  <!-- bottom info box -->
+  <rect x="40" y="540" width="1020" height="46" rx="8" fill="#ffedd5" stroke="#d97706"/>
+  <text x="60" y="568" fill="#92400e" font-size="14" font-weight="700">ポイント：</text>
+  <text x="160" y="568" fill="#7c2d12" font-size="14">体は目標の左／フェースは目標／ボールは左寄り／足は砂にしっかり埋めて安定させる</text>
+</svg>
