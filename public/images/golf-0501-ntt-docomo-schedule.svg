@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 480" width="1100" height="480" font-family="'Hiragino Sans','Yu Gothic','Meiryo','Noto Sans JP',sans-serif">
+  <rect width="1100" height="480" rx="14" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="40" y="60" fill="#0f172a" font-size="30" font-weight="800">大会スケジュール（54ホール短縮競技）</text>
+  <text x="40" y="92" fill="#64748b" font-size="18">当初4日間72ホール → 3日間54ホールへ変更</text>
+  <line x1="120" y1="220" x2="980" y2="220" stroke="#cbd5e1" stroke-width="4"/>
+  <g transform="translate(120,160)">
+    <circle cx="0" cy="60" r="22" fill="#16a34a"/>
+    <text x="0" y="67" text-anchor="middle" fill="#ffffff" font-size="22" font-weight="800">✓</text>
+    <text x="0" y="20" text-anchor="middle" fill="#0f172a" font-size="18" font-weight="700">4/30(木)</text>
+    <text x="0" y="120" text-anchor="middle" fill="#16a34a" font-size="18" font-weight="700">第1R 完了</text>
+    <text x="0" y="148" text-anchor="middle" fill="#475569" font-size="14">首位：岡山絵里 -9</text>
+  </g>
+  <g transform="translate(380,160)">
+    <circle cx="0" cy="60" r="26" fill="#e63946"/>
+    <text x="0" y="68" text-anchor="middle" fill="#ffffff" font-size="22" font-weight="800">×</text>
+    <text x="0" y="20" text-anchor="middle" fill="#0f172a" font-size="18" font-weight="700">5/1(金)</text>
+    <text x="0" y="120" text-anchor="middle" fill="#e63946" font-size="20" font-weight="800">中止</text>
+    <text x="0" y="148" text-anchor="middle" fill="#475569" font-size="14">悪天候予報のため</text>
+  </g>
+  <g transform="translate(640,160)">
+    <circle cx="0" cy="60" r="22" fill="#0ea5e9"/>
+    <text x="0" y="68" text-anchor="middle" fill="#ffffff" font-size="20" font-weight="800">2</text>
+    <text x="0" y="20" text-anchor="middle" fill="#0f172a" font-size="18" font-weight="700">5/2(土)</text>
+    <text x="0" y="120" text-anchor="middle" fill="#0ea5e9" font-size="18" font-weight="700">第2R 順延開催</text>
+    <text x="0" y="148" text-anchor="middle" fill="#475569" font-size="14">OUT 7:00 / IN 7:05</text>
+  </g>
+  <g transform="translate(900,160)">
+    <circle cx="0" cy="60" r="22" fill="#f59e0b"/>
+    <text x="0" y="68" text-anchor="middle" fill="#ffffff" font-size="20" font-weight="800">F</text>
+    <text x="0" y="20" text-anchor="middle" fill="#0f172a" font-size="18" font-weight="700">5/3(日)</text>
+    <text x="0" y="120" text-anchor="middle" fill="#f59e0b" font-size="18" font-weight="700">最終R</text>
+    <text x="0" y="148" text-anchor="middle" fill="#475569" font-size="14">60位タイまで進出</text>
+  </g>
+  <rect x="40" y="370" width="1020" height="80" rx="10" fill="#f1f5f9" stroke="#cbd5e1"/>
+  <text x="60" y="402" fill="#0f172a" font-size="18" font-weight="700">予選カット：</text>
+  <text x="180" y="402" fill="#334155" font-size="18">第2ラウンド（36ホール）終了時点で60位タイまで → 5/3(日) 最終ラウンドへ</text>
+  <text x="60" y="432" fill="#475569" font-size="15">主催者は選手・関係者・ギャラリーの安全を最優先し、5/1の競技を中止と判断。</text>
+</svg>
