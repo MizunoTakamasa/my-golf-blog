@@ -1,0 +1,155 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="ゴルフのクラブ別ティーアップの高さの目安を示す比較図">
+  <defs>
+    <linearGradient id="bgT" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e3f2fd"/>
+      <stop offset="100%" stop-color="#fafafa"/>
+    </linearGradient>
+    <linearGradient id="grassT" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7cb342"/>
+      <stop offset="100%" stop-color="#558b2f"/>
+    </linearGradient>
+    <radialGradient id="ballT" cx="40%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#cccccc"/>
+    </radialGradient>
+    <linearGradient id="teeColor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffb74d"/>
+      <stop offset="100%" stop-color="#e65100"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgT)"/>
+
+  <!-- Title -->
+  <g font-family="'Hiragino Sans','Yu Gothic','Noto Sans JP',sans-serif">
+    <rect x="40" y="30" width="1120" height="100" rx="14" fill="#1b5e20"/>
+    <text x="600" y="78" text-anchor="middle" font-size="34" font-weight="800" fill="#fff">クラブ別ティーアップの高さ｜目安と理想の弾道</text>
+    <text x="600" y="110" text-anchor="middle" font-size="18" font-weight="500" fill="#c5e1a5">「ボールの何割がフェース上に出ているか」が判断基準</text>
+  </g>
+
+  <!-- Ground -->
+  <rect x="0" y="510" width="1200" height="120" fill="url(#grassT)"/>
+  <line x1="0" y1="510" x2="1200" y2="510" stroke="#33691e" stroke-width="3"/>
+
+  <!-- ===== Section 1: Driver (highest) ===== -->
+  <g transform="translate(80,160)">
+    <!-- Title -->
+    <rect x="0" y="0" width="240" height="40" rx="8" fill="#0277bd"/>
+    <text x="120" y="27" text-anchor="middle" font-family="'Hiragino Sans','Yu Gothic','Noto Sans JP',sans-serif" font-size="18" font-weight="800" fill="#fff">ドライバー</text>
+    <text x="120" y="62" text-anchor="middle" font-family="'Hiragino Sans','Yu Gothic','Noto Sans JP',sans-serif" font-size="14" font-weight="700" fill="#0277bd">ボール半分以上が出る</text>
+    <text x="120" y="84" text-anchor="middle" font-family="'Hiragino Sans','Yu Gothic','Noto Sans JP',sans-serif" font-size="12" font-weight="500" fill="#555">高さの目安：4〜5cm</text>
+
+    <!-- Tee with ball (high) -->
+    <g transform="translate(120,260)">
+      <!-- Tee -->
+      <path d="M -3,0 L 3,0 L 4,80 L -4,80 Z" fill="url(#teeColor)"/>
+      <ellipse cx="0" cy="80" rx="6" ry="3" fill="#bf360c"/>
+      <ellipse cx="0" cy="0" rx="11" ry="4" fill="#ffb74d"/>
+      <!-- Ball on top -->
+      <circle cx="0" cy="-12" r="13" fill="url(#ballT)" stroke="#9e9e9e" stroke-width="1"/>
+
+      <!-- Club face reference (driver, big) -->
+      <g transform="translate(-90,-15)">
+        <rect x="0" y="0" width="60" height="38" rx="6" fill="#37474f" stroke="#212121" stroke-width="1.5"/>
+        <line x1="3" y1="6" x2="57" y2="6" stroke="#90a4ae" stroke-width="0.5"/>
+        <line x1="3" y1="12" x2="57" y2="12" stroke="#90a4ae" stroke-width="0.5"/>
+        <line x1="3" y1="18" x2="57" y2="18" stroke="#90a4ae" stroke-width="0.5"/>
+        <line x1="3" y1="24" x2="57" y2="24" stroke="#90a4ae" stroke-width="0.5"/>
+      </g>
+    </g>
+
+    <!-- Trajectory arrow (upward) -->
+    <path d="M 110,170 Q 180,140 230,160" fill="none" stroke="#0277bd" stroke-width="3" stroke-linecap="round"/>
+    <polygon points="225,154 240,160 225,166" fill="#0277bd"/>
+    <text x="170" y="135" text-anchor="middle" font-family="'Hiragino Sans','Yu Gothic','Noto Sans JP',sans-serif" font-size="13" font-weight="700" fill="#0277bd">アッパーブロー</text>
+  </g>
+
+  <!-- ===== Section 2: Fairway Wood / UT ===== -->
+  <g transform="translate(370,160)">
+    <rect x="0" y="0" width="240" height="40" rx="8" fill="#2e7d32"/>
+    <text x="120" y="27" text-anchor="middle" font-family="'Hiragino Sans','Yu Gothic','Noto Sans JP',sans-serif" font-size="18" font-weight="800" fill="#fff">FW・UT</text>
+    <text x="120" y="62" text-anchor="middle" font-family="'Hiragino Sans','Yu Gothic','Noto Sans JP',sans-serif" font-size="14" font-weight="700" fill="#2e7d32">ボール1/3が出る</text>
+    <text x="120" y="84" text-anchor="middle" font-family="'Hiragino Sans','Yu Gothic','Noto Sans JP',sans-serif" font-size="12" font-weight="500" fill="#555">高さの目安：1.5〜2cm</text>
+
+    <g transform="translate(120,300)">
+      <path d="M -3,0 L 3,0 L 3.5,40 L -3.5,40 Z" fill="url(#teeColor)"/>
+      <ellipse cx="0" cy="40" rx="5" ry="2.5" fill="#bf360c"/>
+      <ellipse cx="0" cy="0" rx="10" ry="3.5" fill="#ffb74d"/>
+      <circle cx="0" cy="-12" r="13" fill="url(#ballT)" stroke="#9e9e9e" stroke-width="1"/>
+
+      <!-- Club face (FW size) -->
+      <g transform="translate(-85,-12)">
+        <rect x="0" y="0" width="50" height="30" rx="5" fill="#455a64" stroke="#263238" stroke-width="1.5"/>
+        <line x1="3" y1="6" x2="47" y2="6" stroke="#90a4ae" stroke-width="0.5"/>
+        <line x1="3" y1="12" x2="47" y2="12" stroke="#90a4ae" stroke-width="0.5"/>
+        <line x1="3" y1="18" x2="47" y2="18" stroke="#90a4ae" stroke-width="0.5"/>
+        <line x1="3" y1="24" x2="47" y2="24" stroke="#90a4ae" stroke-width="0.5"/>
+      </g>
+    </g>
+
+    <path d="M 110,200 Q 175,190 230,200" fill="none" stroke="#2e7d32" stroke-width="3" stroke-linecap="round"/>
+    <polygon points="225,194 240,200 225,206" fill="#2e7d32"/>
+    <text x="170" y="170" text-anchor="middle" font-family="'Hiragino Sans','Yu Gothic','Noto Sans JP',sans-serif" font-size="13" font-weight="700" fill="#2e7d32">レベルブロー</text>
+  </g>
+
+  <!-- ===== Section 3: Long Iron ===== -->
+  <g transform="translate(660,160)">
+    <rect x="0" y="0" width="240" height="40" rx="8" fill="#ef6c00"/>
+    <text x="120" y="27" text-anchor="middle" font-family="'Hiragino Sans','Yu Gothic','Noto Sans JP',sans-serif" font-size="18" font-weight="800" fill="#fff">ロングアイアン</text>
+    <text x="120" y="62" text-anchor="middle" font-family="'Hiragino Sans','Yu Gothic','Noto Sans JP',sans-serif" font-size="14" font-weight="700" fill="#ef6c00">ボール下端が出る</text>
+    <text x="120" y="84" text-anchor="middle" font-family="'Hiragino Sans','Yu Gothic','Noto Sans JP',sans-serif" font-size="12" font-weight="500" fill="#555">高さの目安：1cm</text>
+
+    <g transform="translate(120,330)">
+      <path d="M -2.5,0 L 2.5,0 L 3,20 L -3,20 Z" fill="url(#teeColor)"/>
+      <ellipse cx="0" cy="20" rx="4" ry="2" fill="#bf360c"/>
+      <ellipse cx="0" cy="0" rx="9" ry="3" fill="#ffb74d"/>
+      <circle cx="0" cy="-12" r="13" fill="url(#ballT)" stroke="#9e9e9e" stroke-width="1"/>
+
+      <g transform="translate(-78,-3)">
+        <rect x="0" y="0" width="44" height="22" rx="3" fill="#5d4037" stroke="#3e2723" stroke-width="1.5"/>
+        <line x1="3" y1="4" x2="41" y2="4" stroke="#a1887f" stroke-width="0.5"/>
+        <line x1="3" y1="8" x2="41" y2="8" stroke="#a1887f" stroke-width="0.5"/>
+        <line x1="3" y1="12" x2="41" y2="12" stroke="#a1887f" stroke-width="0.5"/>
+        <line x1="3" y1="16" x2="41" y2="16" stroke="#a1887f" stroke-width="0.5"/>
+      </g>
+    </g>
+
+    <path d="M 110,225 Q 175,225 230,235" fill="none" stroke="#ef6c00" stroke-width="3" stroke-linecap="round"/>
+    <polygon points="225,229 240,236 224,242" fill="#ef6c00"/>
+    <text x="170" y="200" text-anchor="middle" font-family="'Hiragino Sans','Yu Gothic','Noto Sans JP',sans-serif" font-size="13" font-weight="700" fill="#ef6c00">わずかなダウン</text>
+  </g>
+
+  <!-- ===== Section 4: Short Iron (Par 3) ===== -->
+  <g transform="translate(950,160)">
+    <rect x="0" y="0" width="200" height="40" rx="8" fill="#c62828"/>
+    <text x="100" y="27" text-anchor="middle" font-family="'Hiragino Sans','Yu Gothic','Noto Sans JP',sans-serif" font-size="18" font-weight="800" fill="#fff">ショートアイアン</text>
+    <text x="100" y="62" text-anchor="middle" font-family="'Hiragino Sans','Yu Gothic','Noto Sans JP',sans-serif" font-size="14" font-weight="700" fill="#c62828">芝とほぼ同じ高さ</text>
+    <text x="100" y="84" text-anchor="middle" font-family="'Hiragino Sans','Yu Gothic','Noto Sans JP',sans-serif" font-size="12" font-weight="500" fill="#555">高さの目安：5mm以下</text>
+
+    <g transform="translate(100,346)">
+      <path d="M -2,0 L 2,0 L 2.5,8 L -2.5,8 Z" fill="url(#teeColor)"/>
+      <ellipse cx="0" cy="0" rx="7" ry="2.5" fill="#ffb74d"/>
+      <circle cx="0" cy="-11" r="13" fill="url(#ballT)" stroke="#9e9e9e" stroke-width="1"/>
+
+      <g transform="translate(-72,1)">
+        <rect x="0" y="0" width="42" height="20" rx="3" fill="#3e2723" stroke="#1b0000" stroke-width="1.5"/>
+        <line x1="3" y1="4" x2="39" y2="4" stroke="#a1887f" stroke-width="0.5"/>
+        <line x1="3" y1="8" x2="39" y2="8" stroke="#a1887f" stroke-width="0.5"/>
+        <line x1="3" y1="12" x2="39" y2="12" stroke="#a1887f" stroke-width="0.5"/>
+        <line x1="3" y1="16" x2="39" y2="16" stroke="#a1887f" stroke-width="0.5"/>
+      </g>
+    </g>
+
+    <path d="M 90,235 Q 145,250 190,275" fill="none" stroke="#c62828" stroke-width="3" stroke-linecap="round"/>
+    <polygon points="184,270 196,278 180,283" fill="#c62828"/>
+    <text x="140" y="220" text-anchor="middle" font-family="'Hiragino Sans','Yu Gothic','Noto Sans JP',sans-serif" font-size="13" font-weight="700" fill="#c62828">ダウンブロー</text>
+  </g>
+
+  <!-- Bottom callout -->
+  <g font-family="'Hiragino Sans','Yu Gothic','Noto Sans JP',sans-serif">
+    <rect x="40" y="555" width="1120" height="55" rx="12" fill="#ffffff" stroke="#1b5e20" stroke-width="2"/>
+    <text x="65" y="585" font-size="16" font-weight="800" fill="#1b5e20">ポイント：</text>
+    <text x="170" y="585" font-size="15" font-weight="600" fill="#333">クラブが大きいほど高く、ロフトが立ったクラブほど低くする。アドレスでフェースを合わせた時の "見え方" で覚えるのが確実。</text>
+  </g>
+</svg>

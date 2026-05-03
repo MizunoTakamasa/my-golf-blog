@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="ゴルフのアプローチショットの基本姿勢を示すイラスト">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#87ceeb"/>
+      <stop offset="100%" stop-color="#e0f6ff"/>
+    </linearGradient>
+    <linearGradient id="fairway" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7cb342"/>
+      <stop offset="100%" stop-color="#558b2f"/>
+    </linearGradient>
+    <linearGradient id="green" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#9ccc65"/>
+      <stop offset="100%" stop-color="#689f38"/>
+    </linearGradient>
+    <radialGradient id="ballGrad" cx="40%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#cccccc"/>
+    </radialGradient>
+    <radialGradient id="sun" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff59d"/>
+      <stop offset="100%" stop-color="#fff59d" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#sky)"/>
+
+  <circle cx="980" cy="120" r="120" fill="url(#sun)"/>
+  <circle cx="980" cy="120" r="55" fill="#ffeb3b" opacity="0.85"/>
+
+  <polygon points="0,330 180,200 320,290 460,180 600,300 760,210 900,310 1060,220 1200,300 1200,400 0,400" fill="#90a4ae" opacity="0.55"/>
+  <polygon points="0,360 140,260 280,330 420,250 580,340 740,260 880,340 1040,270 1200,330 1200,420 0,420" fill="#78909c" opacity="0.7"/>
+
+  <g opacity="0.85">
+    <ellipse cx="120" cy="380" rx="60" ry="55" fill="#2e7d32"/>
+    <ellipse cx="240" cy="385" rx="55" ry="50" fill="#388e3c"/>
+    <ellipse cx="900" cy="380" rx="60" ry="55" fill="#2e7d32"/>
+    <ellipse cx="1050" cy="385" rx="55" ry="50" fill="#388e3c"/>
+  </g>
+
+  <path d="M0,400 Q600,360 1200,400 L1200,630 L0,630 Z" fill="url(#fairway)"/>
+
+  <ellipse cx="900" cy="470" rx="260" ry="55" fill="url(#green)"/>
+  <ellipse cx="900" cy="465" rx="250" ry="48" fill="#aed581" opacity="0.6"/>
+
+  <ellipse cx="950" cy="465" rx="10" ry="4" fill="#1b1b1b"/>
+
+  <line x1="950" y1="465" x2="950" y2="340" stroke="#424242" stroke-width="3"/>
+  <polygon points="950,340 1010,355 950,370" fill="#e53935"/>
+  <line x1="950" y1="340" x2="950" y2="370" stroke="#b71c1c" stroke-width="1"/>
+
+  <path d="M340,500 Q620,300 945,463" fill="none" stroke="#ffffff" stroke-width="3" stroke-dasharray="8 8" opacity="0.85"/>
+
+  <g font-family="'Hiragino Sans','Yu Gothic','Noto Sans JP',sans-serif" font-weight="700">
+    <rect x="430" y="320" width="120" height="34" rx="17" fill="#ffffff" opacity="0.9"/>
+    <text x="490" y="343" text-anchor="middle" font-size="18" fill="#2e7d32">キャリー</text>
+
+    <rect x="800" y="490" width="120" height="34" rx="17" fill="#ffffff" opacity="0.9"/>
+    <text x="860" y="513" text-anchor="middle" font-size="18" fill="#2e7d32">ラン</text>
+  </g>
+
+  <circle cx="340" cy="500" r="9" fill="url(#ballGrad)" stroke="#9e9e9e" stroke-width="1"/>
+  <circle cx="338" cy="498" r="1" fill="#bdbdbd"/>
+  <circle cx="342" cy="500" r="1" fill="#bdbdbd"/>
+  <circle cx="340" cy="503" r="1" fill="#bdbdbd"/>
+
+  <g transform="translate(260,330)">
+    <ellipse cx="40" cy="178" rx="55" ry="6" fill="#000" opacity="0.18"/>
+
+    <path d="M20,170 L30,110 L55,110 L65,170 Z" fill="#1976d2"/>
+    <rect x="18" y="168" width="20" height="8" fill="#212121"/>
+    <rect x="50" y="168" width="20" height="8" fill="#212121"/>
+
+    <path d="M22,115 Q20,75 35,55 L60,55 Q75,80 70,115 Z" fill="#ef5350"/>
+    <path d="M40,55 L50,65 L42,75 Z" fill="#fff"/>
+
+    <circle cx="46" cy="42" r="16" fill="#ffd180"/>
+    <path d="M30,38 Q46,18 64,38 L64,42 L30,42 Z" fill="#1565c0"/>
+    <rect x="28" y="40" width="22" height="4" fill="#1565c0"/>
+
+    <path d="M55,68 Q70,95 80,140" stroke="#ef5350" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <path d="M30,68 Q42,95 78,138" stroke="#ef5350" stroke-width="10" fill="none" stroke-linecap="round"/>
+
+    <circle cx="80" cy="140" r="7" fill="#ffffff" stroke="#9e9e9e" stroke-width="1"/>
+
+    <line x1="80" y1="140" x2="80" y2="170" stroke="#bdbdbd" stroke-width="3"/>
+    <path d="M72,168 L92,168 L96,178 L70,178 Z" fill="#9e9e9e" stroke="#616161" stroke-width="1"/>
+    <line x1="74" y1="172" x2="92" y2="172" stroke="#616161" stroke-width="0.5"/>
+    <line x1="74" y1="174" x2="92" y2="174" stroke="#616161" stroke-width="0.5"/>
+    <line x1="74" y1="176" x2="92" y2="176" stroke="#616161" stroke-width="0.5"/>
+  </g>
+
+  <g font-family="'Hiragino Sans','Yu Gothic','Noto Sans JP',sans-serif">
+    <rect x="40" y="40" width="540" height="130" rx="14" fill="#ffffff" opacity="0.92"/>
+    <text x="60" y="92" font-size="34" font-weight="800" fill="#1b5e20">ゴルフ アプローチの打ち方</text>
+    <text x="60" y="132" font-size="22" font-weight="600" fill="#2e7d32">基本の構え・距離の打ち分け・ミス防止のコツ</text>
+    <text x="60" y="160" font-size="16" font-weight="500" fill="#555">100切りを目指すアマチュア向け徹底ガイド</text>
+  </g>
+
+  <g font-family="'Hiragino Sans','Yu Gothic','Noto Sans JP',sans-serif">
+    <rect x="540" y="560" width="120" height="40" rx="20" fill="#1b5e20"/>
+    <text x="600" y="586" text-anchor="middle" font-size="18" font-weight="700" fill="#ffffff">残り 30Y</text>
+  </g>
+</svg>
