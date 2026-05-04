@@ -115,11 +115,29 @@ FWやUTは **レベルブロー（横から払い打つ）** が基本。地面�
 - **磁石ティー** ：折れにくく、毎回同じ高さで使える
 - **段付きロングティー** ：刺す深さが決まっていて、 **毎回同じ高さを再現できる**
 
-毎回同じ高さで打ちたい人には、 **段付きティー** が圧倒的におすすめ。
+#### ブラシティー｜先端が「毛先」になっている特殊ティー
+
+![ブラシティーの仕組みと特徴｜通常ティーとの比較](/images/golf-0503-brush-tee.svg)
+
+通常のティーは「カップ状のお皿」にボールが乗るが、ブラシティーは **先端がブラシ（毛先）** になっており、ボールへの接触面積が極端に少ない。これによってクラブが通過するときの **抵抗が減り、飛距離が伸びる** と言われる。スピン量も安定しやすい。
+
+ただし価格はやや高めで、トーナメント等で **使用が禁止されている試合** もあるため、競技に出る人は事前にルールを確認したい。
+
+#### 磁石ティー｜上下が磁石でくっつく2ピース構造
+
+![磁石ティーの仕組み｜アドレス時とインパクト後の分離](/images/golf-0503-magnet-tee.svg)
+
+磁石ティーは **「地面に刺す土台（BASE）」** と **「ボールを乗せる先端（TOP）」** の2つに分かれており、その2つが **磁石でくっついている** 構造。クラブが当たると上下が分離し、ティー自体が折れない。
+
+ボールを失くしにくい、毎回同じ高さに再現できる、繰り返し使えてエコ、というメリットがある。一方で **重さがあり価格は高め**。
+
+毎回同じ高さで打ちたい人には、 **段付きティー or 磁石ティー** が圧倒的におすすめ。
 
 ---
 
 ## 弾道はティーの高さでこう変わる
+
+![ティーの高さによる弾道の違い｜高い→高弾道、低い→低弾道](/images/golf-0503-tee-trajectory.svg)
 
 ### ティーを高くした時
 
@@ -170,6 +188,8 @@ FWやUTは **レベルブロー（横から払い打つ）** が基本。地面�
 ---
 
 ## よくある失敗とその対策
+
+![ドライバーで多い高さによるミス｜テンプラとチョロ・ライナー](/images/golf-0503-tee-mistakes.svg)
 
 ### 失敗①｜毎回適当な高さでティーアップしてしまう
 
@@ -236,4 +256,4 @@ A. ティーの高さの調整に加え、 **アゲンストは2番手大きく�
 **Q5. 木製とプラスチック製、どちらがいい？**
 A. 折れにくさを優先するなら **プラスチック**。打感や見た目の好みなら **木製**。プロは木製派が多い。
 
-<table border="0" cellpadding="0" cellspacing="0"><tr><td><div style="border:1px solid #95a5a6;border-radius:.75rem;background-color:#FFFFFF;width:504px;margin:0px;padding:5px;text-align:center;overflow:hidden;"><table><tr><td style="width:240px"><a href="https://hb.afl.rakuten.co.jp/ichiba/5371481c.7ab75dd4.5371481d.60100304/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmaple-lane-golf%2Ft-496%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"><img src="https://hbb.afl.rakuten.co.jp/hgb/5371481c.7ab75dd4.5371481d.60100304/?me_id=1315499&item_id=10006249&pc=https%3A%2F%2Fthumbnail.image.rakuten.co.jp%2F%400_mall%2Fmaple-lane-golf%2Fcabinet%2F08014498%2F20230915-1.jpg%3F_ex%3D240x240&s=240x240&t=picttext" border="0" style="margin:2px" alt="[商品価格に関しましては、リンクが作成された時点と現時点で情報が変更されている場合がございます。]" title="[商品価格に関しましては、リンクが作成された時点と現時点で情報が変更されている場合がございます。]"></a></td><td style="vertical-align:top;width:248px;display: block;"><p style="font-size:12px;line-height:1.4em;text-align:left;margin:0px;padding:2px 6px;word-wrap:break-word"><a href="https://hb.afl.rakuten.co.jp/ichiba/5371481c.7ab75dd4.5371481d.60100304/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmaple-lane-golf%2Ft-496%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;">TOUR TEE ツアーティー プラス T-496 ゴルフ用品 PLUS ゴルフ ティー ゴルフティ (定形)</a><br><span >価格：880円（税込、送料無料)</span> <span style="color:#BBB">(2026/5/4時点)</span></p><div style="margin:10px;"><a href="https://hb.afl.rakuten.co.jp/ichiba/5371481c.7ab75dd4.5371481d.60100304/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmaple-lane-golf%2Ft-496%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"><img src="https://static.affiliate.rakuten.co.jp/makelink/rl.svg" style="float:left;max-height:27px;width:auto;margin-top:0" ></a><a href="https://hb.afl.rakuten.co.jp/ichiba/5371481c.7ab75dd4.5371481d.60100304/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmaple-lane-golf%2Ft-496%2F%3Fscid%3Daf_pc_bbtn&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ==" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"><div style="float:right;width:41%;height:27px;background-color:#bf0000;color:#fff!important;font-size:12px;font-weight:500;line-height:27px;margin-left:1px;padding: 0 12px;border-radius:16px;cursor:pointer;text-align:center;"> 楽天で購入 </div></a></div></td></tr></table></div><br><p style="color:#000000;font-size:12px;line-height:1.4em;margin:5px;word-wrap:break-word"></p></td></tr></table>
+<table border="0" cellpadding="0" cellspacing="0"><tr><td><div style="border:1px solid #95a5a6;border-radius:.75rem;background-color:#FFFFFF;width:504px;margin:0px;padding:5px;text-align:center;overflow:hidden;"><table><tr><td style="width:240px"><a href="https://hb.afl.rakuten.co.jp/ichiba/39bb8a9e.23330cd7.39bb8a9f.1eb602cb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdaiya%2Ftoma-1p%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"><img src="https://hbb.afl.rakuten.co.jp/hgb/39bb8a9e.23330cd7.39bb8a9f.1eb602cb/?me_id=1214619&item_id=10001623&pc=https%3A%2F%2Fthumbnail.image.rakuten.co.jp%2F%400_mall%2Fdaiya%2Fcabinet%2F05643472%2F06612017%2F08479970%2Fimgrc0165080970.jpg%3F_ex%3D240x240&s=240x240&t=picttext" border="0" style="margin:2px" alt="[商品価格に関しましては、リンクが作成された時点と現時点で情報が変更されている場合がございます。]" title="[商品価格に関しましては、リンクが作成された時点と現時点で情報が変更されている場合がございます。]"></a></td><td style="vertical-align:top;width:248px;display: block;"><p style="font-size:12px;line-height:1.4em;text-align:left;margin:0px;padding:2px 6px;word-wrap:break-word"><a href="https://hb.afl.rakuten.co.jp/ichiba/39bb8a9e.23330cd7.39bb8a9f.1eb602cb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdaiya%2Ftoma-1p%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;">★星野陸也プロ試合使用ティー 送料無料 公式ショップ★【高さ10mm調節可能】自分好みの高さに調節できる| トマホークティー ゴルフ ティー ショート ロング ダイヤゴルフ 飛距離 カラー 折れない カラフル 振り抜き ゴルフティ ゴルフティー</a><br><span >価格：700円（税込、送料無料)</span> <span style="color:#BBB">(2026/5/4時点)</span></p><div style="margin:10px;"><a href="https://hb.afl.rakuten.co.jp/ichiba/39bb8a9e.23330cd7.39bb8a9f.1eb602cb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdaiya%2Ftoma-1p%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"><img src="https://static.affiliate.rakuten.co.jp/makelink/rl.svg" style="float:left;max-height:27px;width:auto;margin-top:0" ></a><a href="https://hb.afl.rakuten.co.jp/ichiba/39bb8a9e.23330cd7.39bb8a9f.1eb602cb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdaiya%2Ftoma-1p%2F%3Fscid%3Daf_pc_bbtn&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ==" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"><div style="float:right;width:41%;height:27px;background-color:#bf0000;color:#fff!important;font-size:12px;font-weight:500;line-height:27px;margin-left:1px;padding: 0 12px;border-radius:16px;cursor:pointer;text-align:center;"> 楽天で購入 </div></a></div></td></tr></table></div><br><p style="color:#000000;font-size:12px;line-height:1.4em;margin:5px;word-wrap:break-word"></p></td></tr></table>
