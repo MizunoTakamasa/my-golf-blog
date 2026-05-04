@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="磁石ティーの仕組みと特徴を示す図解">
+  <defs>
+    <linearGradient id="bgM" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fff8e1"/>
+      <stop offset="100%" stop-color="#ffe082"/>
+    </linearGradient>
+    <linearGradient id="grassM" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7cb342"/>
+      <stop offset="100%" stop-color="#558b2f"/>
+    </linearGradient>
+    <radialGradient id="ballM" cx="40%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#cccccc"/>
+    </radialGradient>
+    <linearGradient id="metal" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#bdbdbd"/>
+      <stop offset="50%" stop-color="#9e9e9e"/>
+      <stop offset="100%" stop-color="#616161"/>
+    </linearGradient>
+  </defs>
+
+  <!-- BG -->
+  <rect width="1200" height="630" fill="url(#bgM)"/>
+
+  <!-- Title bar -->
+  <g font-family="'Hiragino Sans','Yu Gothic','Noto Sans JP',sans-serif">
+    <rect x="40" y="30" width="1120" height="100" rx="14" fill="#bf360c"/>
+    <text x="600" y="78" text-anchor="middle" font-size="34" font-weight="800" fill="#ffffff">磁石ティー｜上下が磁石でくっつく特殊ティー</text>
+    <text x="600" y="108" text-anchor="middle" font-size="18" font-weight="500" fill="#fff59d">折れにくく、毎回同じ高さを再現できる</text>
+  </g>
+
+  <!-- Left: アドレス時 -->
+  <g transform="translate(60,170)">
+    <rect width="360" height="400" rx="16" fill="#ffffff" stroke="#bf360c" stroke-width="3"/>
+    <rect width="360" height="50" rx="16" fill="#bf360c"/>
+    <text x="180" y="34" text-anchor="middle" font-family="'Hiragino Sans','Yu Gothic','Noto Sans JP',sans-serif" font-size="22" font-weight="800" fill="#ffffff">アドレス時</text>
+
+    <!-- Ground -->
+    <rect x="20" y="340" width="320" height="50" fill="url(#grassM)"/>
+    <line x1="20" y1="340" x2="340" y2="340" stroke="#33691e" stroke-width="2"/>
+
+    <!-- Tee BASE (in ground) -->
+    <rect x="174" y="290" width="12" height="60" fill="url(#metal)"/>
+    <ellipse cx="180" cy="350" rx="10" ry="3" fill="#424242"/>
+    <text x="225" y="332" font-family="'Hiragino Sans','Yu Gothic','Noto Sans JP',sans-serif" font-size="13" font-weight="700" fill="#5d4037">BASE</text>
+    <text x="225" y="348" font-family="'Hiragino Sans','Yu Gothic','Noto Sans JP',sans-serif" font-size="13" fill="#5d4037">（地面に固定）</text>
+
+    <!-- Magnet symbol -->
+    <g transform="translate(180,290)">
+      <rect x="-15" y="-10" width="30" height="20" fill="#e53935"/>
+      <text x="0" y="6" text-anchor="middle" font-family="'Hiragino Sans','Yu Gothic','Noto Sans JP',sans-serif" font-size="14" font-weight="800" fill="#ffffff">N</text>
+    </g>
+    <g transform="translate(180,260)">
+      <rect x="-15" y="-10" width="30" height="20" fill="#1565c0"/>
+      <text x="0" y="6" text-anchor="middle" font-family="'Hiragino Sans','Yu Gothic','Noto Sans JP',sans-serif" font-size="14" font-weight="800" fill="#ffffff">S</text>
+    </g>
+
+    <!-- TOP cup -->
+    <rect x="174" y="220" width="12" height="40" fill="url(#metal)"/>
+    <ellipse cx="180" cy="220" rx="20" ry="5" fill="#9e9e9e"/>
+    <path d="M 160,220 Q 160,228 168,228 L 192,228 Q 200,228 200,220 Z" fill="#9e9e9e"/>
+
+    <!-- Ball -->
+    <circle cx="180" cy="200" r="20" fill="url(#ballM)" stroke="#9e9e9e" stroke-width="1"/>
+
+    <text x="225" y="220" font-family="'Hiragino Sans','Yu Gothic','Noto Sans JP',sans-serif" font-size="13" font-weight="700" fill="#5d4037">TOP</text>
+    <text x="225" y="240" font-family="'Hiragino Sans','Yu Gothic','Noto Sans JP',sans-serif" font-size="13" fill="#5d4037">（磁石でくっつく）</text>
+
+    <text x="180" y="100" text-anchor="middle" font-family="'Hiragino Sans','Yu Gothic','Noto Sans JP',sans-serif" font-size="15" font-weight="600" fill="#bf360c">2ピース構造</text>
+    <text x="180" y="125" text-anchor="middle" font-family="'Hiragino Sans','Yu Gothic','Noto Sans JP',sans-serif" font-size="15" font-weight="600" fill="#bf360c">磁力で連結している</text>
+  </g>
+
+  <!-- Center: arrow / impact -->
+  <g transform="translate(440,330)">
+    <polygon points="0,-30 60,0 0,30 0,15 -60,15 -60,-15 0,-15" fill="#f9a825"/>
+    <text x="0" y="60" text-anchor="middle" font-family="'Hiragino Sans','Yu Gothic','Noto Sans JP',sans-serif" font-size="22" font-weight="800" fill="#bf360c">インパクト！</text>
+  </g>
+
+  <!-- Right: インパクト後 -->
+  <g transform="translate(560,170)">
+    <rect width="580" height="400" rx="16" fill="#ffffff" stroke="#1b5e20" stroke-width="3"/>
+    <rect width="580" height="50" rx="16" fill="#1b5e20"/>
+    <text x="290" y="34" text-anchor="middle" font-family="'Hiragino Sans','Yu Gothic','Noto Sans JP',sans-serif" font-size="22" font-weight="800" fill="#ffffff">インパクト後｜2つに分離するから折れない</text>
+
+    <!-- Ground -->
+    <rect x="20" y="340" width="540" height="50" fill="url(#grassM)"/>
+    <line x1="20" y1="340" x2="560" y2="340" stroke="#33691e" stroke-width="2"/>
+
+    <!-- BASE remains in ground -->
+    <rect x="124" y="290" width="12" height="60" fill="url(#metal)"/>
+    <ellipse cx="130" cy="350" rx="10" ry="3" fill="#424242"/>
+
+    <!-- TOP flying away -->
+    <g transform="translate(360,170) rotate(35)">
+      <rect x="-6" y="-25" width="12" height="50" fill="url(#metal)"/>
+      <ellipse cx="0" cy="-25" rx="20" ry="5" fill="#9e9e9e"/>
+    </g>
+
+    <!-- Ball flying -->
+    <circle cx="430" cy="120" r="22" fill="url(#ballM)" stroke="#9e9e9e" stroke-width="1"/>
+
+    <!-- Trajectory dotted line -->
+    <path d="M 130 280 Q 250 200 430 120" fill="none" stroke="#bf360c" stroke-width="3" stroke-dasharray="6 6"/>
+
+    <!-- Annotation -->
+    <text x="290" y="100" text-anchor="middle" font-family="'Hiragino Sans','Yu Gothic','Noto Sans JP',sans-serif" font-size="15" font-weight="700" fill="#1b5e20">クラブが当たると上下が分離</text>
+    <text x="290" y="125" text-anchor="middle" font-family="'Hiragino Sans','Yu Gothic','Noto Sans JP',sans-serif" font-size="15" fill="#1b5e20">→ ティーが折れない / 失くしにくい</text>
+
+    <!-- BASE label -->
+    <text x="80" y="320" font-family="'Hiragino Sans','Yu Gothic','Noto Sans JP',sans-serif" font-size="13" font-weight="700" fill="#5d4037">残る</text>
+
+    <!-- TOP label -->
+    <text x="370" y="135" font-family="'Hiragino Sans','Yu Gothic','Noto Sans JP',sans-serif" font-size="13" font-weight="700" fill="#5d4037">外れる</text>
+  </g>
+
+  <!-- Bottom -->
+  <g font-family="'Hiragino Sans','Yu Gothic','Noto Sans JP',sans-serif">
+    <rect x="40" y="588" width="540" height="32" rx="8" fill="#1b5e20"/>
+    <text x="310" y="612" text-anchor="middle" font-size="16" font-weight="800" fill="#ffffff">メリット：折れない・同じ高さを再現できる</text>
+
+    <rect x="620" y="588" width="540" height="32" rx="8" fill="#bf360c"/>
+    <text x="890" y="612" text-anchor="middle" font-size="16" font-weight="800" fill="#ffffff">デメリット：通常ティーより重く価格が高め</text>
+  </g>
+</svg>

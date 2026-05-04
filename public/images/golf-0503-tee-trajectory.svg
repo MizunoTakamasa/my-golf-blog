@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="ティーの高さによる弾道の違いを示す比較図">
+  <defs>
+    <linearGradient id="skyT2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#bbdefb"/>
+      <stop offset="100%" stop-color="#e3f2fd"/>
+    </linearGradient>
+    <linearGradient id="grassT2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7cb342"/>
+      <stop offset="100%" stop-color="#558b2f"/>
+    </linearGradient>
+    <radialGradient id="ballT2" cx="40%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#cccccc"/>
+    </radialGradient>
+  </defs>
+
+  <!-- BG -->
+  <rect width="1200" height="630" fill="url(#skyT2)"/>
+
+  <!-- Title -->
+  <g font-family="'Hiragino Sans','Yu Gothic','Noto Sans JP',sans-serif">
+    <rect x="40" y="30" width="1120" height="100" rx="14" fill="#1b5e20"/>
+    <text x="600" y="78" text-anchor="middle" font-size="34" font-weight="800" fill="#ffffff">ティーの高さで弾道はこう変わる</text>
+    <text x="600" y="108" text-anchor="middle" font-size="18" font-weight="500" fill="#c5e1a5">高い → 高弾道・低スピン　／　低い → 低弾道・高スピン</text>
+  </g>
+
+  <!-- Ground -->
+  <rect x="0" y="500" width="1200" height="130" fill="url(#grassT2)"/>
+  <line x1="0" y1="500" x2="1200" y2="500" stroke="#33691e" stroke-width="2"/>
+
+  <!-- Two trajectories -->
+  <!-- HIGH tee trajectory (blue, high arc) -->
+  <path d="M 130 480 Q 600 150 1080 360" fill="none" stroke="#0277bd" stroke-width="5" stroke-dasharray="0"/>
+  <!-- LOW tee trajectory (red, low arc) -->
+  <path d="M 130 490 Q 600 350 1080 460" fill="none" stroke="#c62828" stroke-width="5" stroke-dasharray="0"/>
+
+  <!-- Labels on trajectories -->
+  <g font-family="'Hiragino Sans','Yu Gothic','Noto Sans JP',sans-serif">
+    <rect x="430" y="155" width="180" height="40" rx="20" fill="#0277bd"/>
+    <text x="520" y="183" text-anchor="middle" font-size="18" font-weight="800" fill="#ffffff">高い → 高弾道</text>
+
+    <rect x="430" y="320" width="180" height="40" rx="20" fill="#c62828"/>
+    <text x="520" y="348" text-anchor="middle" font-size="18" font-weight="800" fill="#ffffff">低い → 低弾道</text>
+  </g>
+
+  <!-- Tees on left -->
+  <g transform="translate(120,440)">
+    <!-- HIGH tee -->
+    <rect x="-20" y="-65" width="6" height="65" fill="#e65100"/>
+    <ellipse cx="-17" cy="-65" rx="14" ry="4" fill="#ffb74d"/>
+    <circle cx="-17" cy="-77" r="13" fill="url(#ballT2)" stroke="#9e9e9e" stroke-width="1"/>
+    <text x="-17" y="20" text-anchor="middle" font-family="'Hiragino Sans','Yu Gothic','Noto Sans JP',sans-serif" font-size="14" font-weight="800" fill="#0277bd">高い</text>
+    <text x="-17" y="40" text-anchor="middle" font-family="'Hiragino Sans','Yu Gothic','Noto Sans JP',sans-serif" font-size="13" fill="#0277bd">4〜5cm</text>
+
+    <!-- LOW tee -->
+    <rect x="22" y="-25" width="6" height="25" fill="#e65100"/>
+    <ellipse cx="25" cy="-25" rx="11" ry="3" fill="#ffb74d"/>
+    <circle cx="25" cy="-37" r="13" fill="url(#ballT2)" stroke="#9e9e9e" stroke-width="1"/>
+    <text x="25" y="20" text-anchor="middle" font-family="'Hiragino Sans','Yu Gothic','Noto Sans JP',sans-serif" font-size="14" font-weight="800" fill="#c62828">低い</text>
+    <text x="25" y="40" text-anchor="middle" font-family="'Hiragino Sans','Yu Gothic','Noto Sans JP',sans-serif" font-size="13" fill="#c62828">1cm前後</text>
+  </g>
+
+  <!-- Comparison cards -->
+  <g font-family="'Hiragino Sans','Yu Gothic','Noto Sans JP',sans-serif">
+    <!-- HIGH card -->
+    <rect x="660" y="500" width="240" height="110" rx="12" fill="#0277bd" opacity="0.95"/>
+    <text x="780" y="530" text-anchor="middle" font-size="18" font-weight="800" fill="#ffffff">高くする</text>
+    <text x="680" y="558" font-size="14" fill="#ffffff">・打ち出しが高い</text>
+    <text x="680" y="580" font-size="14" fill="#ffffff">・スピン少なめ</text>
+    <text x="680" y="602" font-size="14" fill="#fff59d">・飛距離が出やすい</text>
+
+    <!-- LOW card -->
+    <rect x="920" y="500" width="240" height="110" rx="12" fill="#c62828" opacity="0.95"/>
+    <text x="1040" y="530" text-anchor="middle" font-size="18" font-weight="800" fill="#ffffff">低くする</text>
+    <text x="940" y="558" font-size="14" fill="#ffffff">・打ち出しが低い</text>
+    <text x="940" y="580" font-size="14" fill="#ffffff">・スピン多め</text>
+    <text x="940" y="602" font-size="14" fill="#ffe082">・風に強い</text>
+
+    <!-- Conclusion -->
+    <rect x="40" y="500" width="600" height="110" rx="12" fill="#ffffff" stroke="#1b5e20" stroke-width="3"/>
+    <text x="60" y="530" font-size="16" font-weight="800" fill="#1b5e20">使い分けの目安：</text>
+    <text x="60" y="558" font-size="15" fill="#37474f">飛ばしたい時 → 高め（アゲンスト除く）</text>
+    <text x="60" y="582" font-size="15" fill="#37474f">コントロール重視 → 低め</text>
+    <text x="60" y="605" font-size="15" fill="#37474f">アゲンスト → 低め／フォロー → 高め</text>
+  </g>
+</svg>
