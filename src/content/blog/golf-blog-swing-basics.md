@@ -38,7 +38,7 @@ pubDate: "2026-04-25"
 
 下が動かないからこそ、上の捻転が深くなる。
 
-![バックスイングで左足に体重](/images/golf-backswing-leftfoot.jpg)
+![バックスイングで左足に体重](/images/golf-backswing-leftfoot.svg)
 
 ---
 

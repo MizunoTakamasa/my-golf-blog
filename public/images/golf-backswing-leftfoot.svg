@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1568 842" font-family="'Hiragino Sans','Yu Gothic','Meiryo',sans-serif">
+  <!-- Background -->
+  <rect width="1568" height="842" fill="#ffffff"/>
+
+  <!-- =================== LEFT PANEL: chapter cards =================== -->
+  <g font-size="22" fill="#2c3e50">
+    <rect x="30" y="60" width="380" height="92" rx="14" ry="14" fill="#ffffff" stroke="#bdc3c7" stroke-width="1.5"/>
+    <text x="55" y="92" font-size="18" fill="#7f8c8d">01</text>
+    <text x="55" y="128" font-weight="700">縦の体重移動</text>
+
+    <rect x="30" y="170" width="380" height="92" rx="14" ry="14" fill="#fdf2f2" stroke="#e74c3c" stroke-width="2"/>
+    <text x="55" y="202" font-size="18" fill="#c0392b">02</text>
+    <text x="55" y="238" font-weight="700">バックスイングで左足に体重</text>
+
+    <rect x="30" y="280" width="380" height="92" rx="14" ry="14" fill="#ffffff" stroke="#bdc3c7" stroke-width="1.5"/>
+    <text x="55" y="312" font-size="18" fill="#7f8c8d">03</text>
+    <text x="55" y="348" font-weight="700">捻転（背中を飛球線方向に向ける）</text>
+
+    <rect x="30" y="390" width="380" height="92" rx="14" ry="14" fill="#ffffff" stroke="#bdc3c7" stroke-width="1.5"/>
+    <text x="55" y="418" font-size="18" fill="#7f8c8d">04</text>
+    <text x="55" y="446" font-weight="700">インパクト</text>
+    <text x="55" y="472" font-size="18" font-weight="500" fill="#2c3e50">（腰は左、胸はボール側／X-ファクター）</text>
+
+    <rect x="30" y="500" width="380" height="92" rx="14" ry="14" fill="#ffffff" stroke="#bdc3c7" stroke-width="1.5"/>
+    <text x="55" y="532" font-size="18" fill="#7f8c8d">05</text>
+    <text x="55" y="568" font-weight="700">左足の踵を軸にした回転</text>
+  </g>
+
+  <!-- =================== RIGHT PANEL: figure =================== -->
+  <rect x="450" y="40" width="1090" height="762" rx="16" ry="16" fill="#ffffff" stroke="#dfe4ea" stroke-width="1.5"/>
+
+  <!-- Subtitle placed ABOVE the title so it does NOT overlap the club / arms -->
+  <text x="995" y="78" text-anchor="middle" font-size="18" fill="#7f8c8d">（正面から見たトップの形）</text>
+  <!-- Title -->
+  <text x="995" y="115" text-anchor="middle" font-size="30" font-weight="800" fill="#2c3e50">バックスイング：体重は左足に残しておく</text>
+
+  <!-- Ground line -->
+  <line x1="560" y1="700" x2="1430" y2="700" stroke="#27ae60" stroke-width="3"/>
+
+  <!-- Side notes -->
+  <g font-size="20" fill="#7f8c8d">
+    <text x="1230" y="380">上半身はしっかり捻転</text>
+    <text x="1230" y="412">下半身は安定</text>
+    <text x="1230" y="444">右へのスウェーを防ぐ</text>
+  </g>
+
+  <!-- ===== Stick figure ===== -->
+  <!-- Order: legs → torso → arms → HEAD on top -->
+
+  <polygon points="950,560 970,560 985,690 955,690" fill="#7f8c8d"/>
+  <polygon points="1010,560 1030,560 1025,690 995,690" fill="#7f8c8d"/>
+
+  <ellipse cx="945" cy="700" rx="48" ry="14" fill="#e74c3c"/>
+  <ellipse cx="1035" cy="700" rx="48" ry="14" fill="#dfe4ea" stroke="#bdc3c7" stroke-width="1.5"/>
+
+  <path d="M935,360 L1045,360 L1055,560 L925,560 Z" fill="#ecf0f1" stroke="#34495e" stroke-width="3"/>
+  <line x1="930" y1="365" x2="1050" y2="365" stroke="#34495e" stroke-width="3"/>
+
+  <!-- Arms drawn BEFORE head -->
+  <path d="M1045,370 C1100,300 1180,230 1240,170" stroke="#34495e" stroke-width="14" fill="none" stroke-linecap="round"/>
+  <path d="M935,370 C980,310 1080,250 1230,175" stroke="#34495e" stroke-width="14" fill="none" stroke-linecap="round"/>
+
+  <line x1="1235" y1="172" x2="780" y2="160" stroke="#7f8c8d" stroke-width="5" stroke-linecap="round"/>
+  <ellipse cx="775" cy="160" rx="22" ry="9" fill="#2c3e50"/>
+  <circle cx="1235" cy="172" r="12" fill="#34495e"/>
+
+  <!-- HEAD drawn LAST so it sits in front of the arms -->
+  <circle cx="990" cy="320" r="42" fill="#ffffff" stroke="#34495e" stroke-width="3.5"/>
+
+  <!-- "頭" label -->
+  <line x1="900" y1="270" x2="958" y2="305" stroke="#2c3e50" stroke-width="1.5"/>
+  <text x="855" y="265" font-size="22" font-weight="700" fill="#2c3e50">頭</text>
+
+  <defs>
+    <marker id="redArrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#e74c3c"/>
+    </marker>
+  </defs>
+  <text x="820" y="620" font-size="24" font-weight="800" fill="#e74c3c">体重</text>
+  <line x1="855" y1="635" x2="925" y2="690" stroke="#e74c3c" stroke-width="3.5" marker-end="url(#redArrow)"/>
+
+  <!-- Bottom labels separated -->
+  <text x="855" y="755" font-size="22" font-weight="800" fill="#e74c3c" text-anchor="middle">左足（体重を残す）</text>
+  <text x="1135" y="755" font-size="22" fill="#7f8c8d" text-anchor="middle">右足（軽い）</text>
+</svg>
